@@ -1,0 +1,12 @@
+name: pwc_whyr
+title: pwc_whyr
+username:
+account: ch2m
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 214585
+bundleId: 981662
+url: https://ch2m.shinyapps.io/pwc_whyr/
+when: 1505397790.29731
+asMultiple: FALSE
+asStatic: FALSE
