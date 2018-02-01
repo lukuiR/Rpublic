@@ -1,0 +1,60 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin|Roboto:300,400,700");
+
+body, .body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-header .logo {
+  font-size: 24px;
+}
+.content-wrapper,
+.right-side {
+  background-color: #ffffff;
+}
+
+#plot-container {
+  position: relative;
+}
+
+#loading-spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  margin-top: -33px; /* half of the spinners height */
+  margin-left: -33px; /* half of the spinners width */
+}
+
+#plot.recalculating {
+  z-index: -2;
+}
+
+h3 {
+  font-weight: bold;
+  padding: 0 30px;
+  color: #ad1d28;
+}
+
+h4 {
+  font-size: 16px;
+  position: relative;
+  color: #262626;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
