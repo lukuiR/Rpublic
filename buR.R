@@ -5,13 +5,13 @@
 thepage <- readLines("budapeszt/01-events.Rmd.txt",encoding ="UTF-8")
 
 
-mypattern4 = '* ([^<]*): ([^<]*)'
-dataline4 = grep(mypattern,thepage[1:length(thepage)],value=TRUE)
-dataline4[1]
+mypattern = '## ([^<]*) {-} '
+dataline = grep(mypattern,thepage[1:length(thepage)],value=TRUE)
+dataline[1]
 getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
-gg = gregexpr(mypattern,datalines)
+gg = gregexpr(mypattern,dataline)
 
-matches = mapply(getexpr,datalines,gg)
+matches = mapply(getexpr,dataline,gg)
 result = gsub(mypattern,'\\1',matches)
 names(result) = NULL
 result=data.frame(grep(mypattern,thepage[1:length(thepage)]), result)
@@ -81,9 +81,9 @@ for (i in 2:dim(result)[1]){
   yd=rbind(yd,yd2)
 }
 
-substring(mypattern2,datalines,datalines+attr(datalines,'match.length')-1)
 
-'* ([^<]*): ([^<]*)'
+
+
 mypattern = '*([^<]*) ([^<]*): ([^<]*)'
 datalines = grep(mypattern,yd[1:dim(yd)[1],2],value=TRUE)
 
@@ -105,4 +105,143 @@ matche = mapply(getexpr,datalines,gg)
 result1 = gsub(mypattern2,'\\5',matche)
 matche
 result1
+
+##gilrs
+
+thepage1 <- readLines("budapeszt/03-Rladies.Rmd.txt",encoding ="UTF-8")
+
+
+mypattern = '## ([^<]*)'
+dataline = grep(mypattern,thepage1[1:length(thepage1)],value=TRUE)
+dataline[1]
+getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
+gg = gregexpr(mypattern,dataline)
+
+matches = mapply(getexpr,dataline,gg)
+result = gsub(mypattern,'\\1',matches)
+names(result) = NULL
+result=data.frame(grep(mypattern,thepage1[1:length(thepage1)]), result)
+names(result)<-c("nr","country")
+result[dim(result)[1]+1,1]=length(thepage1)
+
+yd=data.frame(year=integer(),
+              pat=character(),
+              date=character())          
+
+for (i in 2:dim(result)[1]){
+  mypattern = '* ([^<]*):'
+  
+  
+  datalines2 = grep(mypattern,thepage1[result[i-1,1]:result[i,1]],value=TRUE)
+  
+  
+  names(datalines2) = NULL
+  yd2=data.frame(result[i-1,2],datalines2)
+  
+  for (j in 1:length(datalines2)) {
+    mypattern2 = "[*]([^<]*)*[:]([^<]*)*[[]([^<]*)*[]][(]([^<]*)*[)]([^<]*)*"
+    
+    datalines = grep(mypattern2,datalines2[j],value=TRUE)
+    getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
+    gg = gregexpr(mypattern2,datalines)
+    matche = mapply(getexpr,datalines,gg) 
+    result1 = gsub(mypattern2,'\\1',matche)
+    if(length(result1)==0)
+    {
+      result1="NA"
+    }
+    result2 = gsub(mypattern2,'\\4',matche)
+    if(length(result2)==0)
+    {
+      result2="NA"
+    }
+    result3 = gsub(mypattern2,'\\3',matche)
+    if(length(result3)==0)
+    {
+      result3="NA"
+    }
+    result4 = gsub(mypattern2,'\\6',matche)
+    if(length(result4)==0)
+    {
+      result4="NA"
+    }
+    
+    yd2[j,3]= result1
+    yd2[j,4]= result2
+    yd2[j,5]= result3
+    yd2[j,6]= result4
+    
+  }
+  
+  yd=rbind(yd,yd2)
+}
+##groups
+
+thepage1 <- readLines("budapeszt/02_useR_groups_asia.Rmd.txt",encoding ="UTF-8")
+
+
+mypattern = '### ([^<]*)'
+dataline = grep(mypattern,thepage1[1:length(thepage)],value=TRUE)
+dataline[1]
+getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
+gg = gregexpr(mypattern,dataline)
+
+matches = mapply(getexpr,dataline,gg)
+result = gsub(mypattern,'\\1',matches)
+names(result) = NULL
+result=data.frame(grep(mypattern,thepage1[1:length(thepage1)]), result)
+names(result)<-c("nr","country")
+result[dim(result)[1]+1,1]=length(thepage1)
+
+yd=data.frame(year=integer(),
+              pat=character(),
+              date=character())          
+
+for (i in 2:dim(result)[1]){
+  mypattern = '* ([^<]*):'
+  
+  
+  datalines2 = grep(mypattern,thepage1[result[i-1,1]:result[i,1]],value=TRUE)
+  
+  
+  names(datalines2) = NULL
+  yd2=data.frame(result[i-1,2],datalines2)
+  
+  for (j in 1:length(datalines2)) {
+    mypattern2 = "[*]([^<]*)*[:]([^<]*)*[[]([^<]*)*[]][(]([^<]*)*[)]([^<]*)*"
+    
+    datalines = grep(mypattern2,datalines2[j],value=TRUE)
+    getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
+    gg = gregexpr(mypattern2,datalines)
+    matche = mapply(getexpr,datalines,gg) 
+    result1 = gsub(mypattern2,'\\1',matche)
+    if(length(result1)==0)
+    {
+      result1="NA"
+    }
+    result2 = gsub(mypattern2,'\\4',matche)
+    if(length(result2)==0)
+    {
+      result2="NA"
+    }
+    result3 = gsub(mypattern2,'\\3',matche)
+    if(length(result3)==0)
+    {
+      result3="NA"
+    }
+    result4 = gsub(mypattern2,'\\6',matche)
+    if(length(result4)==0)
+    {
+      result4="NA"
+    }
+    
+    yd2[j,3]= result1
+    yd2[j,4]= result2
+    yd2[j,5]= result3
+    yd2[j,6]= result4
+    
+  }
+  
+  yd=rbind(yd,yd2)
+}
 
