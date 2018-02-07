@@ -2,6 +2,7 @@
 
 #http://statistics.berkeley.edu/computing/r-reading-webpages
 
+#event
 thepage <- readLines("budapeszt/01-events.Rmd.txt",encoding ="UTF-8")
 
 
@@ -21,6 +22,7 @@ result[dim(result)[1]+1,1]=length(thepage)
 yd=data.frame(year=integer(),
               pat=character(),
               date=character())      
+
 
 for (i in 2:dim(result)[1]){
   mypattern = '* ([^<]*):'
@@ -84,27 +86,7 @@ for (i in 2:dim(result)[1]){
 
 
 
-mypattern = '*([^<]*) ([^<]*): ([^<]*)'
-datalines = grep(mypattern,yd[1:dim(yd)[1],2],value=TRUE)
 
-getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
-gg = gregexpr(mypattern,datalines)
-
-matches = mapply(getexpr,datalines,gg)
-result1 = gsub(mypattern,'\\2',matche)
-names(result1) = NULL
-result1[1:15]
-
-yd=data.frame(yd,result1)
-
-mypattern2 = "*[*]([^<]*)*[:]{1}[ ]?[[]*{1}([^<]*)*[]]{1}[(]{1}([^<]*)*[)]{1}[.]{1}([^<]*)*[,]{1}([^<]*)*[.]{1}([^<]*)*[.]{1}([^<]*)*"
-datalines = dataline4[1] #grep(mypattern2,datalines2[j],value=TRUE)
-getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
-gg = gregexpr(mypattern2,datalines)
-matche = mapply(getexpr,datalines,gg) 
-result1 = gsub(mypattern2,'\\5',matche)
-matche
-result1
 
 ##gilrs
 
@@ -113,7 +95,6 @@ thepage1 <- readLines("budapeszt/03-Rladies.Rmd.txt",encoding ="UTF-8")
 
 mypattern = '## ([^<]*)'
 dataline = grep(mypattern,thepage1[1:length(thepage1)],value=TRUE)
-dataline[1]
 getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
 gg = gregexpr(mypattern,dataline)
 
@@ -175,6 +156,9 @@ for (i in 2:dim(result)[1]){
   
   yd=rbind(yd,yd2)
 }
+
+
+yd[yd$V4=='https://www.meetup.com/R-Ladies-Brussels/members/',4]='https://www.meetup.com/R-Ladies-Brussels/'
 ##groups
 
 thepage1 <- readLines("budapeszt/02_useR_groups_asia.Rmd.txt",encoding ="UTF-8")
