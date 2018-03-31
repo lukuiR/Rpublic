@@ -165,7 +165,7 @@ thepage1 <- readLines("budapeszt/02_useR_groups_asia.Rmd.txt",encoding ="UTF-8")
 
 
 mypattern = '### ([^<]*)'
-dataline = grep(mypattern,thepage1[1:length(thepage)],value=TRUE)
+dataline = grep(mypattern,thepage1[1:length(thepage1)],value=TRUE)
 dataline[1]
 getexpr = function(s,g)substring(s,g,g+attr(g,'match.length')-1)
 gg = gregexpr(mypattern,dataline)

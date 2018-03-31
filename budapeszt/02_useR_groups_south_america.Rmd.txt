@@ -1,0 +1,47 @@
+---
+knit: "bookdown::preview_chapter"
+---
+
+## South America
+
+### Argentia
+
+  * Argentina Buenos Ares: [Grupo de Usarios de R Argentina](http://ar.i314.com.ar/)
+
+### Brazil
+
+  * Brasilia: [Brasília UseR Meetup Linguagem de Programação "R"](https://www.meetup.com/Brasilia-UseR-Meetup/)
+  * Campinas: [Campinas R Users Meetup](https://www.meetup.com/Campinas-R-Users-Meetup/)
+  * Porto Alegre: [RStat](https://www.meetup.com/UseRS_/)
+  * São Paulo: [São Paulo R Users Group](https://www.meetup.com/useR-SP/)
+  * Virtual: [R-br](http://leg.est.ufpr.br/doku.php/software:rbr)
+
+### Chile
+
+  * Santiago: [Grupo de Usuarios de R en Chile](https://www.meetup.com/useRchile/)
+
+### Colombia
+
+  * Bogota: [Bogotá R Users Group](https://www.meetup.com/it/Bogota-R-Users-Group/)
+  * Cali: [Cali R Users Group](https://www.meetup.com/R-Users-Group-Cali/)
+
+### Costa Rica
+
+  * Quesada: [San Carlos R Users Group](https://www.meetup.com/San-Carlos-R-User-Group/)
+
+### Ecuador   
+
+  * Quito: [R Users Group - Ecuador](http://www.rusersgroup.com/); [\@rusersgroup](https://twitter.com/rusersgroup)
+
+### Nicaragua
+
+  * Managua: [Usuarios R Nicaragua](https://www.facebook.com/groups/usuariosrnicaragua/)
+  
+### Panama
+
+  * Panamá: [Panama R User's Group](https://www.meetup.com/Panama-R-Users-Group/)
+
+### Venezuela
+
+  * Caracas: [R-usersVEN](https://www.meetup.com/R-usersVEN)
+
