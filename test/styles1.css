@@ -1,0 +1,95 @@
+﻿Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+This repository
+Search
+Sign in or Sign up
+0 0 0 lukuiR/Rpublic
+ Code  Issues 0  Pull requests 0  Projects 0  Insights
+Rpublic/loading/styles1.css
+afd1c63  on 1 Feb
+@lukuiR lukuiR loading gif i kolorowanie grafu w shiny app
+     
+67 lines (59 sloc)  1.39 KB
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-header .logo {
+                                                      font-family: "Roboto", sans-serif;
+font-size: 24px;
+}
+.content-wrapper,
+.right-side {
+background-color: #ffffff;
+font-family: "Roboto", sans-serif;
+},
+.body {
+font-family: "Roboto", sans-serif;
+}
+#plot-container {
+position: relative;
+}
+#loading-spinner {
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: -1;
+margin-top: -33px;  /* half of the spinners height */
+margin-left: -33px; /* half of the spinners width */
+}
+#plot.recalculating {
+z-index: -2;
+}
+
+@import url('//fonts.googleapis.com/css?family=Roboto');
+h2 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #262626;
+    position: relative;
+}
+                                  
+                                  h3 {
+                                  font-family: 'Roboto';
+                                  font-weight: bold;
+                                  padding: 0 30px;
+								  color: #FFFFFF;
+                                  }
+								  
+h4 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #262626;
+    position: relative;
+}
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
