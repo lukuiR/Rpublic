@@ -1,5 +1,6 @@
 #https://www.tidytextmining.com/preface.html
 #https://rpubs.com/pjmurphy/265713  ;  http://www.mjdenny.com/Text_Processing_In_R.html
+#http://morfologik.blogspot.com/
 
 yy=read.csv('raporty odp.csv', header = TRUE, sep=";",quote ='"')
 
