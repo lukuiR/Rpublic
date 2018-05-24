@@ -1,3 +1,6 @@
+#https://www.tidytextmining.com/preface.html
+#https://rpubs.com/pjmurphy/265713  ;  http://www.mjdenny.com/Text_Processing_In_R.html
+
 yy=read.csv('raporty odp.csv', header = TRUE, sep=";",quote ='"')
 
 plot_ly(x=t$Var1[t$Var1!="Pors.pl"], y=t$Freq[t$Var1!="Portalribas.pl"], type = "bar")
