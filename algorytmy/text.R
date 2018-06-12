@@ -1,3 +1,5 @@
+# sentyment: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+
 yy=read.csv('raporty odp.csv', header = TRUE, sep=";",quote ='"')
 
 plot_ly(x=t$Var1[t$Var1!="PortalCognosPI@bnpparibas.pl"], y=t$Freq[t$Var1!="PortalCognosPI@bnpparibas.pl"], type = "bar")
