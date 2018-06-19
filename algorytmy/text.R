@@ -1,4 +1,6 @@
 # sentyment: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+#https://stackoverflow.com/questions/46122591/a-lemmatizing-function-using-a-hash-dictionary-does-not-work-with-tm-package-in
+
 
 yy=read.csv('raporty odp.csv', header = TRUE, sep=";",quote ='"')
 
