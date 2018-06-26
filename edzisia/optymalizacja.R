@@ -41,7 +41,7 @@ mydat <- fread('http://www.wik.pwr.wroc.pl/aeris/coyote/csv/2017-01-23.csv')
 head(mydat,20)[,2]
 
 
-rsconnect::setAccountInfo(name='ch2m', token='6BE640C590C81E3B8067C79C85BC6D86', secret='28y0MF91N2DMVa8DmpJu+ZVbbHRWtUfacFJP9CjQ')
+
 rsconnect::deployApp('~/r/Rgraphics/tomm')
 
 mydat$`deviceID:115 type:10 variable:4`
