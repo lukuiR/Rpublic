@@ -4,7 +4,7 @@
 
 yy=read.csv('raporty odp.csv', header = TRUE, sep=";",quote ='"')
 
-plot_ly(x=t$Var1[t$Var1!="PortalCognosPI@bnpparibas.pl"], y=t$Freq[t$Var1!="PortalCognosPI@bnpparibas.pl"], type = "bar")
+
  
 unique(yy$Od)
 t=as.data.frame( table(yy$Od))
@@ -16,8 +16,7 @@ tt = tt[tt$x>1,]
 
 tr=yy[yy$Temat.znormalizowany %in% tt$Group.1,]
 
-tr<-tr[tr$Nazwa.nadawcy != 'PortalCognosPI@bnpparibas.pl',]
-tr<-tr[tr$Nazwa.nadawcy != 'etlservicetest@pietl-tst01.fortisbank.com.pl',]
+
 
 mgr <- tr[order(tr$Temat.znormalizowany,tr$Odebrano),c('Nazwa.nadawcy','Temat.znormalizowany','Temat','Treść','Odebrano')]
 
