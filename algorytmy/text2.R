@@ -1,5 +1,5 @@
 
-
+# http://clip.ipipan.waw.pl/LRT pilish text analysis
 # sentyment: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 #https://stackoverflow.com/questions/46122591/a-lemmatizing-function-using-a-hash-dictionary-does-not-work-with-tm-package-in
 
