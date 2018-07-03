@@ -1,5 +1,5 @@
 #https://jokergoo.github.io/circlize_book/book/the-chorddiagram-function.html
-#https://www.r-bloggers.com/global-migration-animated-with-r/
+#https://www.r-bloggers.com/global-migration-animated-with-r/  https://guyabel.com/post/animated-directional-chord-diagrams/
 
 
 library(circlize)
