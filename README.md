@@ -6,3 +6,4 @@ to read:
 - https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/
 - https://www.r-bloggers.com/effectively-scaling-shiny-in-enterprise/
   - https://www.r-bloggers.com/shiny-1-1-0-scaling-shiny-with-async/
+- https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/
