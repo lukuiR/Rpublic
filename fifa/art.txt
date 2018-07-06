@@ -1,0 +1,3 @@
+https://www.r-bloggers.com/visualize-the-world-cup-with-r-part-1-recreating-goals-with-ggsoccer-and-ggplot2/
+
+https://github.com/Torvaney/ggsoccer
