@@ -295,4 +295,48 @@ qpop <- function(x) {
     return(NULL)
 }
 
+#8 leader
+
+lid<-function(a){
+  z=a[1]
+  zl=1
+  for(i in 2:length(a)){
+    if(zl==0){
+      z=a[i]
+    }
+    if(zl>0){
+      if(z==a[i]){
+        zl=zl+1
+      }
+      else{
+        zl=zl-1
+      }
+    }
+     
+  }
+  zl=0
+  for(i in 1:length(a)){
+    if(z==a[i]){
+      zl=zl+1
+    }
+  }
+  if(zl>length(a)/2){
+    return(z)
+  }
+}
+
+#9
+
+mss<-function(a){
+  ms=a[1]
+  me=a[1]
+  for(i in 2:length(a)){
+    me=max(0,me+a[i])
+    ms=max(ms,me)
+  }
+  return(ms)
+}
+
+
+
 
