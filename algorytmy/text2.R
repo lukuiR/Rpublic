@@ -2,6 +2,7 @@
 # http://clip.ipipan.waw.pl/LRT pilish text analysis
 # sentyment: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 #https://stackoverflow.com/questions/46122591/a-lemmatizing-function-using-a-hash-dictionary-does-not-work-with-tm-package-in
+#https://www.r-bloggers.com/lyric-analysis-with-nlp-and-machine-learning-using-r-part-one-text-mining/
 
 # read and prepare data
 
