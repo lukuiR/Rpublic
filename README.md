@@ -12,3 +12,4 @@ shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
 - https://www.r-bloggers.com/add-authentication-to-shiny-server-with-nginx/
 - https://www.r-bloggers.com/install-shiny-server-for-r-on-ubuntu-the-right-way/
+- https://www.r-bloggers.com/setting-up-rstudio-server-shiny-server-and-postgresql-by-ellis2013nz/
