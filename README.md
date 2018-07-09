@@ -7,3 +7,8 @@ to read:
 - https://www.r-bloggers.com/effectively-scaling-shiny-in-enterprise/
   - https://www.r-bloggers.com/shiny-1-1-0-scaling-shiny-with-async/
 - https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/
+
+shiny:
+- https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
+- https://www.r-bloggers.com/add-authentication-to-shiny-server-with-nginx/
+- https://www.r-bloggers.com/install-shiny-server-for-r-on-ubuntu-the-right-way/
