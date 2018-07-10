@@ -18,3 +18,7 @@ ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
 - https://sekurak.pl/kilka-pomyslow-na-bezpieczny-serwer-linuksowy/
 - https://otlet.pl/post/poradniki/podstawowy-audyt-bezpieczenstwa/
+
+tracking user:
+- https://stackoverflow.com/questions/33235473/shiny-server-how-to-use-sessiononsessionended/33236190#33236190
+- https://stackoverflow.com/questions/33620555/track-user-activity-in-shiny-app
