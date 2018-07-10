@@ -1,13 +1,1 @@
-name: Dedalbud
-title: Dedalbud
-username:
-account: ch2m
-server: shinyapps.io
-hostUrl: https://api.shinyapps.io/v1
-appId: 244459
-bundleId: 1132627
-url: https://ch2m.shinyapps.io/Dedalbud/
-when: 1513177607.46153
-asMultiple: FALSE
-asStatic: FALSE
-ignoredFiles: www/f1.png|www/f2.png|www/f3.png|www/f4.png|www/f5.png
+
