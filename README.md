@@ -22,3 +22,8 @@ ubuntu server security:
 tracking user:
 - https://stackoverflow.com/questions/33235473/shiny-server-how-to-use-sessiononsessionended/33236190#33236190
 - https://stackoverflow.com/questions/33620555/track-user-activity-in-shiny-app
+
+R free ebooks:
+- string http://www.gastonsanchez.com/r4strings/
+- https://livebook.manning.com/#!/book/practical-data-science-with-r/chapter-1/1
+- https://livebook.datascienceheroes.com/
