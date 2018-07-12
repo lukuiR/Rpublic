@@ -7,4 +7,6 @@ https://docs.python.org/3/library/operator.html
 sum(range(1, len(A)+2)) - sum(A)
 abs()
 
+https://www.learnpython.org/pl/Podstawowe_operacje_na_napisach
+
 """
