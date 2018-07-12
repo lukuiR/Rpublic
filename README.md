@@ -27,6 +27,7 @@ R free ebooks:
 - string http://www.gastonsanchez.com/r4strings/
 - https://livebook.manning.com/#!/book/practical-data-science-with-r/chapter-1/1
 - https://livebook.datascienceheroes.com/
+
 python tests:
 - https://www.martinkysel.com/codility-solutions/
 - https://github.com/johnmee/codility
