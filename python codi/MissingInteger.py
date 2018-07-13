@@ -1,3 +1,6 @@
+"""https://app.codility.com/demo/results/training2F8TNA-CZ8/
+"""
+
 def solution(A):
     # write your code in Python 3.6
     B=[0]*len(A)
