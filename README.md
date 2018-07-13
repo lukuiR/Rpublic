@@ -31,3 +31,6 @@ R free ebooks:
 python tests:
 - https://www.martinkysel.com/codility-solutions/
 - https://github.com/johnmee/codility
+
+notification:
+- https://www.r-bloggers.com/using-r-to-generate-live-world-cup-notifications/
