@@ -13,6 +13,8 @@ library(plotly)
 library(DT)
 library(RColorBrewer)
 
+ssss=paste(as.character(Sys.time()), as.character(runif(1, 0, 2)))
+
 #coord
 {
 
@@ -28,7 +30,7 @@ colnames(cff1)<-c("miasto","lat","lng")
 
 c4<-c(51.1334,51.1334,51.1334)
 c5<-c(15.919,15.919,15.919)
-c2<-c("Darmowa","towar za 500-2000zł","powyżej 2000zł" )
+c2<-c("Darmowa","towar za 500-2000zĹ‚","powyĹĽej 2000zĹ‚" )
 c1<-c(10.5,25.1,50.3)
 c6<-c("green","blue","red")
 cff2<-data.frame(c4,c5,c2,c1,c6)
@@ -38,6 +40,8 @@ colnames(cff2)<-c("lat","lng","legenda","pop","kol")
 shinyServer(function(input, output, session) {
   set.seed(122)
   
+  
+
   #####map
   {
   
@@ -61,9 +65,9 @@ shinyServer(function(input, output, session) {
   cities <- read.csv(textConnection("
                                     City,Lat,Long,Pop
                                     
-                                    >1000zł,51.1334,15.919,855300
-                                    501-1000zł,51.1334,15.919,240600
-                                    200-500zł║,51.1334,15.919,82501
+                                    >1000zĹ‚,51.1334,15.919,855300
+                                    501-1000zĹ‚,51.1334,15.919,240600
+                                    200-500zĹ‚â•‘,51.1334,15.919,82501
                                     Darmowa,51.1334,15.919,14596
                                     
                                     "))
@@ -167,6 +171,8 @@ shinyServer(function(input, output, session) {
                                          </div>
                                          
                                          ')
+                    
+                    loggit("INFO", "lastClick",paste('modify: ',gsub("modify_","",input$lastClickId)) ,ssss, app = "input")
                }
   )
   
@@ -303,5 +309,10 @@ shinyServer(function(input, output, session) {
   
   }
   
+  observe({
+    loggit("INFO", paste('tab: ',input$tabs),ssss, app = "tab")
+  })
+  
+  session$onSessionEnded(function(){loggit("INFO", "app has stopped",ssss, app = "stop")})
   
   })
