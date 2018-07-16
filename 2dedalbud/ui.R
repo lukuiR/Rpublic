@@ -8,28 +8,13 @@ library(rgdal)
 library(leaflet)
 library(dygraphs)
 library(plotly)
+
+library(loggit)
+
+setLogFile("loggit.json")
+loggit("INFO", "app has started", app = "start")
+
 #data
-
-
-mycss <- "
-#plot-container {
-position: relative;
-}
-#loading-spinner {
-position: absolute;
-left: 50%;
-top: 50%;
-z-index: -1;
-margin-top: -33px;  /* half of the spinner's height */
-margin-left: -33px; /* half of the spinner's width */
-}
-#plot.recalculating {
-z-index: -2;
-}
-"
-
-
-
 
 
 dashboardPage(skin = "black",
@@ -101,8 +86,8 @@ dashboardPage(skin = "black",
               h4(HTML('<b>"Poprawa sprzedaży o kontaktu z klientem w hurtowni materiałów budowlanych w&nbspZłotoryi"</b>'), align = "center"),
               h4(HTML("Jeśli chcesz uzyskać informacje o&nbspProjekcie, znajdziesz je na stronie internetowej:"),align = "left"),
               h4(HTML('<a href="http://www.dedalbud.pl"><b>www.dedalbud.pl</b></a>'), align = "center"),br(),
-              h4(HTML('Kliknij pineskę, żeby zobaczyć zasieg dostawy'), align = "center"),br()
-              ,leafletOutput("map")
+              h4(HTML('Kliknij pineskę, żeby zobaczyć zasieg dostawy'), align = "center"),br(),
+              leafletOutput("map")
               
               ,align = "center",
               h6("Łukasz Janiszewski 2017", align = "center")
@@ -143,7 +128,7 @@ dashboardPage(skin = "black",
               h1('Produkty'),
               fluidRow(uiOutput("prod")
               ),
-              fluidRow( h1('Twój koszyk:')),
+              fluidRow( h1('TwĂłj koszyk:')),
               fluidRow(
                 uiOutput("KKosz")
                 
