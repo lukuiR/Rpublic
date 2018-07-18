@@ -7,6 +7,8 @@ to read:
 - https://www.r-bloggers.com/effectively-scaling-shiny-in-enterprise/
   - https://www.r-bloggers.com/shiny-1-1-0-scaling-shiny-with-async/
 - https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/
+- https://www.r-bloggers.com/a-quick-worldemojiday-exploration/  emoji
+- https://www.r-bloggers.com/clean-your-data-in-seconds-with-this-r-function/ cleaning func
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
