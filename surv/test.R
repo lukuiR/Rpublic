@@ -125,4 +125,21 @@ for (n in sample(c(2:dim(vet)[1]), 20)){
 lines(death_times, avg_prob, lwd = 2)
 legend(500, 0.7, legend = c('Average = black'))
 
+##all
+kmi <- rep("KM",length(km_fit$time))
+km_df <- data.frame(km_fit$time,km_fit$surv,kmi)
+names(km_df) <- c("Time","Surv","Model")
+
+coxi <- rep("Cox",length(cox_fit$time))
+cox_df <- data.frame(cox_fit$time,cox_fit$surv,coxi)
+names(cox_df) <- c("Time","Surv","Model")
+
+rfi <- rep("RF",length(r_fit$unique.death.times))
+rf_df <- data.frame(r_fit$unique.death.times,avg_prob,rfi)
+names(rf_df) <- c("Time","Surv","Model")
+
+plot_df <- rbind(km_df,cox_df,rf_df)
+
+plot_ly(plot_df,x=~Time, y=~Surv, color=~Model, type ="scatter",mode = "lines")
+
 

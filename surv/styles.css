@@ -11,15 +11,34 @@ h1 {
 }
 
 body {
-  background-color: #fff;
+  background-color: #45ff45;
 }
-
-.main-header .logo {
+.skin-black .main-header .navbar {
+  background-color: #ffffff; /* kolor paska na gorze*/
+}
+.skin-black .main-header>.logo {
+  background-color: #ffffff; /* kolor loga? po lewej stronie w rogu*/
+  color: #494949; /* kolor jego tekstu*/
   font-size: 24px;
 }
+.skin-black .main-header>.logo:hover{
+	background-color: #f9f9f9;/* kolor loga? po lewej stronie w rogu po najechaniu*/
+	color: #454545; /* kolor jego tekstu*/
+	font-weight: bold;
+}
+
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper{
+	background-color: #494949;/* pasek nawigacji kolor tla*/
+	color: #333; /* kolor czionki np w tabeli dt albo informacji o ladowaniu ????? wszystkiego niezdefiniowanego */
+}
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a{
+	color: #333; /* aktywny tab kolor tekstu*/
+	background-color: #fafafa; /* kolor poswietlenia*/
+}
+
 .content-wrapper,
 .right-side {
-  background-color: #ffffff;
+  background-color: #ffffff; /* tlo strony*/
 }
 
 #plot-container {
@@ -57,4 +76,8 @@ h4 {
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+h6 {
+  color: #262626;
 }
