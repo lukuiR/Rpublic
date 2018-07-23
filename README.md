@@ -30,6 +30,7 @@ R free ebooks:
 - https://livebook.manning.com/#!/book/practical-data-science-with-r/chapter-1/1
 - https://livebook.datascienceheroes.com/
 - https://bookdown.org/yihui/rmarkdown/
+- https://adv-r.hadley.nz/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
