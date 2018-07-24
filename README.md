@@ -9,6 +9,7 @@ to read:
 - https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/
 - https://www.r-bloggers.com/a-quick-worldemojiday-exploration/  emoji
 - https://www.r-bloggers.com/clean-your-data-in-seconds-with-this-r-function/ cleaning func
+- https://www.rstudio.com/resources/webinars/thinking-inside-the-box-you-can-do-that-inside-a-data-frame/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
