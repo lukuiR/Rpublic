@@ -40,3 +40,6 @@ python tests:
 
 notification:
 - https://www.r-bloggers.com/using-r-to-generate-live-world-cup-notifications/
+
+coding practice:
+- https://www.r-bloggers.com/beyond-basic-r-introduction-and-best-practices/
