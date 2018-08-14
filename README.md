@@ -33,6 +33,7 @@ R free ebooks:
 - https://livebook.datascienceheroes.com/
 - https://bookdown.org/yihui/rmarkdown/
 - https://adv-r.hadley.nz/
+- https://christophm.github.io/interpretable-ml-book/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
