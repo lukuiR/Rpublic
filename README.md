@@ -10,6 +10,7 @@ to read:
 - https://www.r-bloggers.com/a-quick-worldemojiday-exploration/  emoji
 - https://www.r-bloggers.com/clean-your-data-in-seconds-with-this-r-function/ cleaning func
 - https://www.rstudio.com/resources/webinars/thinking-inside-the-box-you-can-do-that-inside-a-data-frame/
+- https://www.r-bloggers.com/materials-for-teaching-applied-statistics/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
