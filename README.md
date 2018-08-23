@@ -35,6 +35,7 @@ R free ebooks:
 - https://bookdown.org/yihui/rmarkdown/
 - https://adv-r.hadley.nz/
 - https://christophm.github.io/interpretable-ml-book/
+- http://r4ds.had.co.nz/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
