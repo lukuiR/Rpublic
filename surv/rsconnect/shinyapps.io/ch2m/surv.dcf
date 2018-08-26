@@ -1,0 +1,13 @@
+name: surv
+title: surv
+username:
+account: ch2m
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 383902
+bundleId: 1489456
+url: https://ch2m.shinyapps.io/surv/
+when: 1532013638.17138
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: styles1.css

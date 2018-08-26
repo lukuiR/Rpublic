@@ -92,7 +92,7 @@ shinyServer(function(input, output, session) {
   
   #data prep
   {
-  mtcars2 = read.csv('dat3.csv', header = TRUE, sep=",",quote ='"')
+  mtcars2 = read.csv('dat.csv', header = TRUE, sep=";",check.names = F)
   mtcars2=mtcars2[,-5]
   mtcars2$Ilosc=0
   mtcars2[,3]=as.numeric(gsub(",", ".", mtcars2[,3]))

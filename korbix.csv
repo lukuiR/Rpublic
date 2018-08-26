@@ -1,0 +1,1068 @@
+"","slugSeason","nameTeam","namePlayer","statusPlayer","isFinalSeason","isWaived","isOnRoster","isNonGuaranted","isTeamOption","isPlayerOption","typeContractDetail","value"
+"1","2018-19","Atlanta Hawks","Antonius Cleveland","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"2","2019-20","Atlanta Hawks","Antonius Cleveland","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"3","2018-19","Atlanta Hawks","DeAndre' Bembry","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1634640
+"4","2019-20","Atlanta Hawks","DeAndre' Bembry","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2603982
+"5","2020-21","Atlanta Hawks","DeAndre' Bembry","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3752337
+"6","2018-19","Atlanta Hawks","Dennis Schroder","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15500000
+"7","2019-20","Atlanta Hawks","Dennis Schroder","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15500000
+"8","2020-21","Atlanta Hawks","Dennis Schroder","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15500000
+"9","2018-19","Atlanta Hawks","Dewayne Dedmon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7200000
+"10","2018-19","Atlanta Hawks","Jamal Crawford","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2304226
+"11","2018-19","Atlanta Hawks","Jaylen Morris","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"12","2019-20","Atlanta Hawks","Jaylen Morris","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"13","2018-19","Atlanta Hawks","Jeremy Lin","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13768421
+"14","2018-19","Atlanta Hawks","John Collins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2299080
+"15","2019-20","Atlanta Hawks","John Collins","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2686560
+"16","2020-21","Atlanta Hawks","John Collins","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4137302
+"17","2021-22","Atlanta Hawks","John Collins","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5899793
+"18","2018-19","Atlanta Hawks","Kent Bazemore","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18089887
+"19","2019-20","Atlanta Hawks","Kent Bazemore","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",19269662
+"20","2018-19","Atlanta Hawks","Kevin Huerter","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2250960
+"21","2019-20","Atlanta Hawks","Kevin Huerter","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2636280
+"22","2020-21","Atlanta Hawks","Kevin Huerter","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2761920
+"23","2021-22","Atlanta Hawks","Kevin Huerter","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4253357
+"24","2022-23","Atlanta Hawks","Kevin Huerter","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6065287
+"25","2018-19","Atlanta Hawks","Mike Muscala","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5e+06
+"26","2018-19","Atlanta Hawks","Miles Plumlee","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12500000
+"27","2019-20","Atlanta Hawks","Miles Plumlee","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12500000
+"28","2018-19","Atlanta Hawks","Omari Spellman","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1620480
+"29","2019-20","Atlanta Hawks","Omari Spellman","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1897800
+"30","2020-21","Atlanta Hawks","Omari Spellman","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1988280
+"31","2021-22","Atlanta Hawks","Omari Spellman","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3588845
+"32","2022-23","Atlanta Hawks","Omari Spellman","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5383268
+"33","2018-19","Atlanta Hawks","Taurean Prince","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2526840
+"34","2019-20","Atlanta Hawks","Taurean Prince","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3481986
+"35","2020-21","Atlanta Hawks","Taurean Prince","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4791212
+"36","2018-19","Atlanta Hawks","Trae Young","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5356440
+"37","2019-20","Atlanta Hawks","Trae Young","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6273000
+"38","2020-21","Atlanta Hawks","Trae Young","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6571800
+"39","2021-22","Atlanta Hawks","Trae Young","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8326471
+"40","2022-23","Atlanta Hawks","Trae Young","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",11040900
+"41","2018-19","Atlanta Hawks","Tyler Dorsey","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"42","2019-20","Atlanta Hawks","Tyler Dorsey","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"43","2018-19","Boston Celtics","Abdel Nader","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"44","2019-20","Boston Celtics","Abdel Nader","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"45","2020-21","Boston Celtics","Abdel Nader","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1752950
+"46","2018-19","Boston Celtics","Al Horford","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,28928710
+"47","2019-20","Boston Celtics","Al Horford","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",30123015
+"48","2018-19","Boston Celtics","Aron Baynes","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5193600
+"49","2019-20","Boston Celtics","Aron Baynes","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",5453280
+"50","2020-21","Boston Celtics","Aron Baynes","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",5453280
+"51","2018-19","Boston Celtics","Brad Wanamaker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,838464
+"52","2019-20","Boston Celtics","Brad Wanamaker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1643842
+"53","2018-19","Boston Celtics","Daniel Theis","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"54","2019-20","Boston Celtics","Daniel Theis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"55","2018-19","Boston Celtics","Demetrius Jackson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",92857
+"56","2019-20","Boston Celtics","Demetrius Jackson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",92857
+"57","2020-21","Boston Celtics","Demetrius Jackson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",92857
+"58","2021-22","Boston Celtics","Demetrius Jackson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",92857
+"59","2022-23","Boston Celtics","Demetrius Jackson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",92857
+"60","2018-19","Boston Celtics","Gordon Hayward","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,31214295
+"61","2019-20","Boston Celtics","Gordon Hayward","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,32700690
+"62","2020-21","Boston Celtics","Gordon Hayward","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",34187085
+"63","2018-19","Boston Celtics","Guerschon Yabusele","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2667600
+"64","2019-20","Boston Celtics","Guerschon Yabusele","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3117240
+"65","2020-21","Boston Celtics","Guerschon Yabusele","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4781846
+"66","2021-22","Boston Celtics","Guerschon Yabusele","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6718494
+"67","2018-19","Boston Celtics","Jaylen Brown","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5169960
+"68","2019-20","Boston Celtics","Jaylen Brown","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6534829
+"69","2020-21","Boston Celtics","Jaylen Brown","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",8573696
+"70","2018-19","Boston Celtics","Jayson Tatum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6700800
+"71","2019-20","Boston Celtics","Jayson Tatum","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7830000
+"72","2020-21","Boston Celtics","Jayson Tatum","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",9897120
+"73","2021-22","Boston Celtics","Jayson Tatum","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",12985021
+"74","2018-19","Boston Celtics","Kyrie Irving","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,20099189
+"75","2019-20","Boston Celtics","Kyrie Irving","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",21329752
+"76","2018-19","Boston Celtics","Marcus Morris","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5375000
+"77","2018-19","Boston Celtics","Robert Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1654440
+"78","2019-20","Boston Celtics","Robert Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1937520
+"79","2020-21","Boston Celtics","Robert Williams","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2029920
+"80","2021-22","Boston Celtics","Robert Williams","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3661978
+"81","2022-23","Boston Celtics","Robert Williams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5430710
+"82","2018-19","Boston Celtics","Semi Ojeleye","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"83","2019-20","Boston Celtics","Semi Ojeleye","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"84","2020-21","Boston Celtics","Semi Ojeleye","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1752950
+"85","2018-19","Boston Celtics","Terry Rozier","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3050390
+"86","2019-20","Boston Celtics","Terry Rozier","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4285798
+"87","2018-19","Brooklyn Nets","Allen Crabbe","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18500000
+"88","2019-20","Brooklyn Nets","Allen Crabbe","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",18500000
+"89","2018-19","Brooklyn Nets","Caris LeVert","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1702800
+"90","2019-20","Brooklyn Nets","Caris LeVert","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2625718
+"91","2020-21","Brooklyn Nets","Caris LeVert","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3762653
+"92","2018-19","Brooklyn Nets","D'Angelo Russell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7019698
+"93","2019-20","Brooklyn Nets","D'Angelo Russell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",9160706
+"94","2018-19","Brooklyn Nets","Darrell Arthur","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7464912
+"95","2018-19","Brooklyn Nets","DeMarre Carroll","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15400000
+"96","2018-19","Brooklyn Nets","Deron Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",5474787
+"97","2019-20","Brooklyn Nets","Deron Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",5474787
+"98","2018-19","Brooklyn Nets","Dwight Howard","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",18919725
+"99","2018-19","Brooklyn Nets","Dzanan Musa","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1632240
+"100","2019-20","Brooklyn Nets","Dzanan Musa","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1911600
+"101","2020-21","Brooklyn Nets","Dzanan Musa","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2002800
+"102","2021-22","Brooklyn Nets","Dzanan Musa","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3615054
+"103","2022-23","Brooklyn Nets","Dzanan Musa","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",5422581
+"104","2018-19","Brooklyn Nets","Ed Davis","estimated",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,4449000
+"105","2018-19","Brooklyn Nets","Jarrett Allen","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2034120
+"106","2019-20","Brooklyn Nets","Jarrett Allen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2376840
+"107","2020-21","Brooklyn Nets","Jarrett Allen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3909902
+"108","2021-22","Brooklyn Nets","Jarrett Allen","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5661538
+"109","2018-19","Brooklyn Nets","Joe Harris","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,8e+06
+"110","2019-20","Brooklyn Nets","Joe Harris","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,8e+06
+"111","2018-19","Brooklyn Nets","Kenneth Faried","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13764045
+"112","2018-19","Brooklyn Nets","Rodions Kurucs","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1618320
+"113","2019-20","Brooklyn Nets","Rodions Kurucs","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1699236
+"114","2020-21","Brooklyn Nets","Rodions Kurucs","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1780152
+"115","2021-22","Brooklyn Nets","Rodions Kurucs","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1861068
+"116","2018-19","Brooklyn Nets","Rondae HollisJefferson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2470357
+"117","2019-20","Brooklyn Nets","Rondae HollisJefferson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3594369
+"118","2018-19","Brooklyn Nets","Shabazz Napier","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1942422
+"119","2019-20","Brooklyn Nets","Shabazz Napier","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1845301
+"120","2018-19","Brooklyn Nets","Spencer Dinwiddie","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1656092
+"121","2018-19","Charlotte Hornets","Bismack Biyombo","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.7e+07
+"122","2019-20","Charlotte Hornets","Bismack Biyombo","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1.7e+07
+"123","2018-19","Charlotte Hornets","Cody Zeller","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13528090
+"124","2019-20","Charlotte Hornets","Cody Zeller","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14471910
+"125","2020-21","Charlotte Hornets","Cody Zeller","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15415730
+"126","2018-19","Charlotte Hornets","Devonte' Graham","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,988464
+"127","2019-20","Charlotte Hornets","Devonte' Graham","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"128","2020-21","Charlotte Hornets","Devonte' Graham","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1663861
+"129","2021-22","Charlotte Hornets","Devonte' Graham","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"130","2018-19","Charlotte Hornets","Dwayne Bacon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"131","2019-20","Charlotte Hornets","Dwayne Bacon","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"132","2020-21","Charlotte Hornets","Dwayne Bacon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"133","2018-19","Charlotte Hornets","Frank Kaminsky","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3627842
+"134","2019-20","Charlotte Hornets","Frank Kaminsky","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4915726
+"135","2018-19","Charlotte Hornets","Guillermo Hernangomez","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"136","2019-20","Charlotte Hornets","Guillermo Hernangomez","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1676735
+"137","2018-19","Charlotte Hornets","Jeremy Lamb","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7488372
+"138","2018-19","Charlotte Hornets","Kemba Walker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.2e+07
+"139","2018-19","Charlotte Hornets","Malik Monk","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3447480
+"140","2019-20","Charlotte Hornets","Malik Monk","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4028400
+"141","2020-21","Charlotte Hornets","Malik Monk","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5345678
+"142","2021-22","Charlotte Hornets","Malik Monk","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7318223
+"143","2018-19","Charlotte Hornets","Marvin Williams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14087500
+"144","2019-20","Charlotte Hornets","Marvin Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",15006250
+"145","2018-19","Charlotte Hornets","Michael KiddGilchrist","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.3e+07
+"146","2019-20","Charlotte Hornets","Michael KiddGilchrist","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1.3e+07
+"147","2018-19","Charlotte Hornets","Miles Bridges","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3206640
+"148","2019-20","Charlotte Hornets","Miles Bridges","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3755400
+"149","2020-21","Charlotte Hornets","Miles Bridges","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3934320
+"150","2021-22","Charlotte Hornets","Miles Bridges","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5421493
+"151","2018-19","Charlotte Hornets","Nicolas Batum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2.4e+07
+"152","2019-20","Charlotte Hornets","Nicolas Batum","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25565217
+"153","2020-21","Charlotte Hornets","Nicolas Batum","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",27130434
+"154","2018-19","Charlotte Hornets","Tony Parker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,5e+06
+"155","2019-20","Charlotte Hornets","Tony Parker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,5e+06
+"156","2018-19","Chicago Bulls","Bobby Portis","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2494346
+"157","2019-20","Chicago Bulls","Bobby Portis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3611814
+"158","2018-19","Chicago Bulls","Cameron Payne","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3263294
+"159","2019-20","Chicago Bulls","Cameron Payne","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4539242
+"160","2018-19","Chicago Bulls","Chandler Hutchison","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1990520
+"161","2019-20","Chicago Bulls","Chandler Hutchison","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2332230
+"162","2020-21","Chicago Bulls","Chandler Hutchison","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2443440
+"163","2021-22","Chicago Bulls","Chandler Hutchison","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4019459
+"164","2022-23","Chicago Bulls","Chandler Hutchison","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5820177
+"165","2018-19","Chicago Bulls","Cristiano Felicio","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8470980
+"166","2019-20","Chicago Bulls","Cristiano Felicio","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8156500
+"167","2020-21","Chicago Bulls","Cristiano Felicio","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7529020
+"168","2018-19","Chicago Bulls","Denzel Valentine","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2280600
+"169","2019-20","Chicago Bulls","Denzel Valentine","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3377569
+"170","2020-21","Chicago Bulls","Denzel Valentine","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4698198
+"171","2018-19","Chicago Bulls","Jabari Parker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2e+07
+"172","2019-20","Chicago Bulls","Jabari Parker","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2e+07
+"173","2018-19","Chicago Bulls","Justin Holiday","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4384616
+"174","2018-19","Chicago Bulls","Kris Dunn","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4221000
+"175","2019-20","Chicago Bulls","Kris Dunn","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5348007
+"176","2020-21","Chicago Bulls","Kris Dunn","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7091457
+"177","2018-19","Chicago Bulls","Lauri Markkanen","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4536120
+"178","2019-20","Chicago Bulls","Lauri Markkanen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5300400
+"179","2020-21","Chicago Bulls","Lauri Markkanen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6731508
+"180","2021-22","Chicago Bulls","Lauri Markkanen","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",9026852
+"181","2018-19","Chicago Bulls","Omer Asik","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11286516
+"182","2019-20","Chicago Bulls","Omer Asik","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Early Termination",11977527
+"183","2018-19","Chicago Bulls","Robin Lopez","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14357750
+"184","2018-19","Chicago Bulls","Wendell Carter Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4441200
+"185","2019-20","Chicago Bulls","Wendell Carter Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5201400
+"186","2020-21","Chicago Bulls","Wendell Carter Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5448840
+"187","2021-22","Chicago Bulls","Wendell Carter Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6920027
+"188","2022-23","Chicago Bulls","Wendell Carter Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",9279756
+"189","2018-19","Chicago Bulls","Zach LaVine","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19500000
+"190","2019-20","Chicago Bulls","Zach LaVine","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19500000
+"191","2020-21","Chicago Bulls","Zach LaVine","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19500000
+"192","2021-22","Chicago Bulls","Zach LaVine","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19500000
+"193","2018-19","Cleveland Cavaliers","Ante Zizc","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1952760
+"194","2019-20","Cleveland Cavaliers","Ante Zizc","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2281800
+"195","2020-21","Cleveland Cavaliers","Ante Zizc","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3872215
+"196","2021-22","Cleveland Cavaliers","Ante Zizc","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5634073
+"197","2018-19","Cleveland Cavaliers","Cedi Osman","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2775000
+"198","2019-20","Cleveland Cavaliers","Cedi Osman","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2907143
+"199","2020-21","Cleveland Cavaliers","Cedi Osman","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3633929
+"200","2018-19","Cleveland Cavaliers","Collin Sexton","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4068600
+"201","2019-20","Cleveland Cavaliers","Collin Sexton","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4764960
+"202","2020-21","Cleveland Cavaliers","Collin Sexton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4991880
+"203","2021-22","Cleveland Cavaliers","Collin Sexton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6349671
+"204","2022-23","Cleveland Cavaliers","Collin Sexton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",8559357
+"205","2018-19","Cleveland Cavaliers","George Hill","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.9e+07
+"206","2019-20","Cleveland Cavaliers","George Hill","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1.8e+07
+"207","2018-19","Cleveland Cavaliers","Jordan Clarkson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12500000
+"208","2019-20","Cleveland Cavaliers","Jordan Clarkson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13437500
+"209","2018-19","Cleveland Cavaliers","JR Smith","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14720000
+"210","2019-20","Cleveland Cavaliers","JR Smith","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",15680000
+"211","2018-19","Cleveland Cavaliers","Kevin Love","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24119025
+"212","2019-20","Cleveland Cavaliers","Kevin Love","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",25595700
+"213","2018-19","Cleveland Cavaliers","Kyle Korver","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7560000
+"214","2019-20","Cleveland Cavaliers","Kyle Korver","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",7500000
+"215","2018-19","Cleveland Cavaliers","Larry Nance Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2272391
+"216","2019-20","Cleveland Cavaliers","Larry Nance Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3369956
+"217","2018-19","Cleveland Cavaliers","Okaro White","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"218","2019-20","Cleveland Cavaliers","Okaro White","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"219","2018-19","Cleveland Cavaliers","Tristan Thompson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17469565
+"220","2019-20","Cleveland Cavaliers","Tristan Thompson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18539130
+"221","2018-19","Dallas Mavericks","DeAndre Jordan","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,22897200
+"222","2018-19","Dallas Mavericks","Dennis Smith Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3819960
+"223","2019-20","Dallas Mavericks","Dennis Smith Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4463640
+"224","2020-21","Dallas Mavericks","Dennis Smith Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5686677
+"225","2021-22","Dallas Mavericks","Dennis Smith Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7705447
+"226","2018-19","Dallas Mavericks","Dorian FinneySmith","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"227","2019-20","Dallas Mavericks","Dorian FinneySmith","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"228","2018-19","Dallas Mavericks","Dwight Powell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9631250
+"229","2019-20","Dallas Mavericks","Dwight Powell","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",10259375
+"230","2018-19","Dallas Mavericks","Harrison Barnes","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24107258
+"231","2019-20","Dallas Mavericks","Harrison Barnes","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",25102512
+"232","2018-19","Dallas Mavericks","Jose Juan Barea","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3710850
+"233","2018-19","Dallas Mavericks","Maxi Kleber","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"234","2019-20","Dallas Mavericks","Maxi Kleber","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"235","2018-19","Dallas Mavericks","Ryan Broekhoff","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,838464
+"236","2019-20","Dallas Mavericks","Ryan Broekhoff","estimate",NA,FALSE,FALSE,TRUE,FALSE,FALSE,"Non-Guaranteed",1443842
+"237","2020-21","Dallas Mavericks","Ryan Broekhoff","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Qualifying Offer",1922425
+"238","2018-19","Dallas Mavericks","Salah Mejri","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"239","2018-19","Dallas Mavericks","Wesley Matthews","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18622514
+"240","2018-19","Denver Nuggets","Gary Harris","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16517857
+"241","2019-20","Denver Nuggets","Gary Harris","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17839286
+"242","2020-21","Denver Nuggets","Gary Harris","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19160714
+"243","2021-22","Denver Nuggets","Gary Harris","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,20482143
+"244","2018-19","Denver Nuggets","Jamal Murray","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3499800
+"245","2019-20","Denver Nuggets","Jamal Murray","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4444746
+"246","2020-21","Denver Nuggets","Jamal Murray","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5960404
+"247","2018-19","Denver Nuggets","Juancho Hernangomez","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2166360
+"248","2019-20","Denver Nuggets","Juancho Hernangomez","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3321030
+"249","2020-21","Denver Nuggets","Juancho Hernangomez","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4642800
+"250","2018-19","Denver Nuggets","Malik Beasley","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1773840
+"251","2019-20","Denver Nuggets","Malik Beasley","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2731714
+"252","2020-21","Denver Nuggets","Malik Beasley","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3895424
+"253","2018-19","Denver Nuggets","Mason Plumlee","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12917808
+"254","2019-20","Denver Nuggets","Mason Plumlee","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14041096
+"255","2018-19","Denver Nuggets","Michael Porter Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2894160
+"256","2019-20","Denver Nuggets","Michael Porter Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3389400
+"257","2020-21","Denver Nuggets","Michael Porter Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3550800
+"258","2021-22","Denver Nuggets","Michael Porter Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5258735
+"259","2022-23","Denver Nuggets","Michael Porter Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7314900
+"260","2018-19","Denver Nuggets","Nikola Jokic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,25467250
+"261","2019-20","Denver Nuggets","Nikola Jokic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,27504630
+"262","2020-21","Denver Nuggets","Nikola Jokic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,29542010
+"263","2021-22","Denver Nuggets","Nikola Jokic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,31579390
+"264","2022-23","Denver Nuggets","Nikola Jokic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,33616770
+"265","2018-19","Denver Nuggets","Paul Millsap","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,29730769
+"266","2019-20","Denver Nuggets","Paul Millsap","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",30500000
+"267","2018-19","Denver Nuggets","Trey Lyles","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3364249
+"268","2019-20","Denver Nuggets","Trey Lyles","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4629207
+"269","2018-19","Denver Nuggets","Tyler Lydon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1874640
+"270","2019-20","Denver Nuggets","Tyler Lydon","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2190720
+"271","2020-21","Denver Nuggets","Tyler Lydon","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3831596
+"272","2021-22","Denver Nuggets","Tyler Lydon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5601793
+"273","2018-19","Denver Nuggets","Will Barton","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1.2e+07
+"274","2019-20","Denver Nuggets","Will Barton","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,12960000
+"275","2020-21","Denver Nuggets","Will Barton","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,13920000
+"276","2021-22","Denver Nuggets","Will Barton","estimate",NA,FALSE,FALSE,FALSE,FALSE,TRUE,"Player Option",14880000
+"277","2018-19","Detroit Pistons","Andre Drummond","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25434263
+"278","2019-20","Detroit Pistons","Andre Drummond","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27093019
+"279","2020-21","Detroit Pistons","Andre Drummond","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",28751775
+"280","2018-19","Detroit Pistons","Blake Griffin","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,32088932
+"281","2019-20","Detroit Pistons","Blake Griffin","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,34449964
+"282","2020-21","Detroit Pistons","Blake Griffin","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,36810996
+"283","2021-22","Detroit Pistons","Blake Griffin","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",38957028
+"284","2018-19","Detroit Pistons","Bruce Brown Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,838464
+"285","2019-20","Detroit Pistons","Bruce Brown Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"286","2020-21","Detroit Pistons","Bruce Brown Jr","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1663861
+"287","2021-22","Detroit Pistons","Bruce Brown Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"288","2018-19","Detroit Pistons","Glenn Robinson III","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4075000
+"289","2019-20","Detroit Pistons","Glenn Robinson III","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4278750
+"290","2018-19","Detroit Pistons","Henry Ellenson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1857480
+"291","2019-20","Detroit Pistons","Henry Ellenson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2856804
+"292","2020-21","Detroit Pistons","Henry Ellenson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4053805
+"293","2018-19","Detroit Pistons","Ish Smith","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6e+06
+"294","2018-19","Detroit Pistons","Jon Leuer","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10002681
+"295","2019-20","Detroit Pistons","Jon Leuer","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9508043
+"296","2018-19","Detroit Pistons","Jose Calderon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1512601
+"297","2018-19","Detroit Pistons","Josh Smith","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",5331729
+"298","2019-20","Detroit Pistons","Josh Smith","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",5331729
+"299","2018-19","Detroit Pistons","Langston Galloway","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7e+06
+"300","2019-20","Detroit Pistons","Langston Galloway","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7333333
+"301","2018-19","Detroit Pistons","Luke Kennard","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3275280
+"302","2019-20","Detroit Pistons","Luke Kennard","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3827160
+"303","2020-21","Detroit Pistons","Luke Kennard","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5273826
+"304","2021-22","Detroit Pistons","Luke Kennard","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7256785
+"305","2018-19","Detroit Pistons","Reggie Bullock","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",2500000
+"306","2018-19","Detroit Pistons","Reggie Jackson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17043478
+"307","2019-20","Detroit Pistons","Reggie Jackson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18086956
+"308","2018-19","Detroit Pistons","Stanley Johnson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3940402
+"309","2019-20","Detroit Pistons","Stanley Johnson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5311662
+"310","2018-19","Detroit Pistons","Zaza Pachulia","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"311","2018-19","Golden State Warriors","Andre Iguodala","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.6e+07
+"312","2019-20","Golden State Warriors","Andre Iguodala","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17185185
+"313","2018-19","Golden State Warriors","Damian Jones","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"314","2019-20","Golden State Warriors","Damian Jones","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2305057
+"315","2020-21","Golden State Warriors","Damian Jones","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3457586
+"316","2018-19","Golden State Warriors","DeMarcus Cousins","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5337000
+"317","2018-19","Golden State Warriors","Draymond Green","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17469565
+"318","2019-20","Golden State Warriors","Draymond Green","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18539130
+"319","2018-19","Golden State Warriors","Jacob Evans","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1644240
+"320","2019-20","Golden State Warriors","Jacob Evans","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1925880
+"321","2020-21","Golden State Warriors","Jacob Evans","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2017320
+"322","2021-22","Golden State Warriors","Jacob Evans","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3641263
+"323","2022-23","Golden State Warriors","Jacob Evans","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5425481
+"324","2018-19","Golden State Warriors","Jason Thompson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",945126
+"325","2018-19","Golden State Warriors","Jordan Bell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"326","2019-20","Golden State Warriors","Jordan Bell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"327","2018-19","Golden State Warriors","Kevin Durant","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3e+07
+"328","2019-20","Golden State Warriors","Kevin Durant","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",31500000
+"329","2018-19","Golden State Warriors","Kevon Looney","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"330","2018-19","Golden State Warriors","Klay Thompson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18988725
+"331","2018-19","Golden State Warriors","Quinn Cook","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"332","2019-20","Golden State Warriors","Quinn Cook","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"333","2018-19","Golden State Warriors","Shaun Livingston","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8307692
+"334","2019-20","Golden State Warriors","Shaun Livingston","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",7692308
+"335","2018-19","Golden State Warriors","Stephen Curry","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,37457154
+"336","2019-20","Golden State Warriors","Stephen Curry","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,40231758
+"337","2020-21","Golden State Warriors","Stephen Curry","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,43006362
+"338","2021-22","Golden State Warriors","Stephen Curry","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,45780966
+"339","2018-19","Houston Rockets","Chinanu Onuaku","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"340","2019-20","Houston Rockets","Chinanu Onuaku","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"341","2018-19","Houston Rockets","Chris Paul","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,35654150
+"342","2019-20","Houston Rockets","Chris Paul","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,38506482
+"343","2020-21","Houston Rockets","Chris Paul","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,41358814
+"344","2021-22","Houston Rockets","Chris Paul","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,44211146
+"345","2018-19","Houston Rockets","Eric Gordon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13500375
+"346","2019-20","Houston Rockets","Eric Gordon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14057730
+"347","2018-19","Houston Rockets","Gerald Green","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"348","2018-19","Houston Rockets","James Harden","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,30421854
+"349","2019-20","Houston Rockets","James Harden","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,37800000
+"350","2020-21","Houston Rockets","James Harden","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,40824000
+"351","2021-22","Houston Rockets","James Harden","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,43848000
+"352","2022-23","Houston Rockets","James Harden","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",46872000
+"353","2018-19","Houston Rockets","Michael CarterWilliams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1512601
+"354","2018-19","Houston Rockets","Nene","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3651480
+"355","2019-20","Houston Rockets","Nene","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",3825360
+"356","2018-19","Houston Rockets","PJ Tucker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7969537
+"357","2019-20","Houston Rockets","PJ Tucker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8349039
+"358","2020-21","Houston Rockets","PJ Tucker","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",7969537
+"359","2018-19","Houston Rockets","Ryan Anderson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,20421546
+"360","2019-20","Houston Rockets","Ryan Anderson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,21264635
+"361","2018-19","Houston Rockets","Troy Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",122741
+"362","2019-20","Houston Rockets","Troy Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",122741
+"363","2020-21","Houston Rockets","Troy Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",122741
+"364","2021-22","Houston Rockets","Troy Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",122741
+"365","2022-23","Houston Rockets","Troy Williams","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",122741
+"366","2018-19","Houston Rockets","Vincent Edwards","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",838464
+"367","2019-20","Houston Rockets","Vincent Edwards","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1643842
+"368","2018-19","Houston Rockets","Zhou Qi","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"369","2019-20","Houston Rockets","Zhou Qi","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"370","2020-21","Houston Rockets","Zhou Qi","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1752950
+"371","2018-19","Indiana Pacers","Aaron Holiday","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1911960
+"372","2019-20","Indiana Pacers","Aaron Holiday","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2239200
+"373","2020-21","Indiana Pacers","Aaron Holiday","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2345640
+"374","2021-22","Indiana Pacers","Aaron Holiday","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3980551
+"375","2022-23","Indiana Pacers","Aaron Holiday","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5791702
+"376","2018-19","Indiana Pacers","Al Jefferson","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",4e+06
+"377","2018-19","Indiana Pacers","Bojan Bogdanovic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10500000
+"378","2018-19","Indiana Pacers","Cory Joseph","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7945000
+"379","2018-19","Indiana Pacers","Darren Collison","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1e+07
+"380","2018-19","Indiana Pacers","Domantas Sabonis","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2659800
+"381","2019-20","Indiana Pacers","Domantas Sabonis","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3529555
+"382","2020-21","Indiana Pacers","Domantas Sabonis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4831961
+"383","2018-19","Indiana Pacers","Doug McDermott","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7333334
+"384","2019-20","Indiana Pacers","Doug McDermott","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7333333
+"385","2020-21","Indiana Pacers","Doug McDermott","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7333333
+"386","2018-19","Indiana Pacers","Ike Anigbogu","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"387","2019-20","Indiana Pacers","Ike Anigbogu","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"388","2020-21","Indiana Pacers","Ike Anigbogu","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"389","2018-19","Indiana Pacers","Kyle O'Quinn","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,4449000
+"390","2018-19","Indiana Pacers","Monta Ellis","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2245400
+"391","2019-20","Indiana Pacers","Monta Ellis","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2245400
+"392","2020-21","Indiana Pacers","Monta Ellis","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2245400
+"393","2021-22","Indiana Pacers","Monta Ellis","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2245400
+"394","2018-19","Indiana Pacers","Myles Turner","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3410284
+"395","2019-20","Indiana Pacers","Myles Turner","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4668679
+"396","2018-19","Indiana Pacers","Thaddeus Young","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13764045
+"397","2018-19","Indiana Pacers","TJ Leaf","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2407560
+"398","2019-20","Indiana Pacers","TJ Leaf","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2813280
+"399","2020-21","Indiana Pacers","TJ Leaf","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4326825
+"400","2021-22","Indiana Pacers","TJ Leaf","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6139765
+"401","2018-19","Indiana Pacers","Tyreke Evans","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12400000
+"402","2018-19","Indiana Pacers","Victor Oladipo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2.1e+07
+"403","2019-20","Indiana Pacers","Victor Oladipo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2.1e+07
+"404","2020-21","Indiana Pacers","Victor Oladipo","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2.1e+07
+"405","2018-19","Los Angeles Clippers","Avery Bradley","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1.2e+07
+"406","2019-20","Los Angeles Clippers","Avery Bradley","estimate",NA,FALSE,FALSE,TRUE,FALSE,FALSE,"Non-Guaranteed",12960000
+"407","2018-19","Los Angeles Clippers","Boban Marjanovic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7e+06
+"408","2018-19","Los Angeles Clippers","Carlos Delfino","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",650000
+"409","2018-19","Los Angeles Clippers","CJ Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"410","2019-20","Los Angeles Clippers","CJ Williams","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"411","2020-21","Los Angeles Clippers","CJ Williams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"412","2018-19","Los Angeles Clippers","Danilo Gallinari","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,21587579
+"413","2019-20","Los Angeles Clippers","Danilo Gallinari","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,22615559
+"414","2018-19","Los Angeles Clippers","Jawun Evans","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"415","2019-20","Los Angeles Clippers","Jawun Evans","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"416","2020-21","Los Angeles Clippers","Jawun Evans","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"417","2018-19","Los Angeles Clippers","Jerome Robinson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3046200
+"418","2019-20","Los Angeles Clippers","Jerome Robinson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3567720
+"419","2020-21","Los Angeles Clippers","Jerome Robinson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3737520
+"420","2021-22","Los Angeles Clippers","Jerome Robinson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5340916
+"421","2022-23","Los Angeles Clippers","Jerome Robinson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7386487
+"422","2018-19","Los Angeles Clippers","Lou Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8e+06
+"423","2019-20","Los Angeles Clippers","Lou Williams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8e+06
+"424","2020-21","Los Angeles Clippers","Lou Williams","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",8e+06
+"425","2018-19","Los Angeles Clippers","Marcin Gortat","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13565218
+"426","2018-19","Los Angeles Clippers","Mike Scott","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,2500000
+"427","2018-19","Los Angeles Clippers","Milos Teodosic","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",6300000
+"428","2019-20","Los Angeles Clippers","Milos Teodosic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7875000
+"429","2018-19","Los Angeles Clippers","Miroslav Raduljica","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",252043
+"430","2018-19","Los Angeles Clippers","Patrick Beverley","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",5027028
+"431","2018-19","Los Angeles Clippers","Sam Dekker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2760095
+"432","2019-20","Los Angeles Clippers","Sam Dekker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3916575
+"433","2018-19","Los Angeles Clippers","Shai GilgeousAlexander","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3375360
+"434","2019-20","Los Angeles Clippers","Shai GilgeousAlexander","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3952920
+"435","2020-21","Los Angeles Clippers","Shai GilgeousAlexander","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4141320
+"436","2021-22","Los Angeles Clippers","Shai GilgeousAlexander","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5495532
+"437","2022-23","Los Angeles Clippers","Shai GilgeousAlexander","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7523383
+"438","2018-19","Los Angeles Clippers","Sindarius Thornwell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"439","2019-20","Los Angeles Clippers","Sindarius Thornwell","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"440","2020-21","Los Angeles Clippers","Sindarius Thornwell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"441","2018-19","Los Angeles Clippers","Tobias Harris","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14800000
+"442","2018-19","Los Angeles Clippers","Wesley Johnson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6134520
+"443","2018-19","Los Angeles Lakers","Brandon Ingram","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5757120
+"444","2019-20","Los Angeles Lakers","Brandon Ingram","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7265485
+"445","2020-21","Los Angeles Lakers","Brandon Ingram","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",9481458
+"446","2018-19","Los Angeles Lakers","Isaac Bonga","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1e+06
+"447","2019-20","Los Angeles Lakers","Isaac Bonga","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"448","2020-21","Los Angeles Lakers","Isaac Bonga","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1663861
+"449","2021-22","Los Angeles Lakers","Isaac Bonga","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"450","2018-19","Los Angeles Lakers","Ivica Zubac","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"451","2019-20","Los Angeles Lakers","Ivica Zubac","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"452","2018-19","Los Angeles Lakers","JaVale McGee","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"453","2018-19","Los Angeles Lakers","Josh Hart","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1655160
+"454","2019-20","Los Angeles Lakers","Josh Hart","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1934160
+"455","2020-21","Los Angeles Lakers","Josh Hart","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3491159
+"456","2021-22","Los Angeles Lakers","Josh Hart","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5236739
+"457","2018-19","Los Angeles Lakers","Kentavious CaldwellPope","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1.2e+07
+"458","2018-19","Los Angeles Lakers","Kyle Kuzma","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1689840
+"459","2019-20","Los Angeles Lakers","Kyle Kuzma","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1974600
+"460","2020-21","Los Angeles Lakers","Kyle Kuzma","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3562178
+"461","2021-22","Los Angeles Lakers","Kyle Kuzma","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5282710
+"462","2018-19","Los Angeles Lakers","Lance Stephenson","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,4449000
+"463","2018-19","Los Angeles Lakers","LeBron James","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,35654150
+"464","2019-20","Los Angeles Lakers","LeBron James","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,37436858
+"465","2020-21","Los Angeles Lakers","LeBron James","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,39219565
+"466","2021-22","Los Angeles Lakers","LeBron James","estimate",NA,FALSE,FALSE,FALSE,FALSE,TRUE,"Player Option",41002273
+"467","2018-19","Los Angeles Lakers","Lonzo Ball","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7461960
+"468","2019-20","Los Angeles Lakers","Lonzo Ball","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8719320
+"469","2020-21","Los Angeles Lakers","Lonzo Ball","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",11003782
+"470","2021-22","Los Angeles Lakers","Lonzo Ball","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",14359936
+"471","2018-19","Los Angeles Lakers","Luol Deng","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.8e+07
+"472","2019-20","Los Angeles Lakers","Luol Deng","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18810000
+"473","2018-19","Los Angeles Lakers","Moritz Wagner","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1762080
+"474","2019-20","Los Angeles Lakers","Moritz Wagner","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2063520
+"475","2020-21","Los Angeles Lakers","Moritz Wagner","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2161920
+"476","2021-22","Los Angeles Lakers","Moritz Wagner","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3893618
+"477","2022-23","Los Angeles Lakers","Moritz Wagner","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5719725
+"478","2018-19","Los Angeles Lakers","Rajon Rondo","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9e+06
+"479","2018-19","Memphis Grizzlies","Andrew Harrison","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"480","2019-20","Memphis Grizzlies","Andrew Harrison","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"481","2018-19","Memphis Grizzlies","Ben McLemore","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5460000
+"482","2018-19","Memphis Grizzlies","Chandler Parsons","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24107258
+"483","2019-20","Memphis Grizzlies","Chandler Parsons","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25102511
+"484","2018-19","Memphis Grizzlies","Deyonta Davis","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"485","2019-20","Memphis Grizzlies","Deyonta Davis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"486","2018-19","Memphis Grizzlies","Dillon Brooks","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"487","2019-20","Memphis Grizzlies","Dillon Brooks","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"488","2020-21","Memphis Grizzlies","Dillon Brooks","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"489","2018-19","Memphis Grizzlies","Ivan Rabb","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"490","2019-20","Memphis Grizzlies","Ivan Rabb","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"491","2020-21","Memphis Grizzlies","Ivan Rabb","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"492","2018-19","Memphis Grizzlies","Jamaal Franklin","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",163296
+"493","2018-19","Memphis Grizzlies","JaMychal Green","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7866667
+"494","2018-19","Memphis Grizzlies","Jarell Martin","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2416222
+"495","2019-20","Memphis Grizzlies","Jarell Martin","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3549430
+"496","2018-19","Memphis Grizzlies","Jaren Jackson Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5915040
+"497","2019-20","Memphis Grizzlies","Jaren Jackson Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6927480
+"498","2020-21","Memphis Grizzlies","Jaren Jackson Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7257360
+"499","2021-22","Memphis Grizzlies","Jaren Jackson Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",9180560
+"500","2022-23","Memphis Grizzlies","Jaren Jackson Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",12109159
+"501","2018-19","Memphis Grizzlies","Kyle Anderson","offer sheet",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,8641000
+"502","2019-20","Memphis Grizzlies","Kyle Anderson","offer sheet",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9073050
+"503","2020-21","Memphis Grizzlies","Kyle Anderson","offer sheet",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9505100
+"504","2021-22","Memphis Grizzlies","Kyle Anderson","offer sheet",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9937150
+"505","2018-19","Memphis Grizzlies","Marc Gasol","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24119025
+"506","2019-20","Memphis Grizzlies","Marc Gasol","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",25595700
+"507","2018-19","Memphis Grizzlies","MarShon Brooks","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1656092
+"508","2018-19","Memphis Grizzlies","Mike Conley","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,30521115
+"509","2019-20","Memphis Grizzlies","Mike Conley","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,32511623
+"510","2020-21","Memphis Grizzlies","Mike Conley","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Early Termination",34502132
+"511","2018-19","Memphis Grizzlies","Omri Casspi","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"512","2018-19","Memphis Grizzlies","Rade Zagorac","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1378242
+"513","2018-19","Memphis Grizzlies","Wayne Selden","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"514","2019-20","Memphis Grizzlies","Wayne Selden","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"515","2018-19","Miami Heat","AJ Hammons","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",350088
+"516","2019-20","Miami Heat","AJ Hammons","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",350087
+"517","2020-21","Miami Heat","AJ Hammons","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",350087
+"518","2018-19","Miami Heat","Bam Adebayo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2955840
+"519","2019-20","Miami Heat","Bam Adebayo","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3454080
+"520","2020-21","Miami Heat","Bam Adebayo","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5115492
+"521","2021-22","Miami Heat","Bam Adebayo","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7115649
+"522","2018-19","Miami Heat","Derrick Jones","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1512601
+"523","2019-20","Miami Heat","Derrick Jones","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1645357
+"524","2018-19","Miami Heat","Dion Waiters","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11550000
+"525","2019-20","Miami Heat","Dion Waiters","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12100000
+"526","2020-21","Miami Heat","Dion Waiters","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12650000
+"527","2018-19","Miami Heat","Goran Dragic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18109175
+"528","2019-20","Miami Heat","Goran Dragic","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",19217900
+"529","2018-19","Miami Heat","Hassan Whiteside","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25434263
+"530","2019-20","Miami Heat","Hassan Whiteside","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",27093018
+"531","2018-19","Miami Heat","James Johnson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14651700
+"532","2019-20","Miami Heat","James Johnson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15349400
+"533","2020-21","Miami Heat","James Johnson","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",16047100
+"534","2018-19","Miami Heat","Josh Richardson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9367200
+"535","2019-20","Miami Heat","Josh Richardson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10116576
+"536","2020-21","Miami Heat","Josh Richardson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10865952
+"537","2021-22","Miami Heat","Josh Richardson","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",11615328
+"538","2018-19","Miami Heat","Justise Winslow","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3448926
+"539","2019-20","Miami Heat","Justise Winslow","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4697437
+"540","2018-19","Miami Heat","Kelly Olynyk","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11137527
+"541","2019-20","Miami Heat","Kelly Olynyk","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11667885
+"542","2020-21","Miami Heat","Kelly Olynyk","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",12198243
+"543","2018-19","Miami Heat","Rodney McGruder","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"544","2019-20","Miami Heat","Rodney McGruder","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"545","2018-19","Miami Heat","Tyler Johnson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19245370
+"546","2019-20","Miami Heat","Tyler Johnson","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",19245370
+"547","2018-19","Milwaukee Bucks","Brandon Jennings","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",2222803
+"548","2018-19","Milwaukee Bucks","Brook Lopez","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,3382000
+"549","2018-19","Milwaukee Bucks","DJ Wilson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2534280
+"550","2019-20","Milwaukee Bucks","DJ Wilson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2961120
+"551","2020-21","Milwaukee Bucks","DJ Wilson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4548280
+"552","2021-22","Milwaukee Bucks","DJ Wilson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6422171
+"553","2018-19","Milwaukee Bucks","Eric Bledsoe","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.5e+07
+"554","2018-19","Milwaukee Bucks","Ersan Ilyasova","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,6650000
+"555","2019-20","Milwaukee Bucks","Ersan Ilyasova","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,6982500
+"556","2020-21","Milwaukee Bucks","Ersan Ilyasova","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,7315000
+"557","2018-19","Milwaukee Bucks","Giannis Antetokounmpo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24157304
+"558","2019-20","Milwaukee Bucks","Giannis Antetokounmpo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25842697
+"559","2020-21","Milwaukee Bucks","Giannis Antetokounmpo","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27528088
+"560","2018-19","Milwaukee Bucks","John Henson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10577466
+"561","2019-20","Milwaukee Bucks","John Henson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9732396
+"562","2018-19","Milwaukee Bucks","Khris Middleton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.3e+07
+"563","2019-20","Milwaukee Bucks","Khris Middleton","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1.3e+07
+"564","2018-19","Milwaukee Bucks","Larry Sanders","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1865546
+"565","2019-20","Milwaukee Bucks","Larry Sanders","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1865546
+"566","2020-21","Milwaukee Bucks","Larry Sanders","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1865546
+"567","2021-22","Milwaukee Bucks","Larry Sanders","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1865547
+"568","2018-19","Milwaukee Bucks","Malcolm Brogdon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,544951
+"569","2019-20","Milwaukee Bucks","Malcolm Brogdon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"570","2018-19","Milwaukee Bucks","Matthew Dellavedova","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9607500
+"571","2019-20","Milwaukee Bucks","Matthew Dellavedova","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9607500
+"572","2018-19","Milwaukee Bucks","Mirza Teletovic","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",3500000
+"573","2019-20","Milwaukee Bucks","Mirza Teletovic","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",3500000
+"574","2020-21","Milwaukee Bucks","Mirza Teletovic","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",3500000
+"575","2018-19","Milwaukee Bucks","Spencer Hawes","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2007058
+"576","2019-20","Milwaukee Bucks","Spencer Hawes","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2007058
+"577","2018-19","Milwaukee Bucks","Sterling Brown","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"578","2019-20","Milwaukee Bucks","Sterling Brown","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"579","2020-21","Milwaukee Bucks","Sterling Brown","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"580","2018-19","Milwaukee Bucks","Thon Maker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2799720
+"581","2019-20","Milwaukee Bucks","Thon Maker","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3569643
+"582","2020-21","Milwaukee Bucks","Thon Maker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4861854
+"583","2018-19","Milwaukee Bucks","Tony Snell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10607143
+"584","2019-20","Milwaukee Bucks","Tony Snell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11392857
+"585","2020-21","Milwaukee Bucks","Tony Snell","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",12178571
+"586","2018-19","Milwaukee Bucks","Tyler Zeller","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1933941
+"587","2018-19","Minnesota Timberwolves","Andrew Wiggins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25250000
+"588","2019-20","Minnesota Timberwolves","Andrew Wiggins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27270000
+"589","2020-21","Minnesota Timberwolves","Andrew Wiggins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,29290000
+"590","2021-22","Minnesota Timberwolves","Andrew Wiggins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,31310000
+"591","2022-23","Minnesota Timberwolves","Andrew Wiggins","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,33330000
+"592","2018-19","Minnesota Timberwolves","Anthony Tolliver","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5750000
+"593","2018-19","Minnesota Timberwolves","Cole Aldrich","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",685341
+"594","2019-20","Minnesota Timberwolves","Cole Aldrich","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",685340
+"595","2020-21","Minnesota Timberwolves","Cole Aldrich","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",685340
+"596","2018-19","Minnesota Timberwolves","Derrick Rose","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1512601
+"597","2018-19","Minnesota Timberwolves","Gorgui Dieng","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15170787
+"598","2019-20","Minnesota Timberwolves","Gorgui Dieng","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16229213
+"599","2020-21","Minnesota Timberwolves","Gorgui Dieng","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17287640
+"600","2018-19","Minnesota Timberwolves","Jeff Teague","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.9e+07
+"601","2019-20","Minnesota Timberwolves","Jeff Teague","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1.9e+07
+"602","2018-19","Minnesota Timberwolves","Jimmy Butler","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,20445779
+"603","2019-20","Minnesota Timberwolves","Jimmy Butler","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",19841627
+"604","2018-19","Minnesota Timberwolves","Josh Okogie","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2160720
+"605","2019-20","Minnesota Timberwolves","Josh Okogie","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2530680
+"606","2020-21","Minnesota Timberwolves","Josh Okogie","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2651040
+"607","2021-22","Minnesota Timberwolves","Josh Okogie","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4087904
+"608","2022-23","Minnesota Timberwolves","Josh Okogie","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5857966
+"609","2018-19","Minnesota Timberwolves","Justin Patton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2667600
+"610","2019-20","Minnesota Timberwolves","Justin Patton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3117240
+"611","2020-21","Minnesota Timberwolves","Justin Patton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4781846
+"612","2021-22","Minnesota Timberwolves","Justin Patton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6718494
+"613","2018-19","Minnesota Timberwolves","KarlAnthony Towns","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7839435
+"614","2019-20","Minnesota Timberwolves","KarlAnthony Towns","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",10191266
+"615","2018-19","Minnesota Timberwolves","Keita BatesDiop","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,838464
+"616","2019-20","Minnesota Timberwolves","Keita BatesDiop","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"617","2020-21","Minnesota Timberwolves","Keita BatesDiop","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1663861
+"618","2021-22","Minnesota Timberwolves","Keita BatesDiop","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"619","2018-19","Minnesota Timberwolves","Kevin Martin","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1360304
+"620","2018-19","Minnesota Timberwolves","Taj Gibson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.4e+07
+"621","2018-19","Minnesota Timberwolves","Tyus Jones","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2444053
+"622","2019-20","Minnesota Timberwolves","Tyus Jones","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3573205
+"623","2018-19","New Orleans Pelicans","Alexis Ajinca","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5285394
+"624","2018-19","New Orleans Pelicans","Anthony Davis","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25434262
+"625","2019-20","New Orleans Pelicans","Anthony Davis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27093018
+"626","2020-21","New Orleans Pelicans","Anthony Davis","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",28751774
+"627","2018-19","New Orleans Pelicans","Cheick Diallo","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"628","2019-20","New Orleans Pelicans","Cheick Diallo","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"629","2018-19","New Orleans Pelicans","Darius Miller","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2205000
+"630","2018-19","New Orleans Pelicans","DeAndre Liggins","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1795015
+"631","2018-19","New Orleans Pelicans","E'Twaun Moore","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8808685
+"632","2019-20","New Orleans Pelicans","E'Twaun Moore","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8664928
+"633","2018-19","New Orleans Pelicans","Elfrid Payton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2700000
+"634","2018-19","New Orleans Pelicans","Emeka Okafor","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",2445085
+"635","2018-19","New Orleans Pelicans","Frank Jackson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"636","2019-20","New Orleans Pelicans","Frank Jackson","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"637","2020-21","New Orleans Pelicans","Frank Jackson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"638","2018-19","New Orleans Pelicans","Ian Clark","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"639","2018-19","New Orleans Pelicans","Jrue Holiday","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,26131111
+"640","2019-20","New Orleans Pelicans","Jrue Holiday","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,26131111
+"641","2020-21","New Orleans Pelicans","Jrue Holiday","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,26131111
+"642","2021-22","New Orleans Pelicans","Jrue Holiday","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",27020000
+"643","2018-19","New Orleans Pelicans","Julius Randle","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,8641000
+"644","2019-20","New Orleans Pelicans","Julius Randle","estimate",NA,FALSE,FALSE,FALSE,FALSE,TRUE,"Player Option",9073050
+"645","2018-19","New Orleans Pelicans","Nikola Mirotic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12500000
+"646","2018-19","New Orleans Pelicans","Solomon Hill","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12763467
+"647","2019-20","New Orleans Pelicans","Solomon Hill","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13290395
+"648","2018-19","New York Knicks","Courtney Lee","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12253780
+"649","2019-20","New York Knicks","Courtney Lee","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12759670
+"650","2018-19","New York Knicks","Damyean Dotson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"651","2019-20","New York Knicks","Damyean Dotson","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"652","2020-21","New York Knicks","Damyean Dotson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"653","2018-19","New York Knicks","Emmanuel Mudiay","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4294480
+"654","2019-20","New York Knicks","Emmanuel Mudiay","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5758898
+"655","2018-19","New York Knicks","Enes Kanter","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18622514
+"656","2018-19","New York Knicks","Frank Ntilikina","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4155720
+"657","2019-20","New York Knicks","Frank Ntilikina","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4855800
+"658","2020-21","New York Knicks","Frank Ntilikina","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6176578
+"659","2021-22","New York Knicks","Frank Ntilikina","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",8326027
+"660","2018-19","New York Knicks","Joakim Noah","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18530000
+"661","2019-20","New York Knicks","Joakim Noah","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19295000
+"662","2018-19","New York Knicks","Kevin Knox","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3739920
+"663","2019-20","New York Knicks","Kevin Knox","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4380120
+"664","2020-21","New York Knicks","Kevin Knox","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4588680
+"665","2021-22","New York Knicks","Kevin Knox","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5845978
+"666","2022-23","New York Knicks","Kevin Knox","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7921300
+"667","2018-19","New York Knicks","Kristaps Porzingis","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5697054
+"668","2019-20","New York Knicks","Kristaps Porzingis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7514414
+"669","2018-19","New York Knicks","Lance Thomas","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7119650
+"670","2019-20","New York Knicks","Lance Thomas","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",7583975
+"671","2018-19","New York Knicks","Luke Kornet","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1619260
+"672","2019-20","New York Knicks","Luke Kornet","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2024075
+"673","2018-19","New York Knicks","Mario Hezonja","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6500000
+"674","2018-19","New York Knicks","Ron Baker","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4544400
+"675","2019-20","New York Knicks","Ron Baker","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5680500
+"676","2018-19","New York Knicks","Tim Hardaway Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17325000
+"677","2019-20","New York Knicks","Tim Hardaway Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18150000
+"678","2020-21","New York Knicks","Tim Hardaway Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",18975000
+"679","2018-19","New York Knicks","Trey Burke","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1795015
+"680","2018-19","New York Knicks","Troy Williams","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"681","2019-20","New York Knicks","Troy Williams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"682","2018-19","Oklahoma City Thunder","Alex Abrines","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5455236
+"683","2019-20","Oklahoma City Thunder","Alex Abrines","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6819045
+"684","2018-19","Oklahoma City Thunder","Andre Roberson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1e+07
+"685","2019-20","Oklahoma City Thunder","Andre Roberson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10740740
+"686","2018-19","Oklahoma City Thunder","Carmelo Anthony","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27928140
+"687","2018-19","Oklahoma City Thunder","Dakari Johnson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"688","2019-20","Oklahoma City Thunder","Dakari Johnson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"689","2018-19","Oklahoma City Thunder","Jerami Grant","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,8350000
+"690","2019-20","Oklahoma City Thunder","Jerami Grant","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9018000
+"691","2020-21","Oklahoma City Thunder","Jerami Grant","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,9686000
+"692","2018-19","Oklahoma City Thunder","Kyle Singler","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4996000
+"693","2019-20","Oklahoma City Thunder","Kyle Singler","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",5333500
+"694","2018-19","Oklahoma City Thunder","Nerlens Noel","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1757429
+"695","2019-20","Oklahoma City Thunder","Nerlens Noel","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1988119
+"696","2018-19","Oklahoma City Thunder","Patrick Patterson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5451600
+"697","2019-20","Oklahoma City Thunder","Patrick Patterson","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",5711200
+"698","2018-19","Oklahoma City Thunder","Paul George","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,30560700
+"699","2019-20","Oklahoma City Thunder","Paul George","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,33005556
+"700","2020-21","Oklahoma City Thunder","Paul George","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,35450412
+"701","2021-22","Oklahoma City Thunder","Paul George","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",37895268
+"702","2018-19","Oklahoma City Thunder","Raymond Felton","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"703","2018-19","Oklahoma City Thunder","Russell Westbrook","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,35350000
+"704","2019-20","Oklahoma City Thunder","Russell Westbrook","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,38178000
+"705","2020-21","Oklahoma City Thunder","Russell Westbrook","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,41006000
+"706","2021-22","Oklahoma City Thunder","Russell Westbrook","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,43834000
+"707","2022-23","Oklahoma City Thunder","Russell Westbrook","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",46662000
+"708","2018-19","Oklahoma City Thunder","Steven Adams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,24157304
+"709","2019-20","Oklahoma City Thunder","Steven Adams","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25842697
+"710","2020-21","Oklahoma City Thunder","Steven Adams","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27528088
+"711","2018-19","Oklahoma City Thunder","Terrence Ferguson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2118840
+"712","2019-20","Oklahoma City Thunder","Terrence Ferguson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2475840
+"713","2020-21","Oklahoma City Thunder","Terrence Ferguson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3944013
+"714","2021-22","Oklahoma City Thunder","Terrence Ferguson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5683323
+"715","2018-19","Orlando Magic","Aaron Gordon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,21590909
+"716","2019-20","Orlando Magic","Aaron Gordon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19863636
+"717","2020-21","Orlando Magic","Aaron Gordon","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18136364
+"718","2021-22","Orlando Magic","Aaron Gordon","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16409091
+"719","2018-19","Orlando Magic","CJ Watson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",333333
+"720","2019-20","Orlando Magic","CJ Watson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",333333
+"721","2018-19","Orlando Magic","DJ Augustin","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7250000
+"722","2019-20","Orlando Magic","DJ Augustin","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7250000
+"723","2018-19","Orlando Magic","Evan Fournier","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.7e+07
+"724","2019-20","Orlando Magic","Evan Fournier","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.7e+07
+"725","2020-21","Orlando Magic","Evan Fournier","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",1.7e+07
+"726","2018-19","Orlando Magic","Isaiah Briscoe","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",838464
+"727","2019-20","Orlando Magic","Isaiah Briscoe","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"728","2020-21","Orlando Magic","Isaiah Briscoe","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1663861
+"729","2021-22","Orlando Magic","Isaiah Briscoe","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"730","2018-19","Orlando Magic","Jerian Grant","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2639314
+"731","2019-20","Orlando Magic","Jerian Grant","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3763662
+"732","2018-19","Orlando Magic","Jonathan Isaac","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4969080
+"733","2019-20","Orlando Magic","Jonathan Isaac","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5806440
+"734","2020-21","Orlando Magic","Jonathan Isaac","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7362566
+"735","2021-22","Orlando Magic","Jonathan Isaac","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",9821663
+"736","2018-19","Orlando Magic","Jonathon Simmons","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6e+06
+"737","2019-20","Orlando Magic","Jonathon Simmons","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",5700000
+"738","2018-19","Orlando Magic","Khem Birch","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"739","2019-20","Orlando Magic","Khem Birch","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"740","2018-19","Orlando Magic","Melvin Frazier Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1050000
+"741","2019-20","Orlando Magic","Melvin Frazier Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"742","2020-21","Orlando Magic","Melvin Frazier Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1663861
+"743","2021-22","Orlando Magic","Melvin Frazier Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"744","2018-19","Orlando Magic","Mohamed Bamba","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4865040
+"745","2019-20","Orlando Magic","Mohamed Bamba","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5697600
+"746","2020-21","Orlando Magic","Mohamed Bamba","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5969040
+"747","2021-22","Orlando Magic","Mohamed Bamba","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7568743
+"748","2022-23","Orlando Magic","Mohamed Bamba","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",10096703
+"749","2018-19","Orlando Magic","Nikola Vucevic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12750000
+"750","2018-19","Orlando Magic","Rodney Purvis","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"751","2019-20","Orlando Magic","Rodney Purvis","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803638
+"752","2018-19","Orlando Magic","Shelvin Mack","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1e+06
+"753","2018-19","Orlando Magic","Terrence Ross","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10500000
+"754","2018-19","Orlando Magic","Timofey Mozgov","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.6e+07
+"755","2019-20","Orlando Magic","Timofey Mozgov","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16720000
+"756","2018-19","Orlando Magic","Wesley Iwundu","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"757","2019-20","Orlando Magic","Wesley Iwundu","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"758","2020-21","Orlando Magic","Wesley Iwundu","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"759","2018-19","Philadelphia 76ers","Amir Johnson","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"760","2018-19","Philadelphia 76ers","Ben Simmons","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6434520
+"761","2019-20","Philadelphia 76ers","Ben Simmons","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8113930
+"762","2020-21","Philadelphia 76ers","Ben Simmons","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",10548109
+"763","2018-19","Philadelphia 76ers","Dario Saric","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2526840
+"764","2019-20","Philadelphia 76ers","Dario Saric","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3481986
+"765","2020-21","Philadelphia 76ers","Dario Saric","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4791212
+"766","2018-19","Philadelphia 76ers","Furkan Korkmaz","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1740000
+"767","2019-20","Philadelphia 76ers","Furkan Korkmaz","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2033160
+"768","2020-21","Philadelphia 76ers","Furkan Korkmaz","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3665787
+"769","2021-22","Philadelphia 76ers","Furkan Korkmaz","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5410702
+"770","2018-19","Philadelphia 76ers","Jerryd Bayless","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8575916
+"771","2018-19","Philadelphia 76ers","JJ Redick","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12250000
+"772","2018-19","Philadelphia 76ers","Joel Embiid","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25250000
+"773","2019-20","Philadelphia 76ers","Joel Embiid","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27270000
+"774","2020-21","Philadelphia 76ers","Joel Embiid","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,29290000
+"775","2021-22","Philadelphia 76ers","Joel Embiid","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,31310000
+"776","2022-23","Philadelphia 76ers","Joel Embiid","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,33330000
+"777","2018-19","Philadelphia 76ers","Justin Anderson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2516048
+"778","2019-20","Philadelphia 76ers","Justin Anderson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3625625
+"779","2018-19","Philadelphia 76ers","Landry Shamet","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1703640
+"780","2019-20","Philadelphia 76ers","Landry Shamet","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1995120
+"781","2020-21","Philadelphia 76ers","Landry Shamet","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2090400
+"782","2021-22","Philadelphia 76ers","Landry Shamet","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3768342
+"783","2022-23","Philadelphia 76ers","Landry Shamet","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5562073
+"784","2018-19","Philadelphia 76ers","Markelle Fultz","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8339880
+"785","2019-20","Philadelphia 76ers","Markelle Fultz","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",9745200
+"786","2020-21","Philadelphia 76ers","Markelle Fultz","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",12288697
+"787","2021-22","Philadelphia 76ers","Markelle Fultz","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",15975306
+"788","2018-19","Philadelphia 76ers","Nemanja Bjelica","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,4449000
+"789","2018-19","Philadelphia 76ers","Richaun Holmes","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1600520
+"790","2018-19","Philadelphia 76ers","Robert Covington","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10464092
+"791","2019-20","Philadelphia 76ers","Robert Covington","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11301219
+"792","2020-21","Philadelphia 76ers","Robert Covington","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12138345
+"793","2021-22","Philadelphia 76ers","Robert Covington","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12975471
+"794","2018-19","Philadelphia 76ers","Timothe LuwawuCabarrot","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"795","2019-20","Philadelphia 76ers","Timothe LuwawuCabarrot","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2529684
+"796","2020-21","Philadelphia 76ers","Timothe LuwawuCabarrot","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3698397
+"797","2018-19","Philadelphia 76ers","TJ McConnell","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1600520
+"798","2018-19","Philadelphia 76ers","Wilson Chandler","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12800562
+"799","2018-19","Philadelphia 76ers","Zhaire Smith","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2611800
+"800","2019-20","Philadelphia 76ers","Zhaire Smith","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3058800
+"801","2020-21","Philadelphia 76ers","Zhaire Smith","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3204600
+"802","2021-22","Philadelphia 76ers","Zhaire Smith","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4915856
+"803","2022-23","Philadelphia 76ers","Zhaire Smith","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6906778
+"804","2018-19","Phoenix Suns","Brandon Knight","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14631250
+"805","2019-20","Phoenix Suns","Brandon Knight","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15643750
+"806","2018-19","Phoenix Suns","Davon Reed","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"807","2019-20","Phoenix Suns","Davon Reed","current roster",TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"808","2020-21","Phoenix Suns","Davon Reed","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1752950
+"809","2018-19","Phoenix Suns","Deandre Ayton","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8165160
+"810","2019-20","Phoenix Suns","Deandre Ayton","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9562920
+"811","2020-21","Phoenix Suns","Deandre Ayton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",10018200
+"812","2021-22","Phoenix Suns","Deandre Ayton","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",12632950
+"813","2022-23","Phoenix Suns","Deandre Ayton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",16422835
+"814","2018-19","Phoenix Suns","Devin Booker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,3314365
+"815","2019-20","Phoenix Suns","Devin Booker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,27250000
+"816","2020-21","Phoenix Suns","Devin Booker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,29430000
+"817","2021-22","Phoenix Suns","Devin Booker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,31610000
+"818","2022-23","Phoenix Suns","Devin Booker","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,33790000
+"819","2018-19","Phoenix Suns","Dragan Bender","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4661280
+"820","2019-20","Phoenix Suns","Dragan Bender","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5896519
+"821","2020-21","Phoenix Suns","Dragan Bender","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7777509
+"822","2018-19","Phoenix Suns","Elie Okobo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1238464
+"823","2019-20","Phoenix Suns","Elie Okobo","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"824","2020-21","Phoenix Suns","Elie Okobo","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1663861
+"825","2021-22","Phoenix Suns","Elie Okobo","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1802057
+"826","2018-19","Phoenix Suns","Jared Dudley","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9530000
+"827","2018-19","Phoenix Suns","Josh Jackson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6041520
+"828","2019-20","Phoenix Suns","Josh Jackson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",7059480
+"829","2020-21","Phoenix Suns","Josh Jackson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8930242
+"830","2021-22","Phoenix Suns","Josh Jackson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",11778989
+"831","2018-19","Phoenix Suns","Marquese Chriss","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3206160
+"832","2019-20","Phoenix Suns","Marquese Chriss","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4078236
+"833","2020-21","Phoenix Suns","Marquese Chriss","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5497461
+"834","2018-19","Phoenix Suns","Mikal Bridges","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3552960
+"835","2019-20","Phoenix Suns","Mikal Bridges","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4161000
+"836","2020-21","Phoenix Suns","Mikal Bridges","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4359000
+"837","2021-22","Phoenix Suns","Mikal Bridges","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5557725
+"838","2022-23","Phoenix Suns","Mikal Bridges","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7569621
+"839","2018-19","Phoenix Suns","Shaquille Harrison","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"840","2019-20","Phoenix Suns","Shaquille Harrison","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1618520
+"841","2020-21","Phoenix Suns","Shaquille Harrison","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"842","2018-19","Phoenix Suns","TJ Warren","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11750000
+"843","2019-20","Phoenix Suns","TJ Warren","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10810000
+"844","2020-21","Phoenix Suns","TJ Warren","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11750000
+"845","2021-22","Phoenix Suns","TJ Warren","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12690000
+"846","2018-19","Phoenix Suns","Trevor Ariza","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1.5e+07
+"847","2018-19","Phoenix Suns","Troy Daniels","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3258539
+"848","2018-19","Phoenix Suns","Tyson Chandler","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13585000
+"849","2018-19","Portland Trail Blazers","AlFarouq Aminu","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,6957105
+"850","2018-19","Portland Trail Blazers","Anderson Varejao","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1913345
+"851","2019-20","Portland Trail Blazers","Anderson Varejao","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1913345
+"852","2020-21","Portland Trail Blazers","Anderson Varejao","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1913345
+"853","2018-19","Portland Trail Blazers","Andrew Nicholson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2844430
+"854","2019-20","Portland Trail Blazers","Andrew Nicholson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2844430
+"855","2020-21","Portland Trail Blazers","Andrew Nicholson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2844430
+"856","2021-22","Portland Trail Blazers","Andrew Nicholson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2844429
+"857","2022-23","Portland Trail Blazers","Andrew Nicholson","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2844429
+"858","2018-19","Portland Trail Blazers","Anfernee Simons","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1835520
+"859","2019-20","Portland Trail Blazers","Anfernee Simons","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2149560
+"860","2020-21","Portland Trail Blazers","Anfernee Simons","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2252040
+"861","2021-22","Portland Trail Blazers","Anfernee Simons","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3938818
+"862","2022-23","Portland Trail Blazers","Anfernee Simons","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5758552
+"863","2018-19","Portland Trail Blazers","Caleb Swanigan","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1740000
+"864","2019-20","Portland Trail Blazers","Caleb Swanigan","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2033160
+"865","2020-21","Portland Trail Blazers","Caleb Swanigan","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3665787
+"866","2021-22","Portland Trail Blazers","Caleb Swanigan","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5410702
+"867","2018-19","Portland Trail Blazers","CJ McCollum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25759766
+"868","2019-20","Portland Trail Blazers","CJ McCollum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27556959
+"869","2020-21","Portland Trail Blazers","CJ McCollum","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,29354152
+"870","2018-19","Portland Trail Blazers","Damian Lillard","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27977689
+"871","2019-20","Portland Trail Blazers","Damian Lillard","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,29802321
+"872","2020-21","Portland Trail Blazers","Damian Lillard","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,31626953
+"873","2018-19","Portland Trail Blazers","Evan Turner","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,17868853
+"874","2019-20","Portland Trail Blazers","Evan Turner","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,18606556
+"875","2018-19","Portland Trail Blazers","Festus Ezeli","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",333333
+"876","2019-20","Portland Trail Blazers","Festus Ezeli","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",333333
+"877","2018-19","Portland Trail Blazers","Gary Trent Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,838464
+"878","2019-20","Portland Trail Blazers","Gary Trent Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1416852
+"879","2020-21","Portland Trail Blazers","Gary Trent Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1663861
+"880","2021-22","Portland Trail Blazers","Gary Trent Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2079826
+"881","2018-19","Portland Trail Blazers","Georgios Papagiannis","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"882","2018-19","Portland Trail Blazers","Jake Layman","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"883","2019-20","Portland Trail Blazers","Jake Layman","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"884","2018-19","Portland Trail Blazers","Jusuf Nurkic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,11111111
+"885","2019-20","Portland Trail Blazers","Jusuf Nurkic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1.2e+07
+"886","2020-21","Portland Trail Blazers","Jusuf Nurkic","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,12888889
+"887","2021-22","Portland Trail Blazers","Jusuf Nurkic","estimate",NA,FALSE,FALSE,TRUE,FALSE,FALSE,"Non-Guaranteed",1.2e+07
+"888","2018-19","Portland Trail Blazers","Maurice Harkless","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10837079
+"889","2019-20","Portland Trail Blazers","Maurice Harkless","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11511234
+"890","2018-19","Portland Trail Blazers","Meyers Leonard","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10595506
+"891","2019-20","Portland Trail Blazers","Meyers Leonard","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11286515
+"892","2018-19","Portland Trail Blazers","Nik Stauskas","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1512601
+"893","2018-19","Portland Trail Blazers","Seth Curry","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2795000
+"894","2018-19","Portland Trail Blazers","Wade Baldwin","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"895","2018-19","Portland Trail Blazers","Zach Collins","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3628920
+"896","2019-20","Portland Trail Blazers","Zach Collins","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4240200
+"897","2020-21","Portland Trail Blazers","Zach Collins","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5406255
+"898","2021-22","Portland Trail Blazers","Zach Collins","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7363319
+"899","2018-19","Sacramento Kings","Bogdan Bogdanovic","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9e+06
+"900","2019-20","Sacramento Kings","Bogdan Bogdanovic","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8529386
+"901","2020-21","Sacramento Kings","Bogdan Bogdanovic","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",10661733
+"902","2018-19","Sacramento Kings","Buddy Hield","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3833760
+"903","2019-20","Sacramento Kings","Buddy Hield","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4861208
+"904","2020-21","Sacramento Kings","Buddy Hield","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6484851
+"905","2018-19","Sacramento Kings","Caron Butler","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",517219
+"906","2018-19","Sacramento Kings","De'Aaron Fox","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5470920
+"907","2019-20","Sacramento Kings","De'Aaron Fox","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",6392760
+"908","2020-21","Sacramento Kings","De'Aaron Fox","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8099627
+"909","2021-22","Sacramento Kings","De'Aaron Fox","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",10740105
+"910","2018-19","Sacramento Kings","Frank Mason","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"911","2019-20","Sacramento Kings","Frank Mason","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"912","2020-21","Sacramento Kings","Frank Mason","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"913","2018-19","Sacramento Kings","Garrett Temple","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8e+06
+"914","2018-19","Sacramento Kings","Georgios Papagiannis","waived",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2000400
+"915","2018-19","Sacramento Kings","Harry Giles","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2207040
+"916","2019-20","Sacramento Kings","Harry Giles","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2578800
+"917","2020-21","Sacramento Kings","Harry Giles","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3976510
+"918","2021-22","Sacramento Kings","Harry Giles","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5698339
+"919","2018-19","Sacramento Kings","Iman Shumpert","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11011234
+"920","2018-19","Sacramento Kings","Justin Jackson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2807880
+"921","2019-20","Sacramento Kings","Justin Jackson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3280920
+"922","2020-21","Sacramento Kings","Justin Jackson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5029650
+"923","2021-22","Sacramento Kings","Justin Jackson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7031451
+"924","2018-19","Sacramento Kings","Kosta Koufos","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8739500
+"925","2018-19","Sacramento Kings","Marvin Bagley III","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7305600
+"926","2019-20","Sacramento Kings","Marvin Bagley III","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8556120
+"927","2020-21","Sacramento Kings","Marvin Bagley III","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",8963540
+"928","2021-22","Sacramento Kings","Marvin Bagley III","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",11312114
+"929","2022-23","Sacramento Kings","Marvin Bagley III","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",14762309
+"930","2018-19","Sacramento Kings","Matt Barnes","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2133542
+"931","2019-20","Sacramento Kings","Matt Barnes","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",2133541
+"932","2018-19","Sacramento Kings","Skal Labissiere","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"933","2019-20","Sacramento Kings","Skal Labissiere","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2338847
+"934","2020-21","Sacramento Kings","Skal Labissiere","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3484882
+"935","2018-19","Sacramento Kings","Willie CauleyStein","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,4696875
+"936","2019-20","Sacramento Kings","Willie CauleyStein","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",6265631
+"937","2018-19","Sacramento Kings","Zach Randolph","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11692308
+"938","2018-19","San Antonio Spurs","Brandon Paul","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"939","2019-20","San Antonio Spurs","Brandon Paul","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803038
+"940","2018-19","San Antonio Spurs","Danny Green","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1e+07
+"941","2018-19","San Antonio Spurs","Dejounte Murray","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"942","2019-20","San Antonio Spurs","Dejounte Murray","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2321735
+"943","2020-21","San Antonio Spurs","Dejounte Murray","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3482603
+"944","2018-19","San Antonio Spurs","Derrick White","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1667160
+"945","2019-20","San Antonio Spurs","Derrick White","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1948080
+"946","2020-21","San Antonio Spurs","Derrick White","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3516284
+"947","2021-22","San Antonio Spurs","Derrick White","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5274426
+"948","2018-19","San Antonio Spurs","Kawhi Leonard","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,20099189
+"949","2019-20","San Antonio Spurs","Kawhi Leonard","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",21329752
+"950","2018-19","San Antonio Spurs","LaMarcus Aldridge","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,22347015
+"951","2019-20","San Antonio Spurs","LaMarcus Aldridge","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2.6e+07
+"952","2020-21","San Antonio Spurs","LaMarcus Aldridge","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",2.4e+07
+"953","2018-19","San Antonio Spurs","Manu Ginobili","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2500000
+"954","2018-19","San Antonio Spurs","Marco Belinelli","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,5875000
+"955","2019-20","San Antonio Spurs","Marco Belinelli","estimate",NA,FALSE,FALSE,FALSE,FALSE,TRUE,"Player Option",6168750
+"956","2018-19","San Antonio Spurs","Patty Mills","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11571429
+"957","2019-20","San Antonio Spurs","Patty Mills","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12428571
+"958","2020-21","San Antonio Spurs","Patty Mills","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13285714
+"959","2018-19","San Antonio Spurs","Pau Gasol","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16800000
+"960","2019-20","San Antonio Spurs","Pau Gasol","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1.6e+07
+"961","2018-19","San Antonio Spurs","Rudy Gay","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1e+07
+"962","2018-19","San Antonio Spurs","Tim Duncan","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1881250
+"963","2018-19","Toronto Raptors","Alfonzo McKinnie","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"964","2019-20","Toronto Raptors","Alfonzo McKinnie","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1803038
+"965","2018-19","Toronto Raptors","CJ Miles","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8333333
+"966","2019-20","Toronto Raptors","CJ Miles","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",8730158
+"967","2018-19","Toronto Raptors","Delon Wright","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2536898
+"968","2019-20","Toronto Raptors","Delon Wright","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3635375
+"969","2018-19","Toronto Raptors","DeMar DeRozan","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27739975
+"970","2019-20","Toronto Raptors","DeMar DeRozan","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27739975
+"971","2020-21","Toronto Raptors","DeMar DeRozan","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",27739975
+"972","2018-19","Toronto Raptors","Fred VanVleet","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8653847
+"973","2019-20","Toronto Raptors","Fred VanVleet","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9456163
+"974","2018-19","Toronto Raptors","Jakob Poeltl","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2947320
+"975","2019-20","Toronto Raptors","Jakob Poeltl","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3754886
+"976","2020-21","Toronto Raptors","Jakob Poeltl","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5087870
+"977","2018-19","Toronto Raptors","Jonas Valanciunas","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16539326
+"978","2019-20","Toronto Raptors","Jonas Valanciunas","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",17617976
+"979","2018-19","Toronto Raptors","Justin Hamilton","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1e+06
+"980","2019-20","Toronto Raptors","Justin Hamilton","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",1e+06
+"981","2018-19","Toronto Raptors","Kyle Lowry","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3.1e+07
+"982","2019-20","Toronto Raptors","Kyle Lowry","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,33296296
+"983","2018-19","Toronto Raptors","Malachi Richardson","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1569360
+"984","2019-20","Toronto Raptors","Malachi Richardson","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2581597
+"985","2020-21","Toronto Raptors","Malachi Richardson","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3738153
+"986","2018-19","Toronto Raptors","Norman Powell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9367200
+"987","2019-20","Toronto Raptors","Norman Powell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10116576
+"988","2020-21","Toronto Raptors","Norman Powell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10865952
+"989","2021-22","Toronto Raptors","Norman Powell","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",11615328
+"990","2018-19","Toronto Raptors","OG Anunoby","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1952760
+"991","2019-20","Toronto Raptors","OG Anunoby","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2281800
+"992","2020-21","Toronto Raptors","OG Anunoby","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3872215
+"993","2021-22","Toronto Raptors","OG Anunoby","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5634073
+"994","2018-19","Toronto Raptors","Pascal Siakam","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1544951
+"995","2019-20","Toronto Raptors","Pascal Siakam","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2351839
+"996","2020-21","Toronto Raptors","Pascal Siakam","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3487777
+"997","2018-19","Toronto Raptors","Serge Ibaka","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,21666667
+"998","2019-20","Toronto Raptors","Serge Ibaka","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,23271604
+"999","2018-19","Utah Jazz","Alec Burks","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11536515
+"1000","2018-19","Utah Jazz","Dante Exum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9600000
+"1001","2019-20","Utah Jazz","Dante Exum","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9600000
+"1002","2020-21","Utah Jazz","Dante Exum","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,9600000
+"1003","2018-19","Utah Jazz","David Stockton","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1544951
+"1004","2019-20","Utah Jazz","David Stockton","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1931189
+"1005","2018-19","Utah Jazz","Derrick Favors","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,16900000
+"1006","2019-20","Utah Jazz","Derrick Favors","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",16900000
+"1007","2018-19","Utah Jazz","Donovan Mitchell","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3111480
+"1008","2019-20","Utah Jazz","Donovan Mitchell","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3635760
+"1009","2020-21","Utah Jazz","Donovan Mitchell","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5195501
+"1010","2021-22","Utah Jazz","Donovan Mitchell","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7185378
+"1011","2018-19","Utah Jazz","Ekpe Udoh","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",3360000
+"1012","2018-19","Utah Jazz","Grayson Allen","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2074320
+"1013","2019-20","Utah Jazz","Grayson Allen","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2429400
+"1014","2020-21","Utah Jazz","Grayson Allen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",2545320
+"1015","2021-22","Utah Jazz","Grayson Allen","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",4054695
+"1016","2022-23","Utah Jazz","Grayson Allen","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",5842815
+"1017","2018-19","Utah Jazz","Jae Crowder","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7305825
+"1018","2019-20","Utah Jazz","Jae Crowder","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,7815533
+"1019","2018-19","Utah Jazz","Joe Ingles","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,13045455
+"1020","2019-20","Utah Jazz","Joe Ingles","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,11954546
+"1021","2020-21","Utah Jazz","Joe Ingles","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,10863637
+"1022","2018-19","Utah Jazz","Raul Neto","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2150000
+"1023","2019-20","Utah Jazz","Raul Neto","current roster",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",2150000
+"1024","2018-19","Utah Jazz","Ricky Rubio","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,14975000
+"1025","2018-19","Utah Jazz","Royce O'Neale","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1378242
+"1026","2019-20","Utah Jazz","Royce O'Neale","current roster",NA,FALSE,TRUE,TRUE,FALSE,FALSE,"Non-Guaranteed",1618520
+"1027","2020-21","Utah Jazz","Royce O'Neale","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",2023150
+"1028","2018-19","Utah Jazz","Rudy Gobert","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,23491573
+"1029","2019-20","Utah Jazz","Rudy Gobert","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25008427
+"1030","2020-21","Utah Jazz","Rudy Gobert","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,26525281
+"1031","2018-19","Utah Jazz","Thabo Sefolosha","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5250000
+"1032","2018-19","Utah Jazz","Tony Bradley","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1679520
+"1033","2019-20","Utah Jazz","Tony Bradley","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",1962360
+"1034","2020-21","Utah Jazz","Tony Bradley","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3542060
+"1035","2021-22","Utah Jazz","Tony Bradley","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5277669
+"1036","2018-19","Washington Wizards","Austin Rivers","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,12650000
+"1037","2018-19","Washington Wizards","Bradley Beal","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,25434262
+"1038","2019-20","Washington Wizards","Bradley Beal","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27093018
+"1039","2020-21","Washington Wizards","Bradley Beal","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,28751774
+"1040","2018-19","Washington Wizards","Dwight Howard","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,5337000
+"1041","2019-20","Washington Wizards","Dwight Howard","estimate",NA,FALSE,FALSE,FALSE,FALSE,TRUE,"Player Option",5603850
+"1042","2018-19","Washington Wizards","Ian Mahinmi","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15944154
+"1043","2019-20","Washington Wizards","Ian Mahinmi","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,15450051
+"1044","2018-19","Washington Wizards","Jason Smith","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,5450000
+"1045","2018-19","Washington Wizards","Jeff Green","estimate",NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,1512601
+"1046","2018-19","Washington Wizards","Jodie Meeks","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3454500
+"1047","2018-19","Washington Wizards","John Wall","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,19169800
+"1048","2019-20","Washington Wizards","John Wall","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,37800000
+"1049","2020-21","Washington Wizards","John Wall","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,40824000
+"1050","2021-22","Washington Wizards","John Wall","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,43848000
+"1051","2022-23","Washington Wizards","John Wall","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",46872000
+"1052","2018-19","Washington Wizards","Kelly Oubre","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3208630
+"1053","2019-20","Washington Wizards","Kelly Oubre","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",4485665
+"1054","2018-19","Washington Wizards","Markieff Morris","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,8600000
+"1055","2018-19","Washington Wizards","Martell Webster","stretched",NA,FALSE,FALSE,FALSE,FALSE,FALSE,"Not With Team",833333
+"1056","2018-19","Washington Wizards","Otto Porter","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,26011913
+"1057","2019-20","Washington Wizards","Otto Porter","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,NA,27250576
+"1058","2020-21","Washington Wizards","Otto Porter","current roster",NA,FALSE,TRUE,FALSE,FALSE,TRUE,"Player Option",28489239
+"1059","2018-19","Washington Wizards","Thomas Bryant","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,1378242
+"1060","2019-20","Washington Wizards","Thomas Bryant","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",1818486
+"1061","2018-19","Washington Wizards","Tomas Satoransky","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3129187
+"1062","2019-20","Washington Wizards","Tomas Satoransky","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",3911484
+"1063","2018-19","Washington Wizards","Troy Brown Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,2749080
+"1064","2019-20","Washington Wizards","Troy Brown Jr","current roster",NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,3219480
+"1065","2020-21","Washington Wizards","Troy Brown Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",3372840
+"1066","2021-22","Washington Wizards","Troy Brown Jr","current roster",NA,FALSE,TRUE,FALSE,TRUE,FALSE,"Team Option",5170564
+"1067","2022-23","Washington Wizards","Troy Brown Jr","current roster",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Qualifying Offer",7228448

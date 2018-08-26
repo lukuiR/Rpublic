@@ -5,8 +5,11 @@ use_session_with_seed(1234)
 
 
 # Load the test data
+Walking <- readRDS("/data/walking.rds")
 xWalk <- readRDS("/data/xWalk.rds")
 yWalk <- readRDS("/data/yWalk.rds")
+
+plot(ts(xWalk$train[50,,]))
 
 # Make an empty model
 model <- keras_model_sequential()

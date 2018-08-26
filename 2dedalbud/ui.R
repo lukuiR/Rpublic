@@ -158,8 +158,8 @@ dashboardPage(skin = "black",
         
         h6("Łukasz Janiszewski 2017", align = "center")
         
-                                   )
       )
+    )
     
       )
       )

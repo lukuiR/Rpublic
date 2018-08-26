@@ -169,4 +169,5 @@ fluidRow(h2("Select pin to view details"),
                               )                            
       )
 )
+)
 # end of ui.r

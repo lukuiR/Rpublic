@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2018-07-16 18:56:12",
+    "log_lvl": "INFO",
+    "log_msg": "Initial log",
+    "log_detail": ""
+  },
+  {
+    "timestamp": "2018-07-16 18:56:12",
+    "log_lvl": "INFO",
+    "log_msg": "app has started",
+    "log_detail": "",
+    "app": "start"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:13",
+    "log_lvl": "INFO",
+    "log_msg": "tab:  tab1",
+    "log_detail": "2018-07-16 18:56:13 1.81004115007818",
+    "app": "tab"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:15",
+    "log_lvl": "INFO",
+    "log_msg": "tab:  koszyk",
+    "log_detail": "2018-07-16 18:56:13 1.81004115007818",
+    "app": "tab"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:21",
+    "log_lvl": "INFO",
+    "log_msg": "lastClick",
+    "log_detail": "modify:  7",
+    "app": "input",
+    "X.2018.07.16.18.56.13.1.81004115007818.": "2018-07-16 18:56:13 1.81004115007818"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:47",
+    "log_lvl": "INFO",
+    "log_msg": "tab:  promo",
+    "log_detail": "2018-07-16 18:56:13 1.81004115007818",
+    "app": "tab"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:48",
+    "log_lvl": "INFO",
+    "log_msg": "tab:  tab1",
+    "log_detail": "2018-07-16 18:56:13 1.81004115007818",
+    "app": "tab"
+  },
+  {
+    "timestamp": "2018-07-16 18:56:53",
+    "log_lvl": "INFO",
+    "log_msg": "app has stopped",
+    "log_detail": "2018-07-16 18:56:13 1.81004115007818",
+    "app": "stop"
+  },
+  {
+    "timestamp": "2018-07-16 19:07:34",
+    "log_lvl": "INFO",
+    "log_msg": "app has started",
+    "log_detail": "",
+    "app": "start"
+  },
+  {
+    "timestamp": "2018-07-16 22:24:50",
+    "log_lvl": "INFO",
+    "log_msg": "app has started",
+    "log_detail": "",
+    "app": "start"
+  },
+  {
+    "timestamp": "2018-07-16 22:24:51",
+    "log_lvl": "INFO",
+    "log_msg": "tab:  tab1",
+    "log_detail": "2018-07-16 22:24:51 1.81004115007818",
+    "app": "tab"
+  },
+  {
+    "timestamp": "2018-07-16 22:24:54",
+    "log_lvl": "INFO",
+    "log_msg": "app has stopped",
+    "log_detail": "2018-07-16 22:24:51 1.81004115007818",
+    "app": "stop"
+  }
+]

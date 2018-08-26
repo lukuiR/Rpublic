@@ -128,3 +128,9 @@ model %>% fit(xIris$train,
               yIris$train, 
               epochs = 100, 
               validation_data = list(xIris$test, yIris$test))
+
+library(readr)
+bcx<- read_rds("/data/BreastCancerCleanTarget.rds")
+library(readr)
+bcx<- read_rds("/data/BreastCancerCleanTarget.rds")
+bcy<- read_rds("/data/BreastCancerCleanFeatures.rds")

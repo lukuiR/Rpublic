@@ -11,6 +11,7 @@ library(shiny)
 library(shinydashboard)
 library(survival)
 library(plotly)
+library(ranger)
 library(DT)
 
 # Define UI for application that draws a histogram
@@ -78,10 +79,11 @@ ui <- dashboardPage(skin = "black",
                                             ),
                                               align = "center",                      
                                               fluidRow(
-                                                h2("plot1"), 
+                                                h4("KM vs Cox vs RF"), 
                                                 plotlyOutput("plot1")),br(),
                                             #Year checkbox filter
                                             fluidRow(
+                                              h4("Select data range and method."),
                                             column(3,
                                                    selectInput("trt",label="Choose the trt",choices=sort(veteran$trt), multiple = TRUE)
                                             ),
@@ -141,17 +143,16 @@ ui <- dashboardPage(skin = "black",
                                                 #}
                                                  ,align = "center",
                                                 br(),
+                                                h4("Data summary"),
                                                 verbatimTextOutput("summary2"),
-                                                br(),
-                                                h2("plot1"), 
-                                                plotlyOutput("plot"))
+                                                br()
                                               
                                               ,
                                             br(),
                                               h6(HTML('Copyright <a href="https://pl.linkedin.com/in/łukasz-janiszewski-390a1660/"><b>Łukasz Janiszewski</b></a>'), align = "center")                                     
                                                                
                                             # 2nd tab with useR information same structure like before, one change no year filter
-                                            
+                                              )
                                             )}                            
                                     )
                                     )

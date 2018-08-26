@@ -1,0 +1,12 @@
+name: dedalbud
+title: dedalbud
+username:
+account: ch2m
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 381982
+bundleId: 1483192
+url: https://ch2m.shinyapps.io/dedalbud/
+when: 1531772868.15545
+asMultiple: FALSE
+asStatic: FALSE
