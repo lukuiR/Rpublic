@@ -1,24 +1,155 @@
 #dt ext https://rstudio.github.io/DT/extensions.html
 ###
+library(shinydashboard)
+library(dplyr)
+library(dbplyr)
+library(purrr)
 library(shiny)
+library(DT)
+library(htmltools)
+library(plotly)
+library(shinyalert)
 library(readxl)
 library(tidyverse)
 library(DT)
-options(shiny.maxRequestSize=30*1024^2) 
 
-# Define UI for data upload app ----
-ui <- fluidPage(
-  
-  fileInput("uploadFile", "XLSX file"),
-  dataTableOutput(outputId = "dt2")
-  
+# Use purrr's split() and map() function to create the list
+# needed to display the name of the airline but pass its
+# Carrier code as the value
+
+
+#select only required columns
+
+
+ui <- dashboardPage(skin = "green",
+                    dashboardHeader(title = "Mercel" #,titleWidth = 200
+                    ),
+                    
+                    dashboardSidebar(
+                      sidebarMenu(
+                        id = "tabs",
+                        menuItem("Start", icon = icon("info"), tabName = "tab1"),
+                        menuItem("Supply", icon = icon("line-chart"), tabName = "dashboard")
+                      ),
+                      
+                      selectInput(
+                        inputId = "typ",
+                        label = "Cherf/Not:", 
+                        choices = c('Yes','No','NA'), 
+                        multiple = TRUE),
+                      selectInput(
+                        inputId = "kod",
+                        label = "Gender:", 
+                        choices = c('Male','Female', 'NA'), 
+                        multiple = TRUE),
+                      sidebarMenu(
+                        selectInput(
+                          "month",
+                          "Month:", 
+                          list(
+                            "All Year" = 99,
+                            "January" = '01',
+                            "February" = '02',
+                            "March" = '03',
+                            "April" = '04',
+                            "May" = '05',
+                            "June" = '06',
+                            "July" = '07',
+                            "August" = '08',
+                            "September" = '09',
+                            "October" = '10',
+                            "November" = '11',
+                            "December" = '12'
+                          ) , 
+                          selected =  "All Year", 
+                          selectize = FALSE),
+                        actionLink("remove", "Wyczy dodatkowe karty")
+                      )
+                    ),
+                    dashboardBody( 
+                      tabItems(
+                        tabItem(tabName = "tab1",
+                      tabsetPanel(id = "tabs",   
+                                  tabPanel(
+                                           title = "ZZJD Dashboard",icon = icon("glyphicon glyphicon-saved",lib ="glyphicon"),
+                                           value = "page1",
+                                           #useShinyalert(),
+                                           fluidRow(
+                                             
+                                             column(3,
+                                                    selectInput("Gender",label="Choose the Gender",choices=c('Male','Female', 'NA'), multiple = TRUE)),
+                                             column(3,
+                                                    selectInput("chef",label="Choose the chef/not",choices=c('Yes','No','NA'), multiple = TRUE)),
+                                             column(3,
+                                                    sliderInput("slage", label="Choose the age",
+                                                                min =34, max = 81, value = c(34, 81))),
+                                             column(3,
+                                                    checkboxInput("addd", "Add data series", value = F))
+                                           ),
+                                           fluidRow(
+                                             fileInput("uploadFile", "XLSX file")
+                                           ),
+                                           br(),
+                                           fluidRow(
+                                             conditionalPanel(
+                                               condition = "output.fileUploaded",
+                                               plotlyOutput("plot2")
+                                             )
+                                           ),
+                                           fluidRow(
+                                              dataTableOutput(outputId = "dt2")
+                                           )
+                                  ),
+                                  tabPanel("Plot/Filter tab", icon = icon("line-chart"), 
+                                           radioButtons("radio2", h3("filter "),
+                                                        choices = list("Waga" = "WAGA", "Supergrupa" = "SUPERGRUPA",
+                                                                       "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA"),
+                                           plotlyOutput("plot1"),plotlyOutput("plot11")
+                                  )
+                      )
+                        ),
+                      tabItem(tabName = "dashboard",
+                              h4('Filter tab'),
+                              radioButtons("radio", h3("filte"),
+                                           choices = list("Waga" = "WAGA", "Supergrupa" = "SUPERGRUPA",
+                                                          "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA")
+                              )
+                      )
+                    )
 )
 
-# Define server logic to read selected file ----
-server <- function(input, output) {
+
+
+
+server <- function(input, output, session) { 
+
   
-  dataset<-reactive({ 
+  #  shinyalert(
+  #   title = "Witaj",
+  #   text = "Wprowadz: uzytkownik/haslo",
+  #   closeOnEsc = TRUE,
+  #   closeOnClickOutside = FALSE,
+  #   html = FALSE,
+  #   type = "input",
+  #   inputType = "text",
+  #   inputValue = "",
+  #   inputPlaceholder = "",
+  #   showConfirmButton = TRUE,
+  #   showCancelButton = FALSE,
+  #   confirmButtonText = "OK",
+  #   confirmButtonCol = "#AEDEF4",
+  #   timer = 0,
+  #   imageUrl = "",
+  #   animation = TRUE
+  # )
+
+
+  dataset<-reactive({
     inFile <- input$uploadFile 
+    
+    if (is.null(inFile))
+      return(NULL)
+    
     datraw<-read_excel(inFile$datapath, col_names = TRUE,skip=1)
     
     colnames(datraw)[9] <- "Job Family"
@@ -97,7 +228,7 @@ server <- function(input, output) {
       summarise(
         n = n()
       )
-
+    
     z <- ag_dat1 %>% 
       inner_join(ag_dat2)%>% 
       inner_join(ag_dat3)%>% 
@@ -112,10 +243,130 @@ server <- function(input, output) {
     return(head(z,10))
   })
   
-  output$dt2<- renderDataTable({dataset()})
+  output$fileUploaded <- reactive({
+    return(!is.null(dataset()))
+  })
+  outputOptions(output, 'fileUploaded', suspendWhenHidden=FALSE)
   
+  output$dt2<- renderDataTable({
 
+    
+    datatable(dataset(),
+              extensions = c('FixedHeader', 'Buttons', 'ColReorder', 'Scroller'),
+              options = list(
+                dom = 'Bfrti',
+                autoWidth = FALSE,
+                colReorder = TRUE,
+                deferRender = TRUE,
+                scrollX = TRUE,
+                scrollY = "51vh",
+                scroller = TRUE,
+                scollCollapse = TRUE,
+                fixedHeader = TRUE,
+                columnDefs = list(
+                  list(orderable = FALSE, className = 'details-control', targets = 0)
+                )
+              ))
+    
+    })
+  
+  ####plot
+  output$plot2 <- renderPlotly({
+    
+    plot_ly(x=dataset()$RegionCode, y=dataset()$n, mode = "bar"
+    )
+    
+  })
+  
+  zz=data.frame(  
+    cbind(c('actual', 'future'), c(220,140), c('grey', 'yellow'))
+    )
+  colnames(zz) <- c('Categorie', 'values','color')
+ 
+  output$plot1 <- renderPlotly({
+    plot_ly(zz, labels = ~Categorie, values = ~values, 
+            textposition = 'inside',
+            textinfo = 'label',
+            insidetextfont = list(color = '#000000'),
+            hoverinfo = 'text',
+            marker = list(colors = ~color), type = 'pie', rotation=160)
+  })
+  
+  zz1=data.frame(  
+    cbind(c('actual', 'future'), c(140,220), c('grey', 'red'))
+  )
+  colnames(zz1) <- c('Categorie', 'values','color')
+  
+  output$plot11 <- renderPlotly({
+    plot_ly(zz1, labels = ~Categorie, values = ~values, 
+            textposition = 'inside',
+            textinfo = 'label',
+            insidetextfont = list(color = '#000000'),
+            hoverinfo = 'text',
+            marker = list(colors = ~color), type = 'pie', rotation=-20)
+  })
+  
+  
+  #####
+  
+  
+  
+  observeEvent(input$bar_clicked,
+               {
+                 grupa <- input$bar_clicked[1]
+                 tab_title <- paste(input$waga, 
+                                    "-", grupa , 
+                                    if(input$month != 99) paste("-" , month.name[as.integer(input$month)]))
+                 
+                 if(tab_title %in% tab_list == FALSE){
+                   
+                   appendTab(inputId = "tabs",
+                             tabPanel(
+                               tab_title,
+                               dataTableOutput("tabela")
+                             ),session = getDefaultReactiveDomain())
+                   
+                   tab_list <<- c(tab_list, tab_title)
+                   
+                 }
+                 
+                 updateTabsetPanel(session, "tabs", selected = tab_title)
+                 
+               })
+  
+  observeEvent(input$tabela_rows_selected,
+               {
+                 tab_title <- "ID Algorytmu"
+                 
+                 if (tab_title %in% tab_list == FALSE){
+                   
+                   appendTab(inputId = "tabs",
+                             tabPanel(
+                               tab_title,
+                               dataTableOutput("tabela2")
+                             ))
+                   
+                   tab_list <<- c(tab_list, tab_title)
+                   
+                 }
+                 
+                 updateTabsetPanel(session, "tabs", selected = tab_title)
+                 
+               })  
+  
+  
+  observeEvent(input$remove,{
+    # Use purrr's walk command to cycle through each
+    # panel tabs and remove them
+   # tab_list %>%
+    #  walk(~removeTab("tabs", .x))
+  #  tab_list <<- NULL
+  })
+  
 }
 
-# Create Shiny app ----
+
+
+
+
 shinyApp(ui, server)
