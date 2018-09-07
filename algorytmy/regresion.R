@@ -33,6 +33,10 @@ model2 = lm(y~new_x)
 model2$fit
 model2$coeff
 
+w <- x + x^2
+fit <- lm(y ~ x)
+model2 <- lm(y ~ x, weights = w)
+
 
 ggplot(data = data) + geom_point(aes(x = Area,y = Price)) +
   geom_line(aes(x = Area,y = model1$fit),color = "red") +
