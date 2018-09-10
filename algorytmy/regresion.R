@@ -44,3 +44,18 @@ ggplot(data = data) + geom_point(aes(x = Area,y = Price)) +
   theme(panel.background = element_blank())
 
 ###########
+
+Time <- x
+Time2 <- Time^2
+
+quadratic.model <-lm(y ~ Time + Time2)
+
+timevalues <- seq(30, 35, 1)
+
+predictedcounts <- predict(quadratic.model,list(Time=timevalues, Time2=timevalues^2))
+
+ggplot(data = ag) + geom_point(aes(x = ra,y = n)) +
+  geom_line(aes(x = ra,y = model1$fit),color = "red") +
+  geom_line(aes(x = ra,y = quadratic.model$fit),color = "blue") +
+  theme(panel.background = element_blank())
+#############
