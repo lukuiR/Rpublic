@@ -1,17 +1,13 @@
 #dt ext https://rstudio.github.io/DT/extensions.html
+#DT ino: https://yihui.shinyapps.io/DT-info/
 ###
 library(shinydashboard)
-library(dplyr)
-library(dbplyr)
-library(purrr)
 library(shiny)
 library(DT)
-library(htmltools)
 library(plotly)
 library(shinyalert)
 library(readxl)
 library(tidyverse)
-library(DT)
 
 # Use purrr's split() and map() function to create the list
 # needed to display the name of the airline but pass its
@@ -112,7 +108,29 @@ ui <- dashboardPage(skin = "green",
                               h4('Filter tab'),
                               radioButtons("radio", h3("filte"),
                                            choices = list("Waga" = "WAGA", "Supergrupa" = "SUPERGRUPA",
-                                                          "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA")
+                                                          "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA"),
+                              fluidRow(
+                                column(1,br(),h3(2018)),
+                                
+                                column(2, 
+                                       textInput("text1", h5("Text input"), 
+                                                 value = "Enter text...")) ,
+                                
+                                column(2, 
+                                       textInput("text2", h5("Text input"), 
+                                                 value = "Enter text...")) ,
+                                
+                                column(2, 
+                                       textInput("text3", h5("Text input"), 
+                                                 value = "Enter text...")) ,
+                                
+                                column(2, 
+                                       textInput("text4", h5("Text input"), 
+                                                 value = "Enter text..."))   
+                              )
+                              
+                      
+                              
                               )
                       )
                     )
@@ -309,59 +327,13 @@ server <- function(input, output, session) {
   
   #####
   
+  #####NHR
+  {
   
+    
+}
   
-  observeEvent(input$bar_clicked,
-               {
-                 grupa <- input$bar_clicked[1]
-                 tab_title <- paste(input$waga, 
-                                    "-", grupa , 
-                                    if(input$month != 99) paste("-" , month.name[as.integer(input$month)]))
-                 
-                 if(tab_title %in% tab_list == FALSE){
-                   
-                   appendTab(inputId = "tabs",
-                             tabPanel(
-                               tab_title,
-                               dataTableOutput("tabela")
-                             ),session = getDefaultReactiveDomain())
-                   
-                   tab_list <<- c(tab_list, tab_title)
-                   
-                 }
-                 
-                 updateTabsetPanel(session, "tabs", selected = tab_title)
-                 
-               })
-  
-  observeEvent(input$tabela_rows_selected,
-               {
-                 tab_title <- "ID Algorytmu"
-                 
-                 if (tab_title %in% tab_list == FALSE){
-                   
-                   appendTab(inputId = "tabs",
-                             tabPanel(
-                               tab_title,
-                               dataTableOutput("tabela2")
-                             ))
-                   
-                   tab_list <<- c(tab_list, tab_title)
-                   
-                 }
-                 
-                 updateTabsetPanel(session, "tabs", selected = tab_title)
-                 
-               })  
-  
-  
-  observeEvent(input$remove,{
-    # Use purrr's walk command to cycle through each
-    # panel tabs and remove them
-   # tab_list %>%
-    #  walk(~removeTab("tabs", .x))
-  #  tab_list <<- NULL
-  })
+    #####end event
   
 }
 
