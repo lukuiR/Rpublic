@@ -1,0 +1,522 @@
+#dt ext https://rstudio.github.io/DT/extensions.html
+#DT ino: https://yihui.shinyapps.io/DT-info/
+###
+library(shinydashboard)
+library(shiny)
+library(DT)
+library(plotly)
+library(readxl)
+library(tidyverse)
+library(quantmod)
+library(data.table)
+
+# Use purrr's split() and map() function to create the list
+# needed to display the name of the airline but pass its
+# Carrier code as the value
+
+
+#select only required columns
+datraw1 <- read_excel("C:/Users/Luke/Documents/r_datamining/data/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
+
+dat1 <- select(datraw1, Gender, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `Encrypted Ids`)
+
+fam <- unique(dat1$Family)
+reg <- unique(dat1$RegionCode)
+
+ui <- dashboardPage(skin = "green",
+                    dashboardHeader(title = "Mercel" #,titleWidth = 200
+                    ),
+                    dashboardSidebar(
+                      sidebarMenu(
+                        id = "tabs",
+                        menuItem("Start", icon = icon("info"), tabName = "tab1"),
+                        menuItem("Supply", icon = icon("line-chart"), tabName = "dashboard")
+                      ),
+                      
+                      selectInput(
+                        inputId = "typ",
+                        label = "Region:", 
+                        choices = reg, 
+                        multiple = TRUE),
+                      selectInput(
+                        inputId = "kod",
+                        label = "Gender:", 
+                        choices = c('Male','Female', 'NA'), 
+                        multiple = TRUE),
+                      sidebarMenu(
+                        selectInput(
+                          "month",
+                          "Month:", 
+                          list(
+                            "All Year" = 99,
+                            "January" = '01',
+                            "February" = '02',
+                            "March" = '03',
+                            "April" = '04',
+                            "May" = '05',
+                            "June" = '06',
+                            "July" = '07',
+                            "August" = '08',
+                            "September" = '09',
+                            "October" = '10',
+                            "November" = '11',
+                            "December" = '12'
+                          ) , 
+                          selected =  "All Year", 
+                          selectize = FALSE),
+                        actionLink("remove", "Wyczy dodatkowe karty")
+                      )
+                    ),
+                    dashboardBody( 
+                      tabItems(
+                        tabItem(tabName = "tab1",
+                                tabsetPanel(id = "tabs",   
+                                            tabPanel(
+                                              title = "ZZJD Dashboard",icon = icon("glyphicon glyphicon-saved",lib ="glyphicon"),
+                                              value = "page1",
+                                              #useShinyalert(),
+                                              fluidRow( 
+                                                column(3,
+                                                       selectInput("Family",label="Choose the Family",choices=fam, multiple = TRUE)),
+                                                column(3,
+                                                       selectInput("rg",label="Choose Region Code",choices=c('MEA','APAC','AMR','EUR'), multiple = TRUE)),
+                                                column(3,
+                                                       sliderInput("slage", label="Choose the age",
+                                                                   min =34, max = 81, value = c(34, 81))),
+                                                column(3,
+                                                       checkboxInput("addd", "Add data series", value = F))
+                                              ),
+                                              fluidRow(uiOutput("KKosz"),
+                                                fileInput("uploadFile", "XLSX file")
+                                              ),
+                                              br(),
+                                              fluidRow(
+                                                conditionalPanel(
+                                                  condition = "output.fileUploaded",
+                                                  sliderInput("sl1", h3("Option Normal/Agresive"),
+                                                              min = -10, max = 10,pre = "%", value = 0),
+                                                  plotlyOutput("plot2")
+                                                )
+                                              ),
+                                              fluidRow(
+                                                dataTableOutput(outputId = "dt2")
+                                              )
+                                            ),
+                                            tabPanel("Plot/Filter tab", icon = icon("line-chart"), 
+                                                     radioButtons("radio2", h3("filter "),
+                                                                  choices = list("Waga" = "WAGA", "Supergrupa" = "SUPERGRUPA",
+                                                                                 "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA"),
+                                                     plotlyOutput("plot1"),plotlyOutput("plot11")
+                                            )
+                                )
+                        ),
+                        tabItem(tabName = "dashboard",
+                                h4('Filter tab'),
+                                radioButtons("radio", h3("filte"),
+                                             choices = list("Waga" = "WAGA", "Supergrupa" = "SUPERGRUPA",
+                                                            "Memonik" = "MNEMONIK_ODBIORCY"),inline = TRUE,selected = "WAGA"),
+                                fluidRow(
+                                  column(1,br(),h3(2018)),
+                                  
+                                  column(2, 
+                                         textInput("MEA", h5("MEA"), 
+                                                   value = "1.1")) ,
+                                  
+                                  column(2, 
+                                         textInput("APAC", h5("APAC"), 
+                                                   value = "1.2")) ,
+                                  
+                                  column(2, 
+                                         textInput("AMR", h5("AMR"), 
+                                                   value = "20")) ,
+                                  
+                                  column(2, 
+                                         textInput("EUR", h5("EUR"), 
+                                                   value = "4"))   
+                                )
+                                
+                                
+                                
+                        )
+                      )
+                    )
+)
+
+
+
+
+server <- function(input, output, session) { 
+  
+  
+  #  shinyalert(
+  #   title = "Witaj",
+  #   text = "Wprowadz: uzytkownik/haslo",
+  #   closeOnEsc = TRUE,
+  #   closeOnClickOutside = FALSE,
+  #   html = FALSE,
+  #   type = "input",
+  #   inputType = "text",
+  #   inputValue = "",
+  #   inputPlaceholder = "",
+  #   showConfirmButton = TRUE,
+  #   showCancelButton = FALSE,
+  #   confirmButtonText = "OK",
+  #   confirmButtonCol = "#AEDEF4",
+  #   timer = 0,
+  #   imageUrl = "",
+  #   animation = TRUE
+  # )
+  
+  
+  dataset<-reactive({
+    #inFile <- input$uploadFile 
+    
+    #if (is.null(inFile))
+    #  return(NULL)
+    
+    #datraw<-read_excel(inFile$datapath, col_names = TRUE,skip=1)
+    
+    #colnames(datraw)[9] <- "Job Family"
+    #colnames(datraw)[55] <- "Employment__1"
+    
+    datraw <- read_excel("C:/Users/Luke/Documents/r_datamining/data/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
+    
+    dat <- select(datraw, Gender, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `Encrypted Ids`)
+    
+    #calculate field
+    
+    dat <- mutate(dat, 
+                  `SBU/MFG/CF Name`= case_when(`SBU/MFG/CF` == "SBU" ~ `Level 1`,  `SBU/MFG/CF` == "MFG Sites" ~ `Company Name`, TRUE ~ `SBU/MFG/CF`)
+    )
+    
+    #Remove not needed job Family
+    dat$`Job Family`[!(dat$`Job Family` %in% c('Professionals',	'Technicians', 'Executives',	'Advisor & Consultant',	'Managers',	'Supervisor',	
+                                               'Administrators',	'Operators',	'Superintendent & Section Head',	
+                                               'Security & Safety', 'Para Professional'))] <- 'Other'
+    
+    #Aggregate, count id
+    ag_dat <- group_by(dat, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `SBU/MFG/CF Name`) %>% 
+      summarise(
+        n = n()
+      )
+    
+    #spread
+    
+    #BC
+    ag_dat1 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Employment__1 )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = Employment__1, value = n) #, fill =0)
+    
+    ag_dat2 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Chief/Not` )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = `Chief/Not`, value = n) #, fill =0)
+    
+    colnames(ag_dat2)[dim(ag_dat2)[2]] <- "`Chief/Not NA`"
+    
+    ag_dat3 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Career Level` )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = `Career Level`, value = n) #, fill =0)
+    
+    colnames(ag_dat3)[dim(ag_dat3)[2]] <- "`Career Level NA`"
+    
+    ag_dat4 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Gender )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = Gender, value = n) #, fill =0)
+    
+    colnames(ag_dat4)[dim(ag_dat4)[2]] <- "`Gender NA`"
+    
+    ag_dat5 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Job Family` )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = `Job Family`, value = n) #, fill =0)
+    
+    ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Year of retirement` )%>% 
+      summarise(
+        n = n()
+      ) %>%
+      spread(key = `Year of retirement`, value = n) #, fill =0)
+    
+    #remove not needed years of retirement
+    #ag_dat66=ag_dat6[, c('Subfamily' , 'Family' ,'SBU/MFG/CF', 'SBU/MFG/CF Name', 'RegionCode', '2018', '2019', '2020','2021','2022', '2023')] #1:5,17:22)]
+    
+    ag_dat66 <- select( ag_dat6, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, '2018',`2019`,`2020`,`2021`,`2022`,`2023`)
+    
+    ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode )%>% 
+      summarise(
+        n = n()
+      )
+    
+    z <- ag_dat1 %>% 
+      inner_join(ag_dat2)%>% 
+      inner_join(ag_dat3)%>% 
+      inner_join(ag_dat4)%>% 
+      inner_join(ag_dat5)%>% 
+      inner_join(ag_dat66)%>% 
+      inner_join(ag_dat6)
+    z <- mutate(z,  Manual = n)
+    
+    z[["Modify"]]<-
+      paste0('
+             <div class="btn-group" role="group" aria-label="Basic example">
+             <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(z),'>Change</button>
+             </div>
+             
+             ')
+    
+    z <- z[z$Family %in%  if(is.null(input$Family)){fam} else (input$Family) ,]
+    z <- z[z$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]
+    z <- z[z$RegionCode %in%  if(is.null(input$typ)){reg} else (input$typ),]
+    
+    year<-c(2018:2023)
+    MEA <- rep(1.1,6)
+    APAC <- rep(1.3,6)
+    AMR <- rep(1.4,6)
+    EUR <- rep(1.2,6)
+    nhr <- data_frame(year, MEA, APAC,AMR, EUR)
+    ###
+    
+    
+    z <- mutate(z, 
+                NHR= case_when(RegionCode == "MEA" ~ nhr$MEA[1],  RegionCode == "APAC" ~ nhr$APAC[1],
+                               RegionCode == "AMR" ~ nhr$AMR[1], RegionCode == "EUR" ~ nhr$EUR[1])
+    )
+    
+    z <- mutate(z, 
+                M_NHR= case_when(RegionCode == "MEA" ~ input$MEA,  RegionCode == "APAC" ~ input$APAC,
+                               RegionCode == "AMR" ~ input$AMR, RegionCode == "EUR" ~ input$EUR)
+    )
+    
+  })
+  
+  output$fileUploaded <- reactive({
+    return(!is.null(dataset()))
+  })
+  outputOptions(output, 'fileUploaded', suspendWhenHidden=FALSE)
+  
+  output$dt2<- renderDataTable({
+    DT=dataset()
+    DT[["Actions1"]]<-
+      paste0('
+             <div class="btn-group" role="group" aria-label="Basic example">
+             <button type="button" class="btn btn-secondary delete" id=delete_',1:nrow(dataset()),'>ch</button>
+             </div>
+             
+             ')
+  
+    
+    datatable(DT
+              ,
+              options = list(
+                dom = 'Bfrti',
+                autoWidth = FALSE,
+                deferRender = TRUE,
+                scrollX = TRUE,
+                scrollY = "51vh",
+                scroller = TRUE,
+                scollCollapse = TRUE,
+                fixedHeader = TRUE,
+                columnDefs = list(
+                  list(orderable = FALSE, className = 'details-control', targets = 0)
+                )
+              ) ,escape=F)
+    
+  })
+  
+  ####change
+
+  
+  ####plot
+  output$plot2 <- renderPlotly({
+    n <- dataset()$n[1]
+    hr <-1+ as.numeric( dataset()$M_NHR)[1]/100
+    y<-c(n,n*hr, n*hr*hr, n*hr*hr*hr, n*hr*hr*hr*hr, n*hr*hr*hr*hr*hr )
+    x <- c(1:6)
+    
+    y2 <- c(y[1],y[2:6]*(1+input$sl1/100))
+    
+    plot_ly(x=x, y=y, type ="scatter",mode = "lines",name = "nhr"
+    )%>%
+      add_trace(x=x, y=y2, type ="scatter",mode = "lines",name = "option")
+    
+  })
+  
+  zz=data.frame(  
+    cbind(c('actual', 'future'), c(220,140), c('grey', 'yellow'))
+  )
+  colnames(zz) <- c('Categorie', 'values','color')
+  
+  output$plot1 <- renderPlotly({
+    plot_ly(zz, labels = ~Categorie, values = ~values, 
+            textposition = 'inside',
+            textinfo = 'label',
+            insidetextfont = list(color = '#000000'),
+            hoverinfo = 'text',
+            marker = list(colors = ~color), type = 'pie', rotation=160)
+  })
+  
+  zz1=data.frame(  
+    cbind(c('actual', 'future'), c(140,220), c('grey', 'red'))
+  )
+  colnames(zz1) <- c('Categorie', 'values','color')
+  
+  output$plot11 <- renderPlotly({
+    plot_ly(zz1, labels = ~Categorie, values = ~values, 
+            textposition = 'inside',
+            textinfo = 'label',
+            insidetextfont = list(color = '#000000'),
+            hoverinfo = 'text',
+            marker = list(colors = ~color), type = 'pie', rotation=-20)
+  })
+  
+  
+  #####
+  
+  #####NHR
+  {
+    
+    
+  }
+  
+  #####end event
+  
+  
+  ################################################################3change
+  tow=reactiveValues()
+  tow$Data=data.table(
+    dat1
+    
+  )
+  #####
+  vals=reactiveValues()
+  vals$Data=data.table(dat1
+  )
+  
+  newEntry <- observe({vals$Data <- data.table(dat1[dat1$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]
+      )
+  })
+  
+  #vals$Data <- function(){ data.table(dat1[dat1$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]) }
+  #####
+  output$KKosz=renderUI({
+    
+    box(width=12,
+        column(12,dataTableOutput("Main_kosz")),
+        tags$script(HTML('$(document).on("click", "input", function () {
+                         var checkboxes = document.getElementsByName("row_selected");
+                         var checkboxesChecked = [];
+                         for (var i=0; i<checkboxes.length; i++) {
+                         if (checkboxes[i].checked) {
+                         checkboxesChecked.push(checkboxes[i].value);
+                         }
+                         }
+                         Shiny.onInputChange("checked_rows",checkboxesChecked);})')),
+        tags$script("$(document).on('click', '#Main_kosz button', function () {
+                    Shiny.onInputChange('lastClickkId',this.id);
+                    Shiny.onInputChange('lastClickk', Math.random()) });")
+        
+        )
+    })
+  
+  output$Main_kosz=renderDataTable({ DT=vals$Data[] #DT=dataset()
+  
+  datatable(DT[],
+            options = list(
+              dom = 'Bfrti',
+              autoWidth = FALSE,
+              deferRender = TRUE,
+              scrollX = TRUE,
+              scrollY = "51vh",
+              scroller = TRUE,
+              scollCollapse = TRUE,
+              fixedHeader = TRUE,
+              columnDefs = list(
+                list(orderable = FALSE, className = 'details-control', targets = 0)
+              )
+            ) ,escape=F)
+  
+  })
+  #####action
+  observeEvent(input$lastClickk,
+               {
+                 if (input$lastClickkId%like%"delete")
+                 {
+                   showModal(modal_modify)
+                   
+                 }
+                 else if (input$lastClickkId%like%"modify")
+                 {
+                   showModal(modal_modify)
+                 }
+               }
+  )
+  
+  ##
+  modal_modify=modalDialog(
+    fluidPage(
+      h3(strong("Row modification"),align="center"),
+      hr(),
+      dataTableOutput('row_modif'),
+      actionButton("save_changes","Save"),
+      tags$script(HTML("$(document).on('click', '#save_changes', function () {
+                       var list_value=[]
+                       for (i = 0; i < $( '.new_input' ).length; i++)
+                       {
+                       list_value.push($( '.new_input' )[i].value)
+                       }
+                       Shiny.onInputChange('newValue', list_value)
+});"
+                           ))
+      
+      
+      ),
+    size="m"
+    )
+  ##co modyfikuje
+  output$row_modif<-renderDataTable({
+    selected_row=as.numeric(gsub("modify_","",input$lastClickkId))
+    old_row=dataset()[selected_row,c('n','Manual')]
+    row_change=list()
+    row_change[[1]]=dataset()[selected_row,c('n')]
+    row_change[[2]]=paste0('<input class="new_input" type="number" id=new_',2,'><br>')
+    row_change=as.data.table(row_change)
+    setnames(row_change,colnames(old_row))
+    DT=rbind(old_row,row_change)
+    rownames(DT)<-c("Current values","New values")
+    DT
+    
+  },escape=F,options=list(dom='t',ordering=F),selection="none"
+  )
+  
+  ##
+  observeEvent(input$newValue,
+               {
+                 newValue=lapply(input$newValue, function(col) {
+                   if (suppressWarnings(all(!is.na(as.numeric(as.character(col)))))) {
+                     as.numeric(as.character(col))
+                   } else {
+                     col
+                   }
+                 })
+                 DF=data.frame(lapply(newValue, function(x) t(data.frame(x))))
+                 dataset()[as.numeric(gsub("modify_","",input$lastClickkId)),'Manual']<-DF
+               }
+  )
+  ######
+  
+  ##########################################################33
+  }
+
+
+
+
+
+shinyApp(ui, server)
