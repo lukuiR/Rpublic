@@ -15,101 +15,114 @@ library(data.table)
 # Carrier code as the value
 
 {
-#select only required columns
-datraw1 <- read_excel("C:/Users/Luke/Documents/r_datamining/data/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
-
-dat <- select(datraw1, Gender, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `Encrypted Ids`)
-
-fam <- unique(dat$Family)
-reg <- unique(dat$RegionCode)
-
-dat <- mutate(dat, 
-              `SBU/MFG/CF Name`= case_when(`SBU/MFG/CF` == "SBU" ~ `Level 1`,  `SBU/MFG/CF` == "MFG Sites" ~ `Company Name`, TRUE ~ `SBU/MFG/CF`)
-)
-
-#Remove not needed job Family
-dat$`Job Family`[!(dat$`Job Family` %in% c('Professionals',	'Technicians', 'Executives',	'Advisor & Consultant',	'Managers',	'Supervisor',	
-                                           'Administrators',	'Operators',	'Superintendent & Section Head',	
-                                           'Security & Safety', 'Para Professional'))] <- 'Other'
-
-#Aggregate, count id
-ag_dat <- group_by(dat, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `SBU/MFG/CF Name`) %>% 
-  summarise(
-    n = n()
+  #select only required columns
+  datraw1 <- read_excel("D:/R Skrypty/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
+  
+  dat <- select(datraw1, Gender, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `Encrypted Ids`)
+  
+  fam <- unique(dat$Family)
+  reg <- unique(dat$RegionCode)
+  
+  dat <- mutate(dat, 
+                `SBU/MFG/CF Name`= case_when(`SBU/MFG/CF` == "SBU" ~ `Level 1`,  `SBU/MFG/CF` == "MFG Sites" ~ `Company Name`, TRUE ~ `SBU/MFG/CF`)
   )
-
-#spread
-
-#BC
-ag_dat1 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Employment__1 )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = Employment__1, value = n) #, fill =0)
-
-ag_dat2 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Chief/Not` )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = `Chief/Not`, value = n) #, fill =0)
-
-colnames(ag_dat2)[dim(ag_dat2)[2]] <- "`Chief/Not NA`"
-
-ag_dat3 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Career Level` )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = `Career Level`, value = n) #, fill =0)
-
-colnames(ag_dat3)[dim(ag_dat3)[2]] <- "`Career Level NA`"
-
-ag_dat4 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Gender )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = Gender, value = n) #, fill =0)
-
-colnames(ag_dat4)[dim(ag_dat4)[2]] <- "`Gender NA`"
-
-ag_dat5 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Job Family` )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = `Job Family`, value = n) #, fill =0)
-
-ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Year of retirement` )%>% 
-  summarise(
-    n = n()
-  ) %>%
-  spread(key = `Year of retirement`, value = n) #, fill =0)
-
-#remove not needed years of retirement
-#ag_dat66=ag_dat6[, c('Subfamily' , 'Family' ,'SBU/MFG/CF', 'SBU/MFG/CF Name', 'RegionCode', '2018', '2019', '2020','2021','2022', '2023')] #1:5,17:22)]
-
-ag_dat66 <- select( ag_dat6, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, '2018',`2019`,`2020`,`2021`,`2022`,`2023`)
-
-ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode )%>% 
-  summarise(
-    n = n()
+  
+  #Remove not needed job Family
+  dat$`Job Family`[!(dat$`Job Family` %in% c('Professionals',	'Technicians', 'Executives',	'Advisor & Consultant',	'Managers',	'Supervisor',	
+                                             'Administrators',	'Operators',	'Superintendent & Section Head',	
+                                             'Security & Safety', 'Para Professional'))] <- 'Other'
+  
+  #Aggregate, count id
+  ag_dat <- group_by(dat, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `SBU/MFG/CF Name`) %>% 
+    summarise(
+      n = n()
+    )
+  
+  #spread
+  
+  #BC
+  ag_dat1 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Employment__1 )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = Employment__1, value = n) #, fill =0)
+  
+  ag_dat2 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Chief/Not` )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = `Chief/Not`, value = n) #, fill =0)
+  
+  colnames(ag_dat2)[dim(ag_dat2)[2]] <- "`Chief/Not NA`"
+  
+  ag_dat3 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Career Level` )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = `Career Level`, value = n) #, fill =0)
+  
+  colnames(ag_dat3)[dim(ag_dat3)[2]] <- "`Career Level NA`"
+  
+  ag_dat4 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, Gender )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = Gender, value = n) #, fill =0)
+  
+  colnames(ag_dat4)[dim(ag_dat4)[2]] <- "`Gender NA`"
+  
+  ag_dat5 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Job Family` )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = `Job Family`, value = n) #, fill =0)
+  
+  ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, `Year of retirement` )%>% 
+    summarise(
+      n = n()
+    ) %>%
+    spread(key = `Year of retirement`, value = n) #, fill =0)
+  
+  #remove not needed years of retirement
+  #ag_dat66=ag_dat6[, c('Subfamily' , 'Family' ,'SBU/MFG/CF', 'SBU/MFG/CF Name', 'RegionCode', '2018', '2019', '2020','2021','2022', '2023')] #1:5,17:22)]
+  
+  ag_dat66 <- select( ag_dat6, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode, '2018',`2019`,`2020`,`2021`,`2022`,`2023`)
+  
+  ag_dat6 <- group_by(dat, Subfamily , Family ,`SBU/MFG/CF`, `SBU/MFG/CF Name`, RegionCode )%>% 
+    summarise(
+      n = n()
+    )
+  
+  db <- ag_dat1 %>% 
+    inner_join(ag_dat2)%>% 
+    inner_join(ag_dat3)%>% 
+    inner_join(ag_dat4)%>% 
+    inner_join(ag_dat5)%>% 
+    inner_join(ag_dat66)%>% 
+    inner_join(ag_dat6)
+  db <- mutate(db,  Manual = n)
+  
+  db[["Modify"]]<-
+    paste0('
+           <div class="btn-group" role="group" aria-label="Basic example">
+           <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(db),'>Change</button>
+           </div>
+           
+           ')
+  ##################nhr
+  year<-c(2018:2023)
+  MEA <- rep(1.1,6)
+  APAC <- rep(1.3,6)
+  AMR <- rep(1.4,6)
+  EUR <- rep(1.2,6)
+  nhr <- data_frame(year, MEA, APAC,AMR, EUR)
+  #####################################################################
+  
+  db <- mutate(db, 
+              NHR= case_when(RegionCode == "MEA" ~ nhr$MEA[1],  RegionCode == "APAC" ~ nhr$APAC[1],
+                             RegionCode == "AMR" ~ nhr$AMR[1], RegionCode == "EUR" ~ nhr$EUR[1])
   )
-
-db <- ag_dat1 %>% 
-  inner_join(ag_dat2)%>% 
-  inner_join(ag_dat3)%>% 
-  inner_join(ag_dat4)%>% 
-  inner_join(ag_dat5)%>% 
-  inner_join(ag_dat66)%>% 
-  inner_join(ag_dat6)
-db <- mutate(db,  Manual = n)
-
-db[["Modify"]]<-
-  paste0('
-         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(db),'>Change</button>
-         </div>
-         
-         ')
-
+  
 }
 
 ui <- dashboardPage(skin = "green",
@@ -175,8 +188,12 @@ ui <- dashboardPage(skin = "green",
                                                 column(3,
                                                        checkboxInput("addd", "Add data series", value = F))
                                               ),
-                                              fluidRow(uiOutput("KKosz"),
-                                                fileInput("uploadFile", "XLSX file")
+                                              fluidRow( conditionalPanel(condition="$('html').hasClass('shiny-busy')",
+                                                                         tags$div("Loading...",HTML('<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                                                                  <span class="sr-only">Loading...</span>'),id="loadmessage")),
+                                                        align = "center",
+                                                        uiOutput("KKosz"),
+                                                       fileInput("uploadFile", "XLSX file")
                                               ),
                                               br(),
                                               fluidRow(
@@ -256,7 +273,7 @@ server <- function(input, output, session) {
   #   animation = TRUE
   # )
   
-  
+
   dataset<-reactive({
     #inFile <- input$uploadFile 
     
@@ -268,7 +285,7 @@ server <- function(input, output, session) {
     #colnames(datraw)[9] <- "Job Family"
     #colnames(datraw)[55] <- "Employment__1"
     
-    datraw <- read_excel("C:/Users/Luke/Documents/r_datamining/data/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
+    datraw <- read_excel("D:/R Skrypty/HRIS data with subfamilies 20180823.xlsx",col_names = TRUE,skip=1)
     
     dat <- select(datraw, Gender, Employment__1 , `Career Level` ,`Chief/Not` , `Company Name`, `SBU/MFG/CF`, Subfamily , Family , RegionCode, `Level 1`, `Year of retirement`, `Job Family`, `Encrypted Ids`)
     
@@ -365,12 +382,7 @@ server <- function(input, output, session) {
     z <- z[z$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]
     z <- z[z$RegionCode %in%  if(is.null(input$typ)){reg} else (input$typ),]
     
-    year<-c(2018:2023)
-    MEA <- rep(1.1,6)
-    APAC <- rep(1.3,6)
-    AMR <- rep(1.4,6)
-    EUR <- rep(1.2,6)
-    nhr <- data_frame(year, MEA, APAC,AMR, EUR)
+
     ###
     
     
@@ -381,7 +393,7 @@ server <- function(input, output, session) {
     
     z <- mutate(z, 
                 M_NHR= case_when(RegionCode == "MEA" ~ input$MEA,  RegionCode == "APAC" ~ input$APAC,
-                               RegionCode == "AMR" ~ input$AMR, RegionCode == "EUR" ~ input$EUR)
+                                 RegionCode == "AMR" ~ input$AMR, RegionCode == "EUR" ~ input$EUR)
     )
     
   })
@@ -400,12 +412,12 @@ server <- function(input, output, session) {
              </div>
              
              ')
-  
+    
     
     datatable(DT
               ,
               options = list(
-                dom = 'Bfrti',
+                #dom = 'Bfrti',
                 autoWidth = FALSE,
                 deferRender = TRUE,
                 scrollX = TRUE,
@@ -421,7 +433,7 @@ server <- function(input, output, session) {
   })
   
   ####change
-
+  
   
   ####plot
   output$plot2 <- renderPlotly({
@@ -479,13 +491,20 @@ server <- function(input, output, session) {
   
   
   ################################################################3change
-
+  
   vals=reactiveValues()
   vals$Data=data.table(db
   )
   
-  newEntry <- observe({vals$Data <- data.table(db[db$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]
-      )
+  newEntry1 <- observe(vals$Data <- mutate(vals$Data, 
+                       M_NHR= case_when(RegionCode == "MEA" ~ input$MEA,  RegionCode == "APAC" ~ input$APAC,
+                      RegionCode == "AMR" ~ input$AMR, RegionCode == "EUR" ~ input$EUR)
+  )
+ )
+
+  
+  newEntry <- observe({vals$Data <- data.table(db[db$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),])
+                       vals$Data <- data.table(db[db$Family %in%  if(is.null(input$Family)){fam} else (input$Family) ,])
   })
   
   #vals$Data <- function(){ data.table(dat1[dat1$RegionCode %in%  if(is.null(input$rg)){reg} else (input$rg),]) }
@@ -514,7 +533,7 @@ server <- function(input, output, session) {
   
   datatable(DT[],
             options = list(
-              dom = 'Bfrti',
+              #dom = 'Bfrti',
               autoWidth = FALSE,
               deferRender = TRUE,
               scrollX = TRUE,
