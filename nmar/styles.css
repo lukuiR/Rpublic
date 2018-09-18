@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
 }
 .skin-black .main-header .navbar {
-  background-color: #85afd2; /* kolor paska na gorze*/
+  background-color: #3c8dbc; /* kolor paska na gorze*/
 }
 
 .skin-black .main-header .navbar .sidebar-toggle {
@@ -22,7 +22,7 @@ color: #ffffff; /* kolor paseczkow w kwadraciku*/
 }
 .main-header .sidebar-toggle {
 float: left;
-background-color: #85afd2;  /* kolor kwadracika*/
+background-color: #3c8dbc;  /* kolor kwadracika*/
 background-image: none;
 padding: 15px 15px;
 font-family: fontAwesome;
@@ -43,12 +43,17 @@ font-family: fontAwesome;
 }
 
 .skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper{
-	background-color: #494949;/* pasek nawigacji kolor tla*/
+	background-color: #fafafa;/* pasek nawigacji kolor tla*/
 	color: #333; /* kolor czionki np w tabeli dt albo informacji o ladowaniu ????? wszystkiego niezdefiniowanego */
 }
 .skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a{
 	color: #333; /* aktywny tab kolor tekstu*/
-	background-color: #fafafa; /* kolor poswietlenia*/
+	background-color: #eaeaea; /* kolor poswietlenia*/
+}
+.skin-black .sidebar-menu {
+	color: #333; /* aktywny tab kolor tekstu*/
+	background-color: #494949; /* kolor poswietlenia*/
+	/* width: 200px; */
 }
 
 .content-wrapper,
