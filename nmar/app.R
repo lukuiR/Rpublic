@@ -5,7 +5,7 @@ library(shiny)
 library(shinydashboard)
 
 title <- tags$a(href='https://www.google.com',
-                tags$img(src="sabic.png", height = '55', width = '120'), target="_blank")
+                tags$img(src="sabic.png", height = '55'), target="_blank")
 
 # Define UI for application that draws a histogram
 ui <- dashboardPage(
@@ -21,6 +21,7 @@ ui <- dashboardPage(
   dashboardSidebar(
     #####
     tags$style(".left-side, .main-sidebar {padding-top: 55px}"),
+    #tags$style(".left-side, .main-sidebar {width: 200px}"),
     sidebarMenu(
       id = "tabs",
       menuItem("Instruction", icon = icon("info"), tabName = "tab1"),
