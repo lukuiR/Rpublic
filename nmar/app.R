@@ -1,5 +1,6 @@
 #dt ext https://rstudio.github.io/DT/extensions.html
 #DT ino: https://yihui.shinyapps.io/DT-info/
+#https://plot.ly/r/bar-charts/
 ###
 library(shiny)
 library(shinydashboard)
