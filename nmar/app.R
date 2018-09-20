@@ -22,6 +22,13 @@ db[["Modify"]]<-
            </div>
            
            ')
+db[["Edit"]]<-
+  paste0('
+           <div class="btn-group" role="group" aria-label="Basic example">
+           <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(db),'><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
+           </div>
+           
+           ')
 ##################nhr
 year<-c(2018:2023)
 MEA <- rep(1.1,6)
@@ -349,6 +356,10 @@ ui <- dashboardPage(
       #tab5
       ######
       tabItem(tabName = "tab5",
+              conditionalPanel(condition="$('html').hasClass('shiny-busy')",
+                               tags$div("Loading...",HTML('<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                                                                  <span class="sr-only">Loading...</span>'),id="loadmessage")),
+              align = "center",
               uiOutput("KKosz")
               )
       ######
