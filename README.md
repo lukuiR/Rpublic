@@ -11,6 +11,11 @@ to read:
 - https://www.r-bloggers.com/clean-your-data-in-seconds-with-this-r-function/ cleaning func
 - https://www.rstudio.com/resources/webinars/thinking-inside-the-box-you-can-do-that-inside-a-data-frame/
 - https://www.r-bloggers.com/materials-for-teaching-applied-statistics/
+- https://www.r-bloggers.com/data-visualization-with-statistical-reasoning-seeing-uncertainty-with-the-bootstrap/
+- https://www.r-bloggers.com/is-rolex-truly-a-luxury-brand-how-online-market-is-diluting-a-brand/
+- https://www.r-bloggers.com/case-study-how-to-build-a-high-performance-data-science-team/    struktura
+- https://www.r-bloggers.com/getting-started-with-deep-learning-in-r/    DL
+- https://www.r-bloggers.com/machine-learning-for-insurance-claims/    ML
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
