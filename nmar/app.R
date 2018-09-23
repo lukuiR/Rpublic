@@ -5,44 +5,12 @@ library(shiny)
 library(shinydashboard)
 library(shinyWidgets)
 library(plotly)
+library(readxl)
+library(data.table)
+library(DT)
 
-#raw data
-#####
-db <- read_excel("R_RawData.xlsx",2,col_names = TRUE,skip=1)
-db <- mutate(db, 
-             n= total
-)
-db <- mutate(db, 
-             Manual= total
-)
-db[["Modify"]]<-
-  paste0('
-           <div class="btn-group" role="group" aria-label="Basic example">
-           <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(db),'>Change</button>
-           </div>
-           
-           ')
-db[["Edit"]]<-
-  paste0('
-           <div class="btn-group" role="group" aria-label="Basic example">
-           <button type="button" class="btn btn-secondary delete" id=modify_',1:nrow(db),'><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
-           </div>
-           
-           ')
-##################nhr
-year<-c(2018:2023)
-MEA <- rep(1.1,6)
-APAC <- rep(1.3,6)
-AMR <- rep(1.4,6)
-EUR <- rep(1.2,6)
-nhr <- data_frame(year, MEA, APAC,AMR, EUR)
-##################################################################### cd
+source('prep_dat.R')
 
-db <- mutate(db, 
-             NHR= case_when(Region == "MEA" ~ nhr$MEA[1],  Region == "APAC" ~ nhr$APAC[1],
-                            Region == "AMR" ~ nhr$AMR[1], Region == "EUR" ~ nhr$EUR[1])
-)
-#####
 title <- tags$a(href='https://www.sabic.com/en',
                 tags$img(src="sabic.png", height = '55'), target="_blank")
 
@@ -98,6 +66,9 @@ ui <- dashboardPage(
                              box(status = "primary", width = '100%',
                                  actionButton("reset_ld","Reset L&D"),
                                  fluidRow(
+                                   dataTableOutput(outputId = "tld")
+                                 ),
+                                 fluidRow(
                                    column(2,br(),br(),h5('Total L&D Spend / FTE')),
                                    column(2,
                                           textInput("MEA", h5("Year 1 Value"),
@@ -119,8 +90,11 @@ ui <- dashboardPage(
                              }
                              ),
                     tabPanel("Supply", 
-                             box(status = "primary",width = 9,
+                             box(status = "primary",width = 12,
                                  actionButton("reset_nhr","Reset Demand NHR"),
+                                 fluidRow(
+                                   dataTableOutput(outputId = "tnhr")
+                                 ),
                                {fluidRow(
                                column(1,br(),br(),h5(2018)),
                                
@@ -422,6 +396,51 @@ server <- function(input, output) {
   
   #table
   #####
+  
+  #nhr
+  #####
+  output$tnhr<- renderDataTable({
+    datatable(nhr,rownames = FALSE,
+              options = list(
+                #dom = 'Bfrti',
+                autoWidth = FALSE,
+                deferRender = TRUE,
+                scrollX = TRUE,
+                scrollY = "51vh",
+                scroller = TRUE,
+                scollCollapse = TRUE,
+                fixedHeader = TRUE,
+                columnDefs = list(
+                  list(orderable = FALSE, className = 'details-control', targets = 0)
+                )
+              ) ,escape=F
+    )%>%
+      formatPercentage(c('MEA','AMR','EUR','APAC'), 2)
+  })
+  #####
+  #end
+  #ld
+  #####
+  output$tld<- renderDataTable({
+    datatable(ld,rownames = FALSE,
+              options = list(
+                #dom = 'Bfrti',
+                autoWidth = FALSE,
+                deferRender = TRUE,
+                scrollX = TRUE,
+                scrollY = "51vh",
+                scroller = TRUE,
+                scollCollapse = TRUE,
+                fixedHeader = TRUE,
+                columnDefs = list(
+                  list(orderable = FALSE, className = 'details-control', targets = 0)
+                )
+              ) ,escape=F
+    )#%>%
+      #formatCurrency(c('MEA','AMR','EUR','APAC'), 2)
+  })
+  #####
+  #end
   
   #vals preparation
   ######
