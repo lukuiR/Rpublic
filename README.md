@@ -16,6 +16,7 @@ to read:
 - https://www.r-bloggers.com/case-study-how-to-build-a-high-performance-data-science-team/    struktura
 - https://www.r-bloggers.com/getting-started-with-deep-learning-in-r/    DL
 - https://www.r-bloggers.com/machine-learning-for-insurance-claims/    ML
+- https://www.r-bloggers.com/boost-series-ii-pricing-optimization/ opt
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -55,3 +56,4 @@ notification:
 coding practice:
 - https://www.r-bloggers.com/beyond-basic-r-introduction-and-best-practices/
 - https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
+- https://www.learnpython.org/pl/Funkcje
