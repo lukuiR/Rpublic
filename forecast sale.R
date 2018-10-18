@@ -1,4 +1,7 @@
 #https://www.theanalysisfactor.com/r/
+#https://www.datascience.com/blog/introduction-to-forecasting-with-arima-in-r-learn-data-science-tutorials
+#https://otexts.org/fpp2/what-can-be-forecast.html
+
 
 library('forecast')
 library('tseries')
