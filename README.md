@@ -25,6 +25,7 @@ shiny:
 - https://www.r-bloggers.com/setting-up-rstudio-server-shiny-server-and-postgresql-by-ellis2013nz/
 - https://www.r-bloggers.com/long-running-tasks-with-shiny-challenges-and-solutions/  running info
 - https://www.r-bloggers.com/shinyfeedback-0-1-0-on-cran/ feedback
+- https://www.r-bloggers.com/voice-control-your-shiny-apps/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
