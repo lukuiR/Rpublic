@@ -17,6 +17,7 @@ to read:
 - https://www.r-bloggers.com/getting-started-with-deep-learning-in-r/    DL
 - https://www.r-bloggers.com/machine-learning-for-insurance-claims/    ML
 - https://www.r-bloggers.com/boost-series-ii-pricing-optimization/ opt
+- https://www.r-bloggers.com/how-to-run-r-from-the-task-scheduler/   scheduler
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -26,6 +27,7 @@ shiny:
 - https://www.r-bloggers.com/long-running-tasks-with-shiny-challenges-and-solutions/  running info
 - https://www.r-bloggers.com/shinyfeedback-0-1-0-on-cran/ feedback
 - https://www.r-bloggers.com/voice-control-your-shiny-apps/
+- https://www.r-bloggers.com/building-a-repository-of-alpine-based-docker-images-for-r-part-i/      images
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
