@@ -18,6 +18,7 @@ to read:
 - https://www.r-bloggers.com/machine-learning-for-insurance-claims/    ML
 - https://www.r-bloggers.com/boost-series-ii-pricing-optimization/ opt
 - https://www.r-bloggers.com/how-to-run-r-from-the-task-scheduler/   scheduler
+- https://intellixus.com/about/ r i mssql
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
