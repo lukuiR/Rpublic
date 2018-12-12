@@ -61,3 +61,7 @@ coding practice:
 - https://www.r-bloggers.com/beyond-basic-r-introduction-and-best-practices/
 - https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
 - https://www.learnpython.org/pl/Funkcje
+
+
+
+- https://resources.rstudio.com/webinars
