@@ -19,6 +19,7 @@ to read:
 - https://www.r-bloggers.com/boost-series-ii-pricing-optimization/ opt
 - https://www.r-bloggers.com/how-to-run-r-from-the-task-scheduler/   scheduler
 - https://intellixus.com/about/ r i mssql
+- https://www.r-bloggers.com/coding-regression-trees-in-150-lines-of-r-code/  tree
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
