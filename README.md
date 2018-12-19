@@ -30,6 +30,7 @@ shiny:
 - https://www.r-bloggers.com/shinyfeedback-0-1-0-on-cran/ feedback
 - https://www.r-bloggers.com/voice-control-your-shiny-apps/
 - https://www.r-bloggers.com/building-a-repository-of-alpine-based-docker-images-for-r-part-i/      images
+- https://www.r-bloggers.com/alternative-approaches-to-scaling-shiny-with-rstudio-shiny-server-shinyproxy-or-custom-architecture/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
