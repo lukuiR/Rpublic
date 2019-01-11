@@ -1,23 +1,18 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
-
-
 # library -----------------------------------------------------------------
 library(shiny)
 library(shinydashboard)
-library(survival)
 library(plotly)
 library(DT)
-library(ranger)
+
+
+
 
 # Define UI for application that draws a histogram
+
+# data ----------------------------------------------------------------------
+ar<-read.csv("WA_Fn-UseC_-Accounts-Receivable.csv" ,header = TRUE,sep = ',')
+
+# data
 
 # ui ----------------------------------------------------------------------
 
@@ -36,7 +31,7 @@ ui <- {
       selectInput(
         inputId = "mail",
         label = "Mnemonik:", 
-        choices = unique(iris$Species), 
+        choices = unique(ar$PaperlessBill), 
         multiple = TRUE),
       
       selectInput(
@@ -121,9 +116,9 @@ ui <- {
                   fluidRow(
                     
                     column(3,
-                           selectInput("trt",label="Choose the trt",choices=sort(veteran$trt), multiple = TRUE)),
+                           selectInput("trt",label="Choose the trt",choices=sort(ar$PaperlessBill), multiple = TRUE)),
                     column(3,
-                           selectInput("cellt",label="Choose the celltype",choices=sort(veteran$celltype), multiple = TRUE)),
+                           selectInput("cellt",label="Choose the celltype",choices=sort(ar$PaperlessBill), multiple = TRUE)),
                     column(3,
                            sliderInput("slage", label="Choose the age",
                                        min =34, max = 81, value = c(34, 81))),
@@ -134,9 +129,9 @@ ui <- {
                     conditionalPanel(
                       condition = "input.addd == true",
                       column(3,
-                             selectInput("trt2",label="Choose the trt",choices=sort(veteran$trt), multiple = TRUE)),
+                             selectInput("trt2",label="Choose the trt",choices=sort(ar$PaperlessBill), multiple = TRUE)),
                       column(3,
-                             selectInput("cellt2",label="Choose the celltype",choices=sort(veteran$celltype), multiple = TRUE)
+                             selectInput("cellt2",label="Choose the celltype",choices=sort(ar$PaperlessBill), multiple = TRUE)
                       ),
                       column(3,
                              sliderInput("slage2", label="Choose the age",
@@ -162,8 +157,8 @@ ui <- {
                   br(),
                   fluidRow(
                     conditionalPanel(
-                      condition = "input.chm!=0",
-                      plotlyOutput("plot12")
+                      condition = "input.chm!=0"
+                      #plotlyOutput("plot12")
                     )
                   ),
                   fluidRow(
@@ -194,45 +189,13 @@ server <- function(input, output) {
   # data prep ---------------------------------------------------------------
   #data prep
   {
-    km_fit <- survfit(Surv(time, status) ~ 1, data=veteran)
     
-    vet <- mutate(veteran, AG = ifelse((age < 60), "LT60", "OV60"),
-                  AG = factor(AG),
-                  trt = factor(trt,labels=c("standard","test")),
-                  prior = factor(prior,labels=c("N0","Yes")))
-    
-    cox <- coxph(Surv(time, status) ~ trt + celltype + karno + diagtime + age + prior , data = vet)
-    
-    cox_fit <- survfit(cox)
-    
-    r_fit <- ranger(Surv(time, status) ~ trt + celltype + 
-                      karno + diagtime + age + prior,
-                    data = vet,
-                    mtry = 4,
-                    importance = "permutation",
-                    splitrule = "extratrees",
-                    verbose = TRUE)
-    
-    # Average the survival models
-    death_times <- r_fit$unique.death.times 
-    surv_prob <- data.frame(r_fit$survival)
-    avg_prob <- sapply(surv_prob,mean)
-    
-    kmi <- rep("KM",length(km_fit$time))
-    km_df <- data.frame(km_fit$time,km_fit$surv,kmi)
-    names(km_df) <- c("Time","Surv","Model")
-    
-    coxi <- rep("Cox",length(cox_fit$time))
-    cox_df <- data.frame(cox_fit$time,cox_fit$surv,coxi)
-    names(cox_df) <- c("Time","Surv","Model")
-    
-    rfi <- rep("RF",length(r_fit$unique.death.times))
-    rf_df <- data.frame(r_fit$unique.death.times,avg_prob,rfi)
+    rf_df <- data.frame(ar$InvoiceDate,ar$DaysLate,ar$PaperlessBill)
     names(rf_df) <- c("Time","Surv","Model")
     
     
     
-    plot_df <- rbind(km_df,cox_df,rf_df)
+    plot_df <- rbind(rf_df)
     
     
     
@@ -242,11 +205,11 @@ server <- function(input, output) {
   
   # ser tab1 ----------------------------------------------------------------
   #tab1
-  output$view <- renderDataTable(datatable( veteran, 
+  output$view <- renderDataTable(datatable( ar, 
                                             options = list(scrollX = TRUE, pageLength = 5)))
   
   output$summary <- renderPrint({
-    summary(veteran)
+    summary(ar)
   })
   
   
@@ -299,9 +262,6 @@ server <- function(input, output) {
     })
   }
   
-  output$test<- renderText({
-    input$chm[2]
-  })
   
   # serv tab2 ---------------------------------------------------------------
   
@@ -390,7 +350,7 @@ server <- function(input, output) {
   
   
   
-  output$view2 <- renderDataTable(datatable( veteran3(), 
+  output$view2 <- renderDataTable(datatable( ar, 
                                              options = list(scrollX = TRUE, pageLength = 5)))
   
   output$summary2 <- renderPrint({
@@ -402,4 +362,3 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-
