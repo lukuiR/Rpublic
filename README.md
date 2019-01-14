@@ -21,6 +21,7 @@ to read:
 - https://intellixus.com/about/ r i mssql
 - https://www.r-bloggers.com/coding-regression-trees-in-150-lines-of-r-code/  tree
 - https://www.r-bloggers.com/you-did-a-sentiment-analysis-with-tidytext-but-you-forgot-to-do-dependency-parsing-to-answer-why-is-something-positive-negative/   text sentiment
+- https://www.r-bloggers.com/my-presentations-on-elements-of-neural-networks-deep-learning-part123/ DL video
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
