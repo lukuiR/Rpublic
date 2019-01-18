@@ -23,6 +23,7 @@ to read:
 - https://www.r-bloggers.com/you-did-a-sentiment-analysis-with-tidytext-but-you-forgot-to-do-dependency-parsing-to-answer-why-is-something-positive-negative/   text sentiment
 - https://www.r-bloggers.com/my-presentations-on-elements-of-neural-networks-deep-learning-part123/ DL video
 - https://www.r-bloggers.com/ai-machine-learning-and-data-science-roundup-january-2019/ AI Tensonflow duzo tutoriali
+- https://www.r-bloggers.com/%F0%9F%96%8A-r-coding-style-guide/ r code style
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
