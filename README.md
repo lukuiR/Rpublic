@@ -69,6 +69,8 @@ coding practice:
 - https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
 - https://www.learnpython.org/pl/Funkcje
 
+prarallel:
+- https://www.r-bloggers.com/reading-list-faster-with-parallel-doparallel-and-pbapply/
 
 
 - https://resources.rstudio.com/webinars
