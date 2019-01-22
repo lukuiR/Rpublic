@@ -59,6 +59,7 @@ R free ebooks:
 - https://bookdown.org/rdpeng/rprogdatascience/
 - https://otexts.org/fpp2/index.html time series
 - http://r-pkgs.had.co.nz/ package
+- https://twitter.com/i/moments/1085158342597795842
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
