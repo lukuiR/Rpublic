@@ -36,6 +36,8 @@ shiny:
 - https://www.r-bloggers.com/building-a-repository-of-alpine-based-docker-images-for-r-part-i/      images
 - https://www.r-bloggers.com/alternative-approaches-to-scaling-shiny-with-rstudio-shiny-server-shinyproxy-or-custom-architecture/
 - https://www.r-bloggers.com/adding-firebase-authentication-to-shiny/ autentication
+- https://www.r-bloggers.com/the-shiny-module-design-pattern/ 
+- https://www.r-bloggers.com/a-shiny-web-app-from-lego-truck-trailer/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
@@ -56,6 +58,7 @@ R free ebooks:
 - http://r4ds.had.co.nz/
 - https://bookdown.org/rdpeng/rprogdatascience/
 - https://otexts.org/fpp2/index.html time series
+- http://r-pkgs.had.co.nz/ package
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
