@@ -24,6 +24,7 @@ to read:
 - https://www.r-bloggers.com/my-presentations-on-elements-of-neural-networks-deep-learning-part123/ DL video
 - https://www.r-bloggers.com/ai-machine-learning-and-data-science-roundup-january-2019/ AI Tensonflow duzo tutoriali
 - https://www.r-bloggers.com/%F0%9F%96%8A-r-coding-style-guide/ r code style
+- https://www.r-bloggers.com/creating-a-word-cloud-on-r-bloggers-posts/ 
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -38,6 +39,7 @@ shiny:
 - https://www.r-bloggers.com/adding-firebase-authentication-to-shiny/ autentication
 - https://www.r-bloggers.com/the-shiny-module-design-pattern/ 
 - https://www.r-bloggers.com/a-shiny-web-app-from-lego-truck-trailer/
+- https://www.r-bloggers.com/watch-if-r-is-running-from-shiny/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
