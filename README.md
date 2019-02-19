@@ -78,5 +78,7 @@ coding practice:
 prarallel:
 - https://www.r-bloggers.com/reading-list-faster-with-parallel-doparallel-and-pbapply/
 
+AI:
+- https://www.r-bloggers.com/so-what-is-ai-really/
 
 - https://resources.rstudio.com/webinars
