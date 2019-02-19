@@ -40,6 +40,7 @@ shiny:
 - https://www.r-bloggers.com/the-shiny-module-design-pattern/ 
 - https://www.r-bloggers.com/a-shiny-web-app-from-lego-truck-trailer/
 - https://www.r-bloggers.com/watch-if-r-is-running-from-shiny/
+- https://medium.com/@zappingseb/7-steps-that-make-custom-inputs-in-shiny-easy-504b303a2973
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
