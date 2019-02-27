@@ -83,4 +83,7 @@ prarallel:
 AI:
 - https://www.r-bloggers.com/so-what-is-ai-really/
 
+Data business structure:
+- https://www.r-bloggers.com/strategic-data-science-creating-value-with-data-big-and-small/
+
 - https://resources.rstudio.com/webinars
