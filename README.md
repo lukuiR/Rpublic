@@ -69,6 +69,9 @@ R free ebooks:
 python tests:
 - https://www.martinkysel.com/codility-solutions/
 - https://github.com/johnmee/codility
+- https://realpython.com/start-here/
+- https://www.codecademy.com/learn/learn-python
+
 
 notification:
 - https://www.r-bloggers.com/using-r-to-generate-live-world-cup-notifications/
