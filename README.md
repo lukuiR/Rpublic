@@ -43,6 +43,8 @@ shiny:
 - https://www.r-bloggers.com/watch-if-r-is-running-from-shiny/
 - https://medium.com/@zappingseb/7-steps-that-make-custom-inputs-in-shiny-easy-504b303a2973
 - https://www.r-bloggers.com/deploying-an-r-shiny-app-with-docker/
+- https://www.r-bloggers.com/building-big-shiny-apps-a-workflow-2-2/
+
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
