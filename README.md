@@ -92,4 +92,8 @@ AI:
 Data business structure:
 - https://www.r-bloggers.com/strategic-data-science-creating-value-with-data-big-and-small/
 
+Rconf2019:
 - https://resources.rstudio.com/webinars
+- https://www.r-bloggers.com/r-studio-conf-2019-easing-your-fomo-with-r-resources/
+- https://www.r-bloggers.com/rstudioconf-2019/
+- https://www.r-bloggers.com/feeling-the-rstudioconf-%E2%9D%A4%EF%B8%8F/
