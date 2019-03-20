@@ -25,7 +25,8 @@ to read:
 - https://www.r-bloggers.com/ai-machine-learning-and-data-science-roundup-january-2019/ AI Tensonflow duzo tutoriali
 - https://www.r-bloggers.com/%F0%9F%96%8A-r-coding-style-guide/ r code style
 - https://www.r-bloggers.com/creating-a-word-cloud-on-r-bloggers-posts/ 
--https://www.r-bloggers.com/customers-who-bought/ basket analysis
+- https://www.r-bloggers.com/customers-who-bought/ basket analysis
+- https://www.r-bloggers.com/r-and-python-using-reticulate-to-get-the-best-of-both-worlds/ R & Python
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
