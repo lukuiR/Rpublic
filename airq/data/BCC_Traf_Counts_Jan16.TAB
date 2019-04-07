@@ -1,0 +1,22 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 15
+    REF Char (254) ;
+    SOURCE Char (254) ;
+    LOCATION Char (254) ;
+    HOURS Decimal (16, 6) ;
+    SURVEYPERI Char (254) ;
+    X Decimal (16, 6) ;
+    Y Decimal (16, 6) ;
+    SURVEYTYPE Char (254) ;
+    LASTSURVEY Date ;
+    YEAR Decimal (16, 6) ;
+    NOTE Char (254) ;
+    CONTACT Char (254) ;
+    DOWNLOAD_L Char (254) ;
+    F14 Char (254) ;
+    F15 Char (254) ;

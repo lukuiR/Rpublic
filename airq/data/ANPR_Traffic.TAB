@@ -1,0 +1,34 @@
+!table
+!version 1200
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 27
+    OID_ Decimal (10, 0) ;
+    Input_No Decimal (19, 11) ;
+    Camera_No Char (254) ;
+    Camera_Typ Char (254) ;
+    IP_Address Char (254) ;
+    Site_No Decimal (19, 11) ;
+    OPCIS_Site Decimal (19, 11) ;
+    Descriptio Char (254) ;
+    Descript_1 Char (254) ;
+    Direction Char (254) ;
+    Lane_No Decimal (19, 11) ;
+    Pole_No Char (254) ;
+    Camera_T_1 Char (254) ;
+    Installed Char (254) ;
+    Aligned Char (254) ;
+    Masked Char (254) ;
+    Live_in_Vi Char (254) ;
+    Latitude Decimal (19, 11) ;
+    Longditude Decimal (19, 11) ;
+    Postcode Char (254) ;
+    Wattage Decimal (19, 11) ;
+    Elexon_Cod Decimal (19, 11) ;
+    Comments Char (254) ;
+    DDLat Char (254) ;
+    DDLon Char (254) ;
+    X Decimal (5, 0) ;
+    Y Decimal (5, 0) ;

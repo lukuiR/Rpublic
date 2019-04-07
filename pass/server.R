@@ -29,7 +29,7 @@ server <- function(input, output, session) {
   
   output$aa<-renderText(zz())
   
-  z=reactive({na.omit(o_grp[o_grp$MNEMONIK_ODBIORCY== input$shinyalert,] ) })
+  z=reactive({na.omit(iris[iris$Species== input$shinyalert,] ) })
  
   output$dt2<- renderDataTable(
     datatable(z(),

@@ -12,6 +12,10 @@ a1 <-read.csv(file="www/2017-03-27.csv", header=TRUE, sep=";") #fread(paste('htt
 a1 <- a1[,10]
 a1<-as.numeric(sub(",", ".", a1, fixed = TRUE))
 
+mydat <-read.csv(file="www/2017-03-27.csv", header=TRUE, sep=";") #fread(paste('http:// adres www /csv/','2017-03-27','.csv',sep = ""))
+mydat <- mydat[,c(1,10,8)]
+names(mydat) <- c("Time","a1","a2")
+
 dashboardPage(skin = "black",
               
               dashboardHeader(title = "aeris qualitas",
