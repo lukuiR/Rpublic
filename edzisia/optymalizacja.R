@@ -1,10 +1,10 @@
-prod=read.csv("edzisia/produkty.csv",header=TRUE, sep=";")
+prod1=read.csv("edzisia/produkty.csv",header=TRUE, sep=";")
 opt=read.csv("edzisia/dieta.csv",header=TRUE, sep=";")
 
 library(lpSolveAPI)
 
 mylp<-make.lp(2,2)
-set.column(mylp1,1,c(221,80))
+set.column(mylp,1,c(221,80))
 set.column(mylp,2,c(119,3))
 set.constr.type(mylp,rep(">=",2))
 set.rhs(mylp, c(2500,100))
@@ -15,21 +15,32 @@ get.variables(mylp)
 get.constraints(mylp)
 
 dim(opt)[2]
+for (i in 3:12) {
+  prod1[,i] <- round( as.numeric( sub(",", ".", prod1[,i]) ),3)
+}
+ prod=prod1[1:28,]
 
 mylp<-make.lp(dim(opt)[2],dim(prod)[1])
 for(i in 1:dim(prod)[1]){
-  set.column(mylp,i,c(prod[i,dim(prod)[2]-1],prod[i,dim(prod)[2]]))
+  set.column(mylp,i, prod[i,c(-1,-2)])
 }
 set.constr.type(mylp,rep(">=",dim(opt)[2]))
 set.rhs(mylp, opt[1,1:dim(opt)[2]])
-set.objfn(mylp,rowSums(prod[,(dim(prod)[2]-1):(dim(prod)[2])]))
-set.type(mylp, 1:dim(prod)[1], "real")
+set.objfn(mylp,rowSums(  prod[,3:(dim(prod)[2])]))
+set.type(mylp, 1:dim(prod)[1], "integer")
 set.type(mylp, 2, "integer")
+
+lp.control(mylp, timeout = 150)
+
+#write.lp(mylp,'model.lp',type='lp')
 
 solve(mylp)
 get.objective(mylp)
 aaa<-get.variables(mylp)
+aaa
 get.constraints(mylp)
+
+xx=as.data.frame(aaa)
 
 
 amydat <- fread(paste('http://aerisqualitas.org/coyote/csv/',Sys.Date(),'.csv',sep = ""))
