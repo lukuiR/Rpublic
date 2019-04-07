@@ -1,0 +1,112 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin|Roboto:300,400,700");
+
+body, .body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+body {
+  background-color: #ffffff;
+}
+.skin-black .main-header .navbar {
+  background-color: #3c8dbc; /* kolor paska na gorze*/
+}
+
+.skin-black .main-header .navbar .sidebar-toggle {
+color: #ffffff; /* kolor paseczkow w kwadraciku*/
+}
+.main-header .sidebar-toggle {
+float: left;
+background-color: #3c8dbc;  /* kolor kwadracika*/
+background-image: none;
+padding: 15px 15px;
+font-family: fontAwesome;
+}
+
+
+
+.skin-black .main-header>.logo {
+  background-color: #ffffff; /* kolor loga? po lewej stronie w rogu*/
+  color: #494949; /* kolor jego tekstu*/
+  font-size: 24px;
+}
+
+.skin-black .main-header>.logo:hover{
+	background-color: #f9f9f9;/* kolor loga? po lewej stronie w rogu po najechaniu*/
+	color: #454545; /* kolor jego tekstu*/
+	font-weight: bold;
+}
+
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper{
+	background-color: #fafafa;/* pasek nawigacji kolor tla*/
+	color: #333; /* kolor czionki np w tabeli dt albo informacji o ladowaniu ????? wszystkiego niezdefiniowanego */
+}
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a{
+	color: #333; /* aktywny tab kolor tekstu*/
+	background-color: #eaeaea; /* kolor poswietlenia*/
+}
+.skin-black .sidebar-menu {
+	color: #333; /* aktywny tab kolor tekstu*/
+	background-color: #494949; /* kolor poswietlenia*/
+	/* width: 200px; */
+}
+
+.content-wrapper,
+.right-side {
+  background-color: #ffffff; /* tlo strony*/
+}
+
+#plot-container {
+  position: relative;
+}
+
+#loading-spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  margin-top: -33px; /* half of the spinners height */
+  margin-left: -33px; /* half of the spinners width */
+}
+
+#plot.recalculating {
+  z-index: -2;
+}
+
+h2 {
+  color: #262626;
+}
+
+h3 {
+  padding: 0 30px;
+  color: #262626;
+}
+
+h4 {
+  font-size: 16px;
+  position: relative;
+  color: #262626;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h5 {
+  color: #262626;
+}
+
+h6 {
+  color: #262626;
+  
+.checkbox-inline, .radio-inline {
+    margin-right: 100px;
+}
