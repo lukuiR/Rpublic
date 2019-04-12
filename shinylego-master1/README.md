@@ -1,0 +1,87 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+# ShinyLEGO: Create LEGO mosaics directly from R and Shiny
+
+**ShinyLEGO** is a Shiny application that lets you create a simulated
+mosaic composed of LEGO bricks from any image file. Once your picture is
+uploaded, you can customize various settings for your mosaic such as
+dimensions, brightness, and color types. In addition, the application
+will generate specific instructions so that you can build the mosaic
+yourself\! These instructions contain the brick colors and types
+required for each step, and a diagram showing how the bricks are to be
+assembled.
+
+This application would not be possible without the innovative R scripts
+created by [Ryan Timpe](http://www.ryantimpe.com/)\! Ryan has written
+excellent blogposts detailing the workflow this application draws upon,
+and the code for each post can be found on his [LEGOMosaics GitHub
+repository](https://github.com/ryantimpe/LEGOMosaics):
+
+  - [How To: LEGO mosaics from photos using R & the
+    Tidyverse](http://www.ryantimpe.com/post/lego-mosaic1/)
+  - [LEGO mosaics: Two weeks
+    later](http://www.ryantimpe.com/post/lego-mosaic2/)
+  - [LEGO mosaics:
+    Part 3(D)](http://www.ryantimpe.com/post/lego-mosaic3/)
+
+## Installation
+
+You can install the development version of `shinylego` from
+[GitHub](https://gitlab.com) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("rpodcast/shinylego")
+```
+
+## Usage
+
+Once you have installed the package, you can run the application within
+your R session using the following command:
+
+``` r
+shinylego::run_app()
+```
+
+## Deployments
+
+`shinylego` is also available on the Shinyapps.io hosting service at
+[rpodcast.shinyapps.io/shinylego](https://rpodcast.shinyapps.io/shinylego)
+
+## Acknowlegements
+
+In addition to Ryan Timpe’s excellent R programs detailed above, this
+application utilizes many powerful packages in the `shiny` ecosystem
+such as the following:
+
+  - [`shinyjs`](https://deanattali.com/shinyjs): Easily improve the user
+    experience of your Shiny apps in seconds by [Dean
+    Attali](https://deanattali.com/)
+  - [`bs4Dash`](https://rinterface.github.io/bs4Dash/index.html):
+    Bootstrap 4 shinydashboard using AdminLTE3 by [David
+    Granjob](https://twitter.com/divadnojnarg) (part of the
+    [RinteRface](https://rinterface.com/) initiative)
+  - [`shinyWidgets`](https://dreamrs.github.io/shinyWidgets/index.html):
+    Extend widgets available in Shiny by [Victor
+    Perrier](https://twitter.com/_pvictorr) (part of the
+    [dreamRs](https://www.dreamrs.fr/)
+    organization)
+  - [`shinycustomloader`](https://emitanaka.github.io/shinycustomloader/):
+    Add a custom loader for R shiny by [Emi
+    Tanaka](https://emitanaka.github.io/)
+  - [`DT`](https://rstudio.github.io/DT): R Interface to the jQuery
+    Plug-in DataTables by [Yihui Xie](https://yihui.name/)
+  - [`golem`](https://github.com/ThinkR-open/golem/): A framework for
+    building robust Shiny Apps by [Vincent
+    Guyader](https://github.com/VincentGuyader) and [Colin
+    Fay](http://colinfay.me/) (part of the [R Task
+    Force](https://rtask.thinkr.fr/) at [ThinkR](https://thinkr.fr/))
+
+## CoC
+
+Please note that the ‘shinylego’ project is released with a [Contributor
+Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
+you agree to abide by its terms.
