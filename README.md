@@ -45,6 +45,7 @@ shiny:
 - https://medium.com/@zappingseb/7-steps-that-make-custom-inputs-in-shiny-easy-504b303a2973
 - https://www.r-bloggers.com/deploying-an-r-shiny-app-with-docker/
 - https://www.r-bloggers.com/building-big-shiny-apps-a-workflow-2-2/
+- https://www.r-bloggers.com/winners-of-the-1st-shiny-contest/  shiny contest
 
 
 ubuntu server security:
