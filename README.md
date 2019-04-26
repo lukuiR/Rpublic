@@ -27,6 +27,8 @@ to read:
 - https://www.r-bloggers.com/creating-a-word-cloud-on-r-bloggers-posts/ 
 - https://www.r-bloggers.com/customers-who-bought/ basket analysis
 - https://www.r-bloggers.com/r-and-python-using-reticulate-to-get-the-best-of-both-worlds/ R & Python
+- https://www.r-bloggers.com/tidy-correlation-tests-in-r/ corr test
+- https://www.r-bloggers.com/styling-datatables/ dt style
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -46,6 +48,7 @@ shiny:
 - https://www.r-bloggers.com/deploying-an-r-shiny-app-with-docker/
 - https://www.r-bloggers.com/building-big-shiny-apps-a-workflow-2-2/
 - https://www.r-bloggers.com/winners-of-the-1st-shiny-contest/  shiny contest
+- https://www.r-bloggers.com/edit-datatables-in-r-shiny-app/ edit dt
 
 
 ubuntu server security:
@@ -69,6 +72,7 @@ R free ebooks:
 - https://otexts.org/fpp2/index.html time series
 - http://r-pkgs.had.co.nz/ package
 - https://twitter.com/i/moments/1085158342597795842
+- https://www.r-bloggers.com/practical-data-science-with-r-book-update-april-2019/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
