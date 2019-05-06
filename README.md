@@ -29,6 +29,9 @@ to read:
 - https://www.r-bloggers.com/r-and-python-using-reticulate-to-get-the-best-of-both-worlds/ R & Python
 - https://www.r-bloggers.com/tidy-correlation-tests-in-r/ corr test
 - https://www.r-bloggers.com/styling-datatables/ dt style
+- https://www.r-bloggers.com/bayesian-models-in-r-2/ bayesian
+- https://www.r-bloggers.com/practical-introduction-to-market-basket-analysis-asociation-rules/ basket
+- https://www.r-bloggers.com/hierarchical-customer-lifetime-value/ 
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
