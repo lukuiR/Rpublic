@@ -62,6 +62,8 @@ ubuntu server security:
 Graphic article:
 - https://www.data-to-viz.com/
 - https://www.r-bloggers.com/from-data-to-viz-find-the-graphic-you-need/
+- https://www.r-bloggers.com/how-to-create-a-bar-chart-race-in-r-mapping-united-states-city-population-1790-2010/  animation
+- https://www.r-bloggers.com/10-steps-to-better-graphs-in-r/
 
 R free ebooks:
 - string http://www.gastonsanchez.com/r4strings/
