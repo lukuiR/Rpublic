@@ -78,6 +78,7 @@ R free ebooks:
 - http://r-pkgs.had.co.nz/ package
 - https://twitter.com/i/moments/1085158342597795842
 - https://www.r-bloggers.com/practical-data-science-with-r-book-update-april-2019/
+- https://pbiecek.github.io/PM_VEE/ ml explain
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
