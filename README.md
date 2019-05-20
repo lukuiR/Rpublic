@@ -32,6 +32,7 @@ to read:
 - https://www.r-bloggers.com/bayesian-models-in-r-2/ bayesian
 - https://www.r-bloggers.com/practical-introduction-to-market-basket-analysis-asociation-rules/ basket
 - https://www.r-bloggers.com/hierarchical-customer-lifetime-value/ 
+- https://www.r-bloggers.com/mobiletrigger-setup-run-r-scripts-models-reports-with-mobile-device/  mobile trigger
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
