@@ -33,6 +33,8 @@ to read:
 - https://www.r-bloggers.com/practical-introduction-to-market-basket-analysis-asociation-rules/ basket
 - https://www.r-bloggers.com/hierarchical-customer-lifetime-value/ 
 - https://www.r-bloggers.com/mobiletrigger-setup-run-r-scripts-models-reports-with-mobile-device/  mobile trigger
+- https://www.r-bloggers.com/emayili-sending-email-from-r/ email send from r
+- https://www.r-bloggers.com/startup-run-r-startup-files-once-per-hour-day-week/ scheduler
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
