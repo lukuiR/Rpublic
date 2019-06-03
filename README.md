@@ -35,6 +35,7 @@ to read:
 - https://www.r-bloggers.com/mobiletrigger-setup-run-r-scripts-models-reports-with-mobile-device/  mobile trigger
 - https://www.r-bloggers.com/emayili-sending-email-from-r/ email send from r
 - https://www.r-bloggers.com/startup-run-r-startup-files-once-per-hour-day-week/ scheduler
+- https://www.r-bloggers.com/using-data-cubes-with-r/ analytical cube
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
