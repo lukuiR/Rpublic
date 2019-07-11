@@ -36,6 +36,7 @@ to read:
 - https://www.r-bloggers.com/emayili-sending-email-from-r/ email send from r
 - https://www.r-bloggers.com/startup-run-r-startup-files-once-per-hour-day-week/ scheduler
 - https://www.r-bloggers.com/using-data-cubes-with-r/ analytical cube
+- https://www.r-bloggers.com/teach-r-to-read-handwritten-digits-with-just-4-lines-of-code/ hand write
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
