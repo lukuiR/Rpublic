@@ -37,6 +37,14 @@ to read:
 - https://www.r-bloggers.com/startup-run-r-startup-files-once-per-hour-day-week/ scheduler
 - https://www.r-bloggers.com/using-data-cubes-with-r/ analytical cube
 - https://www.r-bloggers.com/teach-r-to-read-handwritten-digits-with-just-4-lines-of-code/ hand write
+- https://www.r-bloggers.com/how-do-you-organise-your-r-project-this-is-what-we-do/ project mant
+- https://www.r-bloggers.com/customer-segmentation-using-rfm-analysis/ cus segment
+- https://www.r-bloggers.com/three-strategies-for-working-with-big-data-in-r/ big data in r 
+- https://www.r-bloggers.com/writing-functions-in-r-example-one/ function
+- https://www.r-bloggers.com/how-to-do-feature-engineering-in-r-with-the-recipes-package/ recipies
+- https://www.r-bloggers.com/rmd-first-when-development-starts-with-documentation/ reports in r
+- https://www.r-bloggers.com/how-to-use-recipes-package-from-tidymodels-for-one-hot-encoding-%F0%9F%9B%A0/
+- https://www.r-bloggers.com/a-gentle-introduction-to-tidymodels/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -57,6 +65,13 @@ shiny:
 - https://www.r-bloggers.com/building-big-shiny-apps-a-workflow-2-2/
 - https://www.r-bloggers.com/winners-of-the-1st-shiny-contest/  shiny contest
 - https://www.r-bloggers.com/edit-datatables-in-r-shiny-app/ edit dt
+- https://www.r-bloggers.com/building-a-shiny-app-as-a-package/
+- https://www.r-bloggers.com/excel-report-generation-with-shiny/ excel
+- https://www.r-bloggers.com/what-not-to-do-when-building-a-shiny-app-lessons-learned-the-hard-way/ to read
+- https://www.r-bloggers.com/getting-started-with-flexdashboards-in-r/ inne
+- https://towardsdatascience.com/shinymeta-a-revolution-for-reproducibility-bfda6b329f68
+- https://www.r-bloggers.com/shiny-modules/
+- https://www.r-bloggers.com/shiny-apps-need-more-info-our-new-shiny-info-package/
 
 
 ubuntu server security:
@@ -114,3 +129,13 @@ Rconf2019:
 - https://www.r-bloggers.com/r-studio-conf-2019-easing-your-fomo-with-r-resources/
 - https://www.r-bloggers.com/rstudioconf-2019/
 - https://www.r-bloggers.com/feeling-the-rstudioconf-%E2%9D%A4%EF%B8%8F/
+- https://www.r-bloggers.com/my-user-2019-highlights-experience-shiny-r-community-packages-and-more/
+- https://www.r-bloggers.com/impressions-from-user-2019/
+- https://www.r-bloggers.com/watch-keynote-presentations-from-the-user2019-conference/
+
+
+R vs Python ...
+- https://www.r-bloggers.com/whats-the-best-statistical-software-a-comparison-of-r-python-sas-spss-and-stata/
+- https://www.r-bloggers.com/my-2-cents-on-the-r-vs-python-squabble/
+- https://www.r-bloggers.com/r-vs-python/
+- https://www.r-bloggers.com/comparing-point-and-click-front-ends-for-r/
