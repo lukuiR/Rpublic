@@ -72,6 +72,7 @@ shiny:
 - https://towardsdatascience.com/shinymeta-a-revolution-for-reproducibility-bfda6b329f68
 - https://www.r-bloggers.com/shiny-modules/
 - https://www.r-bloggers.com/shiny-apps-need-more-info-our-new-shiny-info-package/
+- https://www.r-bloggers.com/forget-about-excel-use-these-r-shiny-packages-instead/ !!!! excel, table edit and more
 
 
 ubuntu server security:
