@@ -46,6 +46,7 @@ to read:
 - https://www.r-bloggers.com/how-to-use-recipes-package-from-tidymodels-for-one-hot-encoding-%F0%9F%9B%A0/
 - https://www.r-bloggers.com/a-gentle-introduction-to-tidymodels/
 - https://www.r-bloggers.com/combining-the-power-of-r-and-python-with-reticulate/ pyhon and R
+- https://www.r-bloggers.com/first-world-problems-very-long-rmarkdown-documents/ 
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
