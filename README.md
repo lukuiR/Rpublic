@@ -47,6 +47,7 @@ to read:
 - https://www.r-bloggers.com/a-gentle-introduction-to-tidymodels/
 - https://www.r-bloggers.com/combining-the-power-of-r-and-python-with-reticulate/ pyhon and R
 - https://www.r-bloggers.com/first-world-problems-very-long-rmarkdown-documents/ 
+- https://www.r-bloggers.com/using-spark-from-r-for-performance-with-arbitrary-code-part-1-spark-sql-translation-custom-functions-and-arrow/ Spark
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
