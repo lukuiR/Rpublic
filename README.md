@@ -48,6 +48,8 @@ to read:
 - https://www.r-bloggers.com/combining-the-power-of-r-and-python-with-reticulate/ pyhon and R
 - https://www.r-bloggers.com/first-world-problems-very-long-rmarkdown-documents/ 
 - https://www.r-bloggers.com/using-spark-from-r-for-performance-with-arbitrary-code-part-1-spark-sql-translation-custom-functions-and-arrow/ Spark
+- https://www.r-bloggers.com/r-tensorflow-multiple-linear-regression/
+- https://www.r-bloggers.com/r-tensorflow-deep-neural-network/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -143,3 +145,7 @@ R vs Python ...
 - https://www.r-bloggers.com/my-2-cents-on-the-r-vs-python-squabble/
 - https://www.r-bloggers.com/r-vs-python/
 - https://www.r-bloggers.com/comparing-point-and-click-front-ends-for-r/
+
+
+
+-https://tradestatistics.io/ trade market
