@@ -50,6 +50,7 @@ to read:
 - https://www.r-bloggers.com/using-spark-from-r-for-performance-with-arbitrary-code-part-1-spark-sql-translation-custom-functions-and-arrow/ Spark
 - https://www.r-bloggers.com/r-tensorflow-multiple-linear-regression/
 - https://www.r-bloggers.com/r-tensorflow-deep-neural-network/
+- https://www.r-bloggers.com/relaunching-my-supervised-machine-learning-course/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
