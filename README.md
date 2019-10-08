@@ -51,6 +51,7 @@ to read:
 - https://www.r-bloggers.com/r-tensorflow-multiple-linear-regression/
 - https://www.r-bloggers.com/r-tensorflow-deep-neural-network/
 - https://www.r-bloggers.com/relaunching-my-supervised-machine-learning-course/
+- https://www.r-bloggers.com/cleaning-anomalies-to-reduce-forecast-error-by-9-with-anomalize/ anomalie
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
