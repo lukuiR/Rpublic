@@ -82,6 +82,7 @@ shiny:
 - https://www.r-bloggers.com/shiny-apps-need-more-info-our-new-shiny-info-package/
 - https://www.r-bloggers.com/forget-about-excel-use-these-r-shiny-packages-instead/ !!!! excel, table edit and more
 - https://www.r-bloggers.com/a-full-rstudio-server-setup-for-data-science-in-5-minutes/ 
+- https://www.r-bloggers.com/shiny-splash-screen-using-modules-and-shinyjs/ loading
 
 
 ubuntu server security:
