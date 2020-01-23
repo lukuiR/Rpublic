@@ -111,6 +111,7 @@ R free ebooks:
 - https://www.r-bloggers.com/practical-data-science-with-r-book-update-april-2019/
 - https://pbiecek.github.io/PM_VEE/ ml explain
 - https://ropenscilabs.github.io/r-security-practices/intro.html secure
+- https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
