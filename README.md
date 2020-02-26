@@ -53,6 +53,12 @@ to read:
 - https://www.r-bloggers.com/relaunching-my-supervised-machine-learning-course/
 - https://www.r-bloggers.com/cleaning-anomalies-to-reduce-forecast-error-by-9-with-anomalize/ anomalie
 - https://www.r-bloggers.com/tidy-forecasting-in-r/https://www.r-bloggers.com/tidy-forecasting-in-r/
+- https://www.r-bloggers.com/rstudio-projects-and-working-directories-a-beginners-guide/ project
+- https://www.r-bloggers.com/webscraping-with-r-from-messy-unstructured-to-blisfully-tidy/
+- https://www.r-bloggers.com/rstudio-addins-or-how-to-make-your-coding-life-easier/
+- https://www.r-bloggers.com/15-resources-to-get-started-with-r/
+- https://www.r-bloggers.com/50-free-datasets-for-datascience-projects/
+- https://www.r-bloggers.com/how-to-create-a-timeline-of-your-cv-in-r/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -83,6 +89,10 @@ shiny:
 - https://www.r-bloggers.com/forget-about-excel-use-these-r-shiny-packages-instead/ !!!! excel, table edit and more
 - https://www.r-bloggers.com/a-full-rstudio-server-setup-for-data-science-in-5-minutes/ 
 - https://www.r-bloggers.com/shiny-splash-screen-using-modules-and-shinyjs/ loading
+- https://www.r-bloggers.com/r-shiny-application-split-into-multiple-files/
+- https://www.r-bloggers.com/video-tutorial-create-and-customize-a-simple-shiny-dashboard/
+- https://www.r-bloggers.com/shiny-load-testing-and-horizontal-scaling/
+- https://www.r-bloggers.com/shiny-add-removing-modules-dynamically/
 
 
 ubuntu server security:
@@ -127,6 +137,7 @@ coding practice:
 - https://www.r-bloggers.com/beyond-basic-r-introduction-and-best-practices/
 - https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
 - https://www.learnpython.org/pl/Funkcje
+- https://www.r-bloggers.com/shiny-real-estate-with-zillow-api-free-course/
 
 prarallel:
 - https://www.r-bloggers.com/reading-list-faster-with-parallel-doparallel-and-pbapply/
@@ -145,6 +156,10 @@ Rconf2019:
 - https://www.r-bloggers.com/my-user-2019-highlights-experience-shiny-r-community-packages-and-more/
 - https://www.r-bloggers.com/impressions-from-user-2019/
 - https://www.r-bloggers.com/watch-keynote-presentations-from-the-user2019-conference/
+- https://www.r-bloggers.com/rstudioconf-2020-workshops/
+- https://www.r-bloggers.com/rstudioconf-2020-san-francisco-recap/
+- https://www.r-bloggers.com/my-rstudioconf-2020-tidydevday-roundup-reflections/
+- https://www.r-bloggers.com/rstudioconf-2020-takeaways-updates-to-tidyeval-shiny-sass-shinymeta-parallel-processing-in-r-and-more/
 
 
 R vs Python ...
