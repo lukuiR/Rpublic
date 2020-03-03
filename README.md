@@ -59,6 +59,7 @@ to read:
 - https://www.r-bloggers.com/15-resources-to-get-started-with-r/
 - https://www.r-bloggers.com/50-free-datasets-for-datascience-projects/
 - https://www.r-bloggers.com/how-to-create-a-timeline-of-your-cv-in-r/
+- https://www.r-bloggers.com/3-recommended-books-on-learning-r/
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
