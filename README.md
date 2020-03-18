@@ -124,6 +124,7 @@ R free ebooks:
 - https://pbiecek.github.io/PM_VEE/ ml explain
 - https://ropenscilabs.github.io/r-security-practices/intro.html secure
 - https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/
+- https://www.r-bloggers.com/15-resources-to-get-started-with-r/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
