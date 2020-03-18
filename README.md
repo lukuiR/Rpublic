@@ -60,6 +60,7 @@ to read:
 - https://www.r-bloggers.com/50-free-datasets-for-datascience-projects/
 - https://www.r-bloggers.com/how-to-create-a-timeline-of-your-cv-in-r/
 - https://www.r-bloggers.com/3-recommended-books-on-learning-r/
+- https://www.r-bloggers.com/business-ai-for-smbs-a-management-take-on-the-challenges-of-leveraging-data-and-ai-for-sales-growth-and-enhancing-the-customer-experience-cx/ basket analysis, business example
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
