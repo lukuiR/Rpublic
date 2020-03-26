@@ -62,6 +62,7 @@ to read:
 - https://www.r-bloggers.com/3-recommended-books-on-learning-r/
 - https://www.r-bloggers.com/business-ai-for-smbs-a-management-take-on-the-challenges-of-leveraging-data-and-ai-for-sales-growth-and-enhancing-the-customer-experience-cx/ basket analysis, business example
 - https://www.r-bloggers.com/the-ulimate-package-for-correlations-by-easystats/
+- https://www.r-bloggers.com/google-big-query-with-r/ google cloud
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
