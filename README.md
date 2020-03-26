@@ -97,7 +97,9 @@ shiny:
 - https://www.r-bloggers.com/video-tutorial-create-and-customize-a-simple-shiny-dashboard/
 - https://www.r-bloggers.com/shiny-load-testing-and-horizontal-scaling/
 - https://www.r-bloggers.com/shiny-add-removing-modules-dynamically/
-
+- https://deanattali.com/blog/advanced-shiny-tips/ guru
+- https://github.com/jcheng5?tab=repositories
+- https://bookdown.org/home/tags/shiny/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
