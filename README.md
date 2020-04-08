@@ -64,6 +64,7 @@ to read:
 - https://www.r-bloggers.com/the-ulimate-package-for-correlations-by-easystats/
 - https://www.r-bloggers.com/google-big-query-with-r/ google cloud
 - https://www.r-bloggers.com/mlops-for-r-with-azure-machine-learning/
+- https://www.r-bloggers.com/automl-frameworks-in-r-python/ automl
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
