@@ -147,6 +147,7 @@ coding practice:
 - https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
 - https://www.learnpython.org/pl/Funkcje
 - https://www.r-bloggers.com/shiny-real-estate-with-zillow-api-free-course/
+- https://linuxacademy.com/pricing/
 
 prarallel:
 - https://www.r-bloggers.com/reading-list-faster-with-parallel-doparallel-and-pbapply/
@@ -179,4 +180,4 @@ R vs Python ...
 
 
 
--https://tradestatistics.io/ trade market
+- https://tradestatistics.io/ trade market
