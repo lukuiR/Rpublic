@@ -102,6 +102,7 @@ shiny:
 - https://deanattali.com/blog/advanced-shiny-tips/ guru
 - https://github.com/jcheng5?tab=repositories
 - https://bookdown.org/home/tags/shiny/
+- https://www.r-bloggers.com/rxspreadsheet-a-new-library-for-editing-spreadsheets-with-shiny/ excel in shiny
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
