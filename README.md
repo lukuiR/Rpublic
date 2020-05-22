@@ -65,6 +65,9 @@ to read:
 - https://www.r-bloggers.com/google-big-query-with-r/ google cloud
 - https://www.r-bloggers.com/mlops-for-r-with-azure-machine-learning/
 - https://www.r-bloggers.com/automl-frameworks-in-r-python/ automl
+- https://www.r-bloggers.com/r-doesnt-need-to-throttle-aws-athena-anymore/ aws
+- https://www.r-bloggers.com/xai-in-python-with-dalex/ python dalex
+- https://www.r-bloggers.com/azure-machine-learning-for-r-practitioners-with-the-r-sdk/ azure
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -103,6 +106,7 @@ shiny:
 - https://github.com/jcheng5?tab=repositories
 - https://bookdown.org/home/tags/shiny/
 - https://www.r-bloggers.com/rxspreadsheet-a-new-library-for-editing-spreadsheets-with-shiny/ excel in shiny
+- https://www.r-bloggers.com/how-to-dockerize-shinyapps/ docker
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
