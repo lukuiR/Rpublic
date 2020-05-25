@@ -107,6 +107,14 @@ shiny:
 - https://bookdown.org/home/tags/shiny/
 - https://www.r-bloggers.com/rxspreadsheet-a-new-library-for-editing-spreadsheets-with-shiny/ excel in shiny
 - https://www.r-bloggers.com/how-to-dockerize-shinyapps/ docker
+- https://www.r-bloggers.com/super-solutions-for-shiny-architecture-1-of-5-using-session-data/ 
+- https://www.r-bloggers.com/dynamic-ui-elements-in-shiny-part-2/
+- https://www.r-bloggers.com/shiny-crud/
+- https://shiny.rstudio.com/articles/persistent-data-storage.html
+- https://rstudio.github.io/bootstraplib/
+- https://www.r-bloggers.com/developing-a-complex-r-shiny-app-the-good-the-bad-and-the-ugly/
+- https://www.r-bloggers.com/shiny-performance-tuning-with-future-promises-part-1/
+- https://www.r-bloggers.com/best-practice-development-of-robust-shiny-dashboards-as-r-packages/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
