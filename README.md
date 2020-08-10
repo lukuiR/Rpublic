@@ -144,6 +144,7 @@ R free ebooks:
 - https://ropenscilabs.github.io/r-security-practices/intro.html secure
 - https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/
 - https://www.r-bloggers.com/15-resources-to-get-started-with-r/
+- https://plotly-r.com/is-plotly-free-secure.html
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
