@@ -67,7 +67,8 @@ to read:
 - https://www.r-bloggers.com/automl-frameworks-in-r-python/ automl
 - https://www.r-bloggers.com/r-doesnt-need-to-throttle-aws-athena-anymore/ aws
 - https://www.r-bloggers.com/xai-in-python-with-dalex/ python dalex
-- https://www.r-bloggers.com/azure-machine-learning-for-r-practitioners-with-the-r-sdk/ azure
+- https://www.r-bloggers.com/azure-machine-learning-for-r-practitioners-with-the-r-sdk/ azure- 
+- https://www.r-bloggers.com/how-to-create-an-api-for-your-r-code/ API
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
