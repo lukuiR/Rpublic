@@ -69,6 +69,7 @@ to read:
 - https://www.r-bloggers.com/xai-in-python-with-dalex/ python dalex
 - https://www.r-bloggers.com/azure-machine-learning-for-r-practitioners-with-the-r-sdk/ azure- 
 - https://www.r-bloggers.com/how-to-create-an-api-for-your-r-code/ API
+- https://www.r-bloggers.com/a-guide-to-retrieval-and-processing-of-data-from-relational-database-systems-using-apache-spark-and-jdbc-with-r-and-sparklyr/ SPARK
 
 shiny:
 - https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
@@ -116,6 +117,7 @@ shiny:
 - https://www.r-bloggers.com/developing-a-complex-r-shiny-app-the-good-the-bad-and-the-ugly/
 - https://www.r-bloggers.com/shiny-performance-tuning-with-future-promises-part-1/
 - https://www.r-bloggers.com/best-practice-development-of-robust-shiny-dashboards-as-r-packages/
+- https://www.r-bloggers.com/make-r-shiny-dashboards-faster-with-updateinput-css-and-javascript/
 
 ubuntu server security:
 - https://medium.com/@Unknow_UW/bezpiecze%C5%84stwo-serwer%C3%B3w-7a751260643f
