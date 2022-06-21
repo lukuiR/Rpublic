@@ -148,6 +148,7 @@ R free ebooks:
 - https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/
 - https://www.r-bloggers.com/15-resources-to-get-started-with-r/
 - https://plotly-r.com/is-plotly-free-secure.html
+- http://tidy-finance.org/
 
 python tests:
 - https://www.martinkysel.com/codility-solutions/
